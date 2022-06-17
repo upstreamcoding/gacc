@@ -1,0 +1,66 @@
+<div class="col-md-12 col-lg-4 mb-4">
+  <div class="card shadow-sm {% if page.hide_card_details_btn %}no-hover{% else %}h-100{% endif %}">
+    <img
+      class="card-img-top"
+      src="{{ site.s3bucket }}/images/coding-orbit--react.jpg"
+      alt="React Engineer"
+    />
+    <div class="card-body">
+      <h5>
+        React Engineer
+      </h5>
+      <p class="card-text">
+        Build and deploy dynamic web apps with React, Redux & Firebase that are optimized for mobile.
+      </p>
+
+      <p>
+        <b>Topics:</b>
+        <br />
+        <span class="text-muted mt-2">
+          React, Redux, ES6+, APIs, Firebase, Git and GitHub.
+        </span>
+      </p>
+
+      <p>
+        <b>Schedule:</b>
+        <br />
+        <span class="text-muted mt-2">
+          To be Scheduled.
+          <br />
+          Weekly, online.
+        </span>
+      </p>
+
+      <p>
+        <b>Prerequisite:</b>
+        <br />
+        <span class="text-muted mt-2">
+          React
+        </span>
+      </p>
+
+      <div class="d-flex justify-content-between align-items-center">
+        {% if page.hide_card_details_btn %}
+          <div class="my-2" style="opacity:0;"><br /></div>
+        {% else %}
+          <a
+            role="button"
+            class="btn btn-md btn-primary ga-click-event my-2 stretched-link"
+            title="React Engineer"
+            href="/instruction/orbits/reactengineer"
+            ga-label="React Engineer"
+            ga-category="instruction"
+          >
+            Details
+          </a>
+        {% endif %}
+
+        <div class="text-right">
+          <span>Premium: <b>$599</b></span><br />
+          <small class="text-muted">Starter: $1,199</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

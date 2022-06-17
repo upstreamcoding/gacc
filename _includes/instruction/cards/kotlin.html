@@ -1,0 +1,92 @@
+<div
+  class="card-series-container {% if page.card_wide %}col-md-6{% else %}col-sm-12 col-md-6 col-lg-4 mb-4{% endif %}"
+  series="kotlin"
+>
+  <div class="card shadow-sm {% if page.hide_card_details_btn %}no-hover{% else %}h-100{% endif %}">
+    <img class="card-img-top" src="{{ site.s3bucket }}/images/coding-orbit--kotlin.jpg" alt="Kotlin" />
+    <div class="card-body">
+      <h5>
+        Kotlin
+      </h5>
+      <p class="card-text">
+        Create robust backend services, and work with complex build systems and testing frameworks.
+      </p>
+
+      {% unless page.card_hide_topics %}
+        <p>
+          <b>Topics:</b>
+          <br />
+          <span class="text-muted mt-2">
+            Kotlin, Gradle build system, Unit testing, Databases, REST architecture
+          </span>
+        </p>
+      {% endunless %}
+
+      {% unless page.card_hide_schedule %}
+        <p>
+          <b>Schedule:</b>
+          <br />
+          <span class="text-muted mt-2">
+            3 days, <code>4hrs/day</code>.
+            <br />
+            Scheduled based on registration.
+          </span>
+        </p>
+      {% endunless %}
+
+      {% unless page.card_hide_prerequisite %}
+        <p>
+          <b>Prerequisite:</b>
+          <br />
+          <span class="text-muted mt-2">
+            {% if page.hide_card_details_btn %}
+              <a
+                class="ga-click-event my-2"
+                title="Python"
+                href="/instruction/orbits/python"
+                ga-label="Python"
+                ga-category="prerequisite"
+              >
+                Python
+              </a> or equivalent skills.
+            {% else %}
+              Python or equivalent skills.
+            {% endif %}
+          </span>
+        </p>
+      {% endunless %}
+
+      <div class="d-flex justify-content-between align-items-center">
+        {% if page.hide_card_details_btn %}
+          <p>
+            <b>Premium Member Pricing:</b>
+            <br />
+            <span class="text-muted mt-2">
+              One-time enrollment fee of <b>$599</b>.
+            </span>
+          </p>
+        {% else %}
+          <a
+            role="button"
+            class="btn btn-md btn-primary ga-click-event my-2 stretched-link"
+            title="Kotlin"
+            href="/instruction/orbits/kotlin"
+            ga-label="Kotlin"
+            ga-category="instruction"
+          >
+            Details
+          </a>
+          <div class="text-right">
+            <span>Premium: <b>$599</b></span><br />
+            <small class="text-muted">Starter: $1,199</small>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- <div class="ribbon-wrapper">
+      <div class="ribbon ribbon-blue">MAR 2020</div>
+    </div> -->
+
+  </div>
+</div>

@@ -1,0 +1,14 @@
+#featurette--downstreamfeaturettes {
+  > hr,
+  > .label-primary {
+    display: none;
+  }
+}
+
+.downstream {
+  .featurettes-container:last-child {
+    .featurette {
+      margin-bottom: 0
+    }
+  }
+}

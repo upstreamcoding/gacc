@@ -1,0 +1,154 @@
+// Chart (Responsive pricing table CSS)
+// make mobile switch sticky
+.membership-table--container {
+  // border-radius: 0 0 10px 10px;
+}
+
+.membership-chart {
+  display: flex;
+  padding: 0 15px;
+
+  li {
+    flex: 1;
+
+    a {
+      color: $white;
+      font-weight: bold;
+      padding: 15px 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    &.active a {
+      color: $black;
+    }
+  }
+}
+
+.membership-table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+
+  th {
+    background: #F5F5F5;
+    display: none;
+  }
+
+  td,
+  th {
+    border: 1px solid #DDD;
+    empty-cells: show;
+    height: 53px;
+    padding: 10px;
+    text-align: left;
+  }
+
+  td+td,
+  th+th {
+    display: none;
+    text-align: center;
+  }
+
+  td.default {
+    display: table-cell;
+  }
+
+  .sep,
+  .bg-gray {
+    background: #F5F5F5;
+  }
+
+  .sep h4 {
+    background: black;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    padding: .25rem .5rem;
+  }
+
+  .txt-l {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .txt-top {
+    left: -2px;
+    position: relative;
+    top: -9px;
+  }
+
+  .txt-btm {
+    bottom: 0;
+    position: relative;
+  }
+
+  .member-benefit {
+    color: $keppel;
+    font-size: 25px;
+  }
+
+  .hide {
+    background: none;
+    border: 0;
+  }
+
+}
+
+@media (min-width: 991px) {
+  .membership-chart {
+    display: none;
+  }
+
+  .membership-table {
+    td,
+    th {
+      display: table-cell !important;
+    }
+
+    td,
+    th {
+      width: auto;
+    }
+
+    td+td,
+    th+th {
+      width: 300px;
+
+    }
+
+    td.default {
+      display: table-cell;
+    }
+
+    .member-benefit {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .membership-table {
+    th {
+      &:nth-child(2) {
+        border-color: rgba($keppel, .3);
+      }
+
+      &.default {
+        background-color: rgba($keppel, .1);
+        border-color: rgba($keppel, .3);
+      }
+    }
+
+    td {
+      &:nth-child(2) {
+        border-color: rgba($keppel, .3);
+      }
+
+      &.default {
+        background-color: rgba($keppel, .1);
+        border-color: rgba($keppel, .3);
+      }
+    }
+  }
+}

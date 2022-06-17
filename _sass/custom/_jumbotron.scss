@@ -1,0 +1,26 @@
+.jumbotron {
+  border-radius: 0;
+
+  &.jumbotron-warning {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+}
+
+.jumbotron--with-quote {
+  background-color: $black;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .row {
+    background: rgba($ships-officer, .8);
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .woman-radial {
+    background-position: 0 -110px;
+  }
+}

@@ -1,0 +1,22 @@
+.date-ui {
+  background: white;
+  box-shadow: 1px 1px 5px rgba($black, .5);
+  border-radius: 3px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.date-ui--month {
+  background-color: #fd7272;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.date-ui--day {
+  color: #6f7287l
+}

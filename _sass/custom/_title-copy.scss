@@ -1,0 +1,18 @@
+.container {
+  .title-copy {
+    border-top: 1px rgba($black, .1) solid;
+    margin-bottom: 3rem;
+    padding-top: 4rem;
+
+    &:first-child {
+      border: 0;
+      padding: 0;
+    }
+  }
+}
+
+
+.jumbotron + .title-copy {
+  border: 0;
+  padding-top: 2rem;
+}

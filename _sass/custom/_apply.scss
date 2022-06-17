@@ -1,0 +1,85 @@
+.apply--index,
+.apply--background,
+.apply--interview,
+.apply--signup {
+
+  .container-contents {
+    max-width: 650px;
+  }
+
+  .card {
+    padding: 0 !important;
+  }
+
+  .carousel {
+    margin-bottom: 0;
+  }
+
+  .carousel-item {
+    height: 10rem;
+
+    @include media-breakpoint-up(md) {
+      height: 20rem;
+    }
+
+    h1 {
+      display: none;
+    }
+
+  }
+
+  .card {
+    background: $white;
+    padding: 2%;
+    transition: all .3s ease-in-out;
+
+    @media (hover: hover) {
+      &:hover {
+        box-shadow: 0 2px 30px rgba($black, .3);
+      }
+    }
+  }
+
+  .card-header {
+    background: none;
+  }
+
+  .coming-sooon {
+    cursor: default !important;
+    // opacity: 0;
+  }
+
+  .code-block {
+    background: lightgrey;
+    padding: 3rem 0 0;
+  }
+}
+
+.color-black {
+  color: $black !important;
+  text-decoration: underline;
+}
+
+.btn-apply {
+  padding: .5rem .2rem;
+
+  p {
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 3px;
+    text-transform: uppercase;
+  }
+}
+
+.discount-elem-hidden {
+  display: none;
+}
+
+.dates-group {
+  display: none;
+}
+
+.discount-text {
+  display: none;
+}

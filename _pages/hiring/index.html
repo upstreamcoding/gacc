@@ -1,0 +1,257 @@
+---
+layout: default
+permalink: /hiring
+title: We're Hiring
+---
+
+<div class="section--location-1">
+  <div class="text-center-middle">
+    <h1>
+      Join us in Pittsburgh
+    </h1>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="mt-5">
+    <div class="simple-header mb-4">
+      <div class="row">
+        <h1>
+          <i class="far fa-user-circle"></i>
+          We're Hiring
+        </h1>
+        <h3 class="text-muted">
+          If you have a passion for coding, presentation skills and patience, we want you!
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+
+      <form
+        id="form-hiring"
+        class="hiring-form needs-validation mb-5"
+      >
+        <div class="w-75 w-sm-100 m-auto">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="m-0">
+                Basic Information
+              </h4>
+            </div>
+            <div class="card-body">
+
+              <div class="mb-3">
+                <label for="name">
+                  <small>Name</small> <span class="text-red">*</span>
+                </label>
+                <input name="name" type="text" class="form-control" id="name" placeholder="Full name" required autofocus />
+              </div>
+              <div class="mb-3">
+                <label for="email">
+                  <small>Email address</small> <span class="text-red">*</span>
+                </label>
+                <input name="email" type="email" class="form-control" id="email" placeholder="name@example.com" required />
+              </div>
+              <div class="mb-3">
+                <label for="phone">
+                  <small>Phone <span class="text-red">*</span></small>
+                </label>
+                <input name="phone" type="tel" class="form-control" id="phone" placeholder="412 555 1212" />
+              </div>
+
+              <label for="position">
+                <small>Position applying for <span class="text-red">*</span></small>
+              </label>
+              <select
+                class="custom-select d-block w-100"
+                id="position"
+                name="position"
+                required
+              >
+                <option value="" selected="selected" disabled="disabled">-- select one --</option>
+                <option value="Instructor"> Instructor </option>
+                <option value="Social Media/Marketing"> Social Media/Marketing </option>
+              </select>
+
+            </div> <!-- card-body -->
+          </div> <!-- card -->
+
+        <!-- Instructor Experience -->
+          <div class="card mt-3" id="position-instructor-experience" style="display:none">
+            <div class="card-header">
+              <h4 class="m-0">
+                Instructor Experience
+              </h4>
+            </div>
+            <div class="card-body">
+
+              <label for="linkedin">
+                <small>
+                  LinkedIn profile URL: <span class="text-red">*</span>
+                </small>
+              </label>
+              <input
+                type="text"
+                id="linkedin"
+                name="linkedin"
+                class="form-control"
+              />
+
+              <br>
+
+              <label for="github_username">
+                <small>
+                  GitHub Username: <span class="text-red">*</span>
+                </small>
+              </label>
+
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">@</span>
+                </div>
+                <input
+                  id="github_username"
+                  name="github_username"
+                  type="text"
+                  class="form-control"
+                  id="github_username"
+                  placeholder="GitHub Username"
+                />
+              </div>
+
+              <br />
+
+              <label for="lead_source">
+                <small>
+                  Subject Skills <span class="text-red">*</span>
+                </small>
+                <br />
+                <small class="text-muted">
+                  Check all that apply.
+                </small>
+              </label>
+
+              <div id="subject-skills" class="row">
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input id="web_design" name="web_design" value="Web Design" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="web_design">Web Design</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="html_css3" name="html_css3" value="HTML, CSS3" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="html_css3"> HTML, CSS3</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="python" name="python" value="Python" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="python"> Python</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="bootstrap" name="bootstrap" value="Bootstrap" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="bootstrap"> Bootstrap</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="jquery" name="jquery" value="JQuery" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="jquery"> JQuery</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="javascript" name="javascript" value="JavaScript" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="javascript"> JavaScript</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="ecma6" name="ecma6" value="ECMA6" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="ecma6">  ES6+</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="nodejs" name="nodejs" value="Node JS" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="nodejs"> Node JS</label>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="custom-control custom-checkbox">
+                    <input id="jekyll" name="jekyll" value="Jekyll" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="jekyll"> Jekyll & Liquid</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="react" name="react" value="React" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="react"> React</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="reactnative" name="reactnative" value="React Native" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="reactnative"> React Native</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="redux" name="redux" value="Redux" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="redux">  Redux</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="angular" name="angular" value="Angular" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="angular">  Angular</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="git" name="git" value="Git" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="git">  Git</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="android" name="android" value="Android Development" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="android">  Android Development</label>
+                  </div>
+
+                  <div class="custom-control custom-checkbox">
+                    <input id="kotlin" name="kotlin" value="Kotlin" type="checkbox" class="checkbox-group custom-control-input">
+                    <label class="custom-control-label" for="kotlin">  Kotlin</label>
+                  </div>
+                </div>
+              </div>
+
+              <input id="skills" name="skills" type="hidden" value="" />
+            </div>
+          </div>
+
+          <input id="contacted" name="contacted" type="hidden" value="NO" />
+
+          <div class="mt-3">
+            <div>
+              <b>Next Steps:</b>
+            </div>
+            <small>
+              Submit your application and we will be in touch.
+            </small>
+            <br />
+            <small class="text-muted">
+              We don't share your information, see our <a class="ga-click-event" ga-label="privacy" ga-category="modal" href="/tos#anchor--privacypolicy">Privacy Policy</a>.
+            </small>
+          </div>
+
+          <button
+            id="submit-hiring"
+            type="submit"
+            class="btn btn-primary btn-lg mt-2"
+          >
+            Submit
+          </button>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+
+</div>

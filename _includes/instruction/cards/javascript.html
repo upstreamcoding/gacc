@@ -1,0 +1,86 @@
+<div
+  class="card-series-container {% if page.card_wide %}col-md-6{% else %}col-sm-12 col-md-6 col-lg-4 mb-4{% endif %}"
+  series="javascript"
+>
+  <div class="card shadow-sm {% if page.hide_card_details_btn %}no-hover{% else %}h-100{% endif %}">
+    <img class="card-img-top" src="{{ site.s3bucket }}/images/coding-session-01.jpg" alt="JavaScript" />
+    <div class="card-body">
+      <h5>
+        JavaScript
+      </h5>
+      <p class="card-text">
+        Build Web Apps to master JS fundamentals and begin using new features available in ES6+.
+      </p>
+
+      {% unless page.card_hide_topics %}
+        <p>
+          <b>Topics:</b>
+          <br />
+          <span class="text-muted mt-2">
+            JavaScript, ES6+, Data Types, Collections, Code Challenges
+          </span>
+        </p>
+      {% endunless %}
+
+      {% unless page.card_hide_schedule %}
+        <p>
+          <b>Schedule:</b>
+          <br />
+          <span class="text-muted mt-2">
+            Monday, <code>7-9pm</code>.
+            <br />
+            Weekly, online.
+          </span>
+        </p>
+      {% endunless %}
+
+      {% unless page.card_hide_prerequisite %}
+        <p>
+          <b>Prerequisite:</b>
+          <br />
+          <span class="text-muted mt-2">
+            {% if page.hide_card_details_btn %}
+              <a
+                class="ga-click-event my-2"
+                title="Web Development"
+                href="/instruction/orbits/web-development"
+                ga-label="Web Dev"
+                ga-category="prerequisite"
+              >
+                Web Dev
+              </a> or equivalent skills.
+            {% else %}
+              Web Dev or equivalent skills.
+            {% endif %}
+          </span>
+        </p>
+      {% endunless %}
+
+      <div class="d-flex justify-content-between align-items-center">
+        {% if page.hide_card_details_btn %}
+          <p>
+            <b>Premium Member Pricing:</b>
+            <br />
+            <span class="text-muted mt-2">
+              One-time enrollment fee of <b>$599</b>.
+            </span>
+          </p>
+        {% else %}
+          <a
+            role="button"
+            class="btn btn-md btn-primary ga-click-event my-2 stretched-link"
+            title="JavaScript"
+            href="/instruction/orbits/javascript"
+          >
+            Details
+          </a>
+          <div class="text-right">
+            <span>Premium: <b>$599</b></span><br />
+            <small class="text-muted">Starter: $1,199</small>
+          </div>
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+</div>

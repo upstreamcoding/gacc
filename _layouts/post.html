@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="border-top">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1 class="underlinzz m-auto">
+          {{ page.title }}
+        </h1>
+        <p class="pt-3">
+          <i class="far fa-calendar-alt mr-1"></i> {{ page.date | date: "%a. %b %d, %Y" }} - by {{ page.author }}
+        </p>
+      </div>
+    </div>
+
+    <div class="py-5">
+      {{ content }}
+    </div>
+  </div>
+
+  <div class="container mt-4 mb-5">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a
+                href="/blog"
+                title="Turbine blog"
+              >
+              <i class="fas fa-arrow-circle-left"></i> Back to blog
+              </a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: default
+index: true
+testimonials: false
+newsletter: false
+title: Home
+show_header_alert_webdev: false
+---
+
+<div class="container-fluid px-0">
+  <div class="row m-0">
+    <div class="col-12 mb-lg-5 p-0">
+      {% include home/learn-to-code.html %}
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 px-0">
+      {% include home/covid19-online-jumbotron.html %}
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 px-0">
+      {% include home/how-it-works.html %}
+    </div>
+  </div>
+</div>
+
+{% include free-trial.html %}

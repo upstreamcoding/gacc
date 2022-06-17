@@ -1,0 +1,50 @@
+.private-training--index {
+  .carousel-item {
+    @include media-breakpoint-up(md) {
+      height: 20rem;
+    }
+  }
+
+  .card {
+    background: $white;
+    padding: 2%;
+    text-align: center;
+    transition: all .3s ease-in-out;
+
+    @media (hover: hover) {
+      &:hover {
+        box-shadow: 0 2px 30px rgba($black, .3);
+        transform: scale(1.04);
+      }
+    }
+  }
+
+  .card-header {
+    background: none;
+  }
+
+  .pricing--tech-list {
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.container--pricing {
+  background: #eee;
+  height: 100%;
+  line-height: 1;
+
+}
+
+.demo-title {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.pricing-header {
+  h6 {
+    max-width: 70%;
+  }
+}

@@ -1,0 +1,41 @@
+.page-about {
+  .carousel-item {
+    @include media-breakpoint-up(md) {
+      height: 40rem;
+    }
+  }
+
+  .carousel-caption {
+    background: rgba($black, .7);
+    padding-left: 20px;
+    padding-right: 20px;
+
+    p {
+      display: none;
+    }
+  }
+
+  .card {
+    background: $white;
+    padding: 2%;
+    text-align: center;
+    transition: all .3s ease-in-out;
+
+    @media (hover: hover) {
+      &:hover {
+        box-shadow: 0 2px 30px rgba($black, .3);
+        transform: scale(1.04);
+      }
+    }
+  }
+
+  .card-header {
+    background: none;
+  }
+
+  .pricing--tech-list {
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+}

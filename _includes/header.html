@@ -1,0 +1,66 @@
+{% unless page.hide_header %}
+<header>
+  {% if page.show_header_alert_webdev %}
+    {% include header-alert-webdev.html %}
+  {% endif %}
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+
+      <a class="navbar-brand" href="/">
+        <img src="{{ site.s3bucket }}/images/upstream-logo-full-light.png" width="100" />
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse navbar" id="navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link sr-only" href="/">
+              Home <span>(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ga-click-event" title="Instruction" ga-label="Instruction" ga-category="topNav" href="/instruction">
+              Instruction
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ga-click-event" title="Membership" ga-label="Membership" ga-category="topNav" href="/membership">
+              Membership
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ga-click-event" title="Downstream" ga-label="Downstream" ga-category="topNav" href="/downstream">
+              Downstream
+            </a>
+          </li>
+        </ul>
+        <div class="navbar-nav navbar-nav--right">
+          <a
+            class="d-flex align-items-center nav-link ga-click-event p-0 mr-4"
+            title="Member Login"
+            ga-label="Member Login"
+            ga-category="topNav"
+            href="{{ site.turbine_app_url }}/login/upstreamcoding"
+            target="_blank"
+          >
+            Member Login
+          </a>
+          <a
+            class="top-nav-btn btn btn-primary ga-click-event"
+            title="Sign Up"
+            ga-label="Sign Up"
+            ga-category="topNav"
+            href="/membership"
+          >
+            Sign Up
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+{% endunless %}

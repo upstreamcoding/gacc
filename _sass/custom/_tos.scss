@@ -1,0 +1,21 @@
+.tos {
+  .title-copy {
+    border: 0;
+    margin-bottom: 0;
+    padding-top: 2rem;
+
+    h5 { // last updated
+      padding: 1rem 0;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    &:first-child {
+      h2 {
+        font-size: 3rem;
+      }
+    }
+  }
+}

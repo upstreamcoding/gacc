@@ -1,0 +1,104 @@
+<div
+  id="modal-becomePartner"
+  class="modal fade"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="modal-title--becomePartner"
+  aria-hidden="true"
+  cookie=""
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <form
+        id="form-becomePartner"
+        class="modal-form"
+        name="becomePartner"
+      >
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title--becomePartner">
+            Become a Partner
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <p>
+            What's the name of your organization and the best way to contact you?
+          </p>
+          <div class="form-group mb-2">
+            <label for="becomePartner--company">
+              <small class="text-muted">Company</small> <span class="text-red">*</span>
+            </label>
+            <input
+              id="becomePartner--company"
+              name="company"
+              type="text"
+              class="form-control"
+              placeholder="Company Name"
+              autofocus
+              required
+            />
+          </div>
+
+          <div class="form-group mb-2">
+            <label for="becomePartner--email">
+              <small class="text-muted">Email address</small> <span class="text-red">*</span>
+            </label>
+            <input
+              id="becomePartner--email"
+              name="email"
+              type="email"
+              class="form-control modal-input--email"
+              placeholder="name@example.com"
+              required
+            />
+          </div>
+
+          <div class="row name-phone" style="display: none;">
+            <div class="col-6 mb-2">
+              <label for="becomePartner--name">
+                <small class="text-muted">Name</small> <span class="text-red">*</span>
+              </label>
+              <input
+                id="becomePartner--name"
+                name="name"
+                type="text"
+                class="form-control"
+                placeholder="Full Name"
+                required
+              />
+            </div>
+            <div class="col-6 mb-2">
+              <label for="becomePartner--phone">
+                <small class="text-muted">Phone</small> <span class="text-red">*</span>
+              </label>
+              <input
+                id="becomePartner--phone"
+                name="phone"
+                type="tel"
+                class="form-control"
+                id="becomePartner--phone"
+                placeholder="412 555 1212"
+                required
+              />
+            </div>
+          </div>
+
+          <button
+            id="submit-becomePartner"
+            type="submit"
+            class="btn btn-primary btn-lg mb-0"
+          >
+            Submit
+          </button>
+        </div>
+
+        <div class="modal-footer">
+          {% include tos-plug.html %}
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

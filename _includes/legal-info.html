@@ -1,0 +1,12 @@
+{% capture legalInfo %}
+  {% include tos-excerpt-legal-info.md %}
+{% endcapture %}
+
+<div
+  id="anchor--legalinformation"
+  class="row mb-4 border-top pt-4"
+>
+  <div class="col">
+    {{ legalInfo | markdownify }}
+  </div>
+</div>

@@ -1,0 +1,32 @@
+.underlinzz {
+    text-decoration: underline;
+    text-decoration-color: #1B9CFC;
+}
+
+.emph {
+    text-decoration: underline;
+    text-decoration-color: #55E6C1;
+}
+
+.brand-bg {
+    background-color: #7efff5;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: bolder;
+}
+
+.bg_one {
+    background-color: none;
+    font-weight: bolder;
+    }
+
+.bg_two {
+    background-color: #ffeaa7;
+}
+
+.bg_three {
+    background-color: #f8a5c2;
+}
+
+.brand-bg-5 {
+    background-color: #ff7979;
+}

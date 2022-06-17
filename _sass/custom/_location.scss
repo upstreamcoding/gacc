@@ -1,0 +1,49 @@
+// .text-center-middle {
+//   display: table-cell;
+//   text-align: center;
+//   vertical-align: middle;
+//
+//   h1 {
+//     font-size: 4.5em;
+//     font-weight: 700;
+//     margin: 0;
+//     padding: 0;
+//   }
+// }
+
+
+.section--location-1 {
+  background: url('https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/arsenal-motors.jpg') no-repeat center center;
+  background-size: cover;
+  display: table;
+  height: 500px;
+  position: relative;
+  width: 100%;
+
+  .text-center-middle {
+    background: rgba(44, 58, 71, .6) // rgba($black, .5);
+  }
+
+  // @include media-breakpoint-up(sm) {
+  //   background-position: fixed;
+  //   padding-top: 86px;
+  // }
+
+  h1 {
+    color: $white;
+  }
+
+  p {
+    color: $falling-star;
+    font-size: 2rem;
+  }
+
+  button {
+    display: none;
+    margin: 0 auto;
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+<div
+  class="modal fade"
+  id="tos--accept-modal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="tos--accept-modal--title"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="tos--accept-modal--title">
+          Upstream Coding PGH Terms of Service
+        </h5>
+      </div>
+      <div class="modal-body">
+        {% include tos.html %}
+      </div>
+      <div class="pt-1 py-3 px-3 w-100 border-top text-right bg-light">
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="tos--accept-check">
+          <label class="custom-control-label" for="tos--accept-check">I <span class="d-none d-sm-inline">have read and </span>agree to the Terms of Service.</label>
+        </div>
+      </div>
+      <div class="modal-footer d-flex justify-content-between">
+        <a href="/tos-accept" target="_blank">
+          <small>
+            <i class="fas fa-external-link-alt"></i> Printable version
+          </small>
+        </a>
+        <div>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Decline</button>
+          <button id="tos--accept-btn" type="button" class="btn btn-primary" disabled>Accept</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

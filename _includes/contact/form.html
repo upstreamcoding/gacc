@@ -1,0 +1,70 @@
+<form id="contactUsForm" name="contactUsForm">
+  <div class="container">
+
+    <div class="row mt-4">
+      <div class="col-sm-12">
+        <div class="card border d-flex h-100">
+
+          <div class="card-body">
+            <div class="mb-3">
+              <div class="h4 mb-1">
+                <b>Organization Name</b>
+              </div>
+              <input name="orgName" class="form-control" min="1" type="text" required />
+            </div>
+            <div class="mb-3">
+              <div class="h4 mb-1">
+                Name
+              </div>
+              <input name="userName" class="form-control" min="3" type="text" required />
+            </div>
+            <div class="mb-3">
+              <div class="h4 mb-1">
+                Email
+              </div>
+              <input name="userEmail" class="form-control" min="1" type="email" required />
+            </div>
+            <div class="mb-3">
+              <div class="h4 mb-1">
+                Phone
+              </div>
+              <input name="userPhone" class="form-control" min="1" type="text" required />
+              <div class="mt-2 small">
+                For text confirmation, ex: 412-444-8615
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="h4 mb-1">
+                A little info helps a lot...
+              </div>
+              <div class="mb-1">
+                How do you think Turbine can work for you? Describe your upskilling work presently?
+              </div>
+              <textarea
+                name="moreInfo"
+                class="form-control"
+                min="1"
+                type="text"
+                style="min-height: 200px;"
+                required
+              ></textarea>
+              <div class="mt-2 small">
+                For text confirmation, ex: 412-444-8615
+              </div>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <button
+              id="contactUsButton"
+              class="btn btn-md btn-primary"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</form>

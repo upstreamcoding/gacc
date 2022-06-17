@@ -1,0 +1,19 @@
+.hiring--index {
+
+  .carousel {
+    margin-bottom: 0;
+  }
+
+  .carousel-item {
+    height: 15rem;
+
+    @include media-breakpoint-up(md) {
+      height: 20rem;
+    }
+
+    h1 {
+      display: none;
+    }
+
+  }
+}

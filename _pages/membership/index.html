@@ -1,0 +1,25 @@
+---
+layout: default
+permalink: /membership
+testimonials: true
+newsletter: false
+title: Membership
+card_wide: true
+card_hide_topics: true
+card_hide_schedule: true
+card_hide_prerequisite: true
+---
+
+<div class="py-5 bg-dark">
+  <div class="container">
+    {% include membership/header.html %}
+    {% include membership/benefits/chart.html %}
+  </div>
+</div>
+
+{% comment %}
+{% include membership/pricing.html %}
+{% include instagram.html %}
+{% endcomment %}
+
+{% include modals/tos.html %}

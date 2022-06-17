@@ -1,0 +1,15 @@
+.title-button {
+  .card,
+  .card-header:first-child {
+    border-radius: 0;
+    border-top: 0;
+
+    @media (max-width: 992px) {
+      text-align: center;
+    }
+  }
+
+  .btn {
+    @include btn-lg;
+  }
+}

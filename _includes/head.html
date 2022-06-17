@@ -1,0 +1,41 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="description" content="{{ page.description || site.tagline + site.description }}">
+<meta name="keywords" content="{{ site.keywords | join: " pittsburgh, " }}">
+<meta name="author" content="{{ site.name }}">
+<title>
+  {% if page.title == 'Home' %}
+    {{ site.title }}
+  {% elsif page.title %}
+    {{ page.title }} | {{ site.title }} | Pittsburgh Coding Bootcamps
+  {% else %}
+    {{ site.title }} | Pittsburgh Coding Bootcamps
+  {% endif %}
+</title>
+
+<!-- OPEN GRAPH -->
+<meta property="og:image:width" content="420">
+<meta property="og:image:height" content="631">
+<meta property="og:description" content="{{  page.description || site.tagline + site.description }}">
+<meta property="og:title" content="{{ which_title }}">
+<meta property="og:url" content="{{ site.url }}">
+<meta property="og:image" content="{{ page.og_image || site.og_image }}">
+
+<!-- FAVICON -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#58b19f">
+<meta name="msapplication-TileColor" content="#2c3a47">
+<meta name="theme-color" content="#2c3a47">
+
+<!-- CSS -->
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" /> -->
+<link rel="stylesheet" href="/assets/css/vendor/bootstrap-4.6.0.min.css" />
+<link rel="stylesheet" href="/assets/css/vendor/toastr-2.1.4.min.css" />
+<link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css" />
+<link rel="stylesheet" href="/assets/css/styles.css">
+<!-- <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script> -->
+<!-- <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="8470f738-5f1d-4dce-9916-9e175ff4ce2a";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>-->
+<script src="https://kit.fontawesome.com/e4a435cd47.js" crossorigin="anonymous"></script>

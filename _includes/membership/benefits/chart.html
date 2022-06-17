@@ -1,0 +1,154 @@
+<ul id="membership-chart" class="membership-chart nav nav-tabs border-0 justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link bg-purple" href="javascript:void(0);">Starter</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link bg-blue active" href="javascript:void(0);">Premium</a>
+  </li>
+  <!-- <li class="nav-item">
+    <a class="nav-link bg-green" href="javascript:void(0);">Pro</a>
+  </li> -->
+</ul>
+
+<div id="series-addon" class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded" style="display:none">
+  <table class="membership-table">
+    <thead>
+      <tr>
+        <th class="hide"></th>
+        <th class="default">Premium</th>
+      </tr>
+    </thead>
+    <tbody class="bg-white">
+      <tr>
+        <td>
+          {% include instruction/cards/javascript.html %}
+          {% include instruction/cards/python.html %}
+          {% include instruction/cards/react.html %}
+          {% include instruction/cards/kotlin.html %}
+        </td>
+        <!-- <td>
+          <span class="txt-top">$</span>
+          <span class="txt-l">9</span>
+        </td> -->
+        <td class="default">
+          <div class="series-addon-price" series="javascript">
+            <span class="txt-top">$</span>
+            <span class="txt-l">1,199</span>
+          </div>
+          (one-time fee)
+          <br />
+          <a href="/membership" title="Remove Coding Series">Remove Coding Series</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded">
+  <table class="membership-table">
+    <thead>
+      <tr>
+        <th class="hide"></th>
+        <th>Starter</th>
+        <th class="default">
+          <div class="regular-price">
+            Premium
+          </div>
+          <div promo="bundle" class="discount-text">
+            Premium
+          </div>
+          <div promo="together" class="discount-text">
+            Starter
+          </div>
+          <div promo="audit" class="discount-text">
+            Starter
+          </div>
+          <div promo="hardship" class="discount-text">
+            Starter
+          </div>
+        </th>
+        <!-- <th>Pro</th> -->
+      </tr>
+    </thead>
+    <tbody class="bg-white">
+      <tr>
+        <td>
+          Monthly Price
+
+          <div id="discount-application" class="discount-elem-hidden mb-3">
+            <br />
+            <label for="application--promo">
+              <span class="text-muted">
+                Promo Code <i class="fas fa-check-circle text-keppel"></i>
+                <a href="/membership" title="Remove Promo Code" class="ml-3">
+                  Remove
+                </a>
+              </span>
+            </label>
+            <input name="promo" type="text" class="form-control w-auto" id="application--promo" />
+          </div>
+        </td>
+        <td>
+          <span class="txt-l">Free</span>
+        </td>
+        <td class="default">
+          <div class="regular-price">
+            <span class="txt-top">$</span>
+            <span class="txt-l">139</span>
+          </div>
+          <div promo="bundle" class="discount-text">
+            <span class="txt-top text-muted">$</span>
+            <del class="txt-l text-muted">139</del>
+            <div class="txt-top mt-3">
+              <b>(60 Days free)</b>
+            </div>
+          </div>
+          <div promo="together" class="discount-text">
+            <span class="txt-top text-muted">$</span>
+            <del class="txt-l text-muted">139</del>
+            <div class="txt-top mt-3">
+              <b>(60 Days free)</b>
+            </div>
+          </div>
+          <div promo="audit" class="discount-text">
+            <span class="txt-top text-muted">$</span>
+            <del class="txt-l text-muted">139</del>
+            <div class="txt-top mt-3">
+              <b>(30 Days free)</b>
+            </div>
+          </div>
+          <div promo="hardship" class="discount-text">
+            <span class="txt-top text-muted">$</span>
+            <del class="txt-l text-muted">139</del>
+            <div class="txt-top mt-3">
+              <span class="txt-top">$</span>
+              <span class="txt-l">30</span>
+            </div>
+          </div>
+        </td>
+        <!-- <td>
+          <span class="txt-top">$</span>
+          <span class="txt-l">349</span>
+        </td> -->
+      </tr>
+      {% include membership/benefits/learn-source.html %}
+      {% include membership/benefits/orbits.html %}
+      {% include membership/benefits/intensives.html %}
+      {% comment %}
+      {% include membership/benefits/deals.html %}
+      {% endcomment %}
+    </tbody>
+  </table>
+
+</div>
+
+
+<div class="mt-5 text-center text-white px-3">
+  <p>
+    <!-- $199 for Enrollment & Activation is applied to each new member account.
+    <br /> -->
+    You may cancel your membership at anytime prior to your account billing date.
+    <br />
+    An active membership is your acceptance of our <a class="text-white text-underline" href="/tos" target="_blank">terms of service</a>.
+  </p>
+</div>

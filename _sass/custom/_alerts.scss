@@ -1,0 +1,54 @@
+.alert:not(.alert-banner) {
+  left: 5%;
+  margin-bottom: 0 !important;
+  position: fixed;
+  top: 5%;
+  width: 90%;
+  z-index: 9999;
+}
+
+.alert-banner {
+  border-radius: 0;
+  left: auto;
+  position: relative !important;
+  width: 100%;
+  z-index: 1;
+}
+
+// header {
+//   .alert-banner {
+//     display: none;
+
+//     .index &,
+//     .instruction--index &,
+//     .membership--index &,
+//     .downstream &,
+//     .skill-verification-service--index &,
+//     .audit-class--index &,
+//     .about &,
+//     .tos & {
+//       display: block !important;
+//     }
+//   }
+// }
+
+.alert-warning hr {
+  border-top-color: #d1be84 !important;
+}
+
+.upstream-partnership-x {
+  font-size: 2rem;
+}
+
+.tech-skills {
+  img {
+    border-radius: .5rem;
+    width: 100%;
+  }
+
+  &:not(.no-max-height) {
+    img {
+      max-height: 200px;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.navbar-nav {
+  .nav-item {
+    margin-right: 1rem;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+
+.nav-tabs {
+  .nav-item {
+    margin: 0 2px -1px !important;
+  }
+
+  .nav-link {
+    background: #384c5d;
+    border: 1px solid #53728a;
+    border-bottom-color: transparent;
+    margin-bottom: 1px;
+  }
+}
+
+.btn-outline-primary {
+  border-color: $clear-chill;
+  color: $clear-chill;
+  transition: all .3s ease-in-out;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: $clear-chill;
+      border-color: $clear-chill;
+    }
+  }
+}
+
+.top-nav-btn {
+  @include media-breakpoint-down(md) {
+    margin: 1rem 0 !important;
+  }
+}
+
+.navbar-nav--right {
+  @media (max-width: 992px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.navbar.bg-dark {
+  background: $ships-officer !important
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    padding-left: 30px;
+  }
+}

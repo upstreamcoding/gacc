@@ -1,0 +1,36 @@
+.section-testimonials {
+  .section--background {
+    background-size: cover !important;
+    display: table;
+    height: 800px;
+    position: relative;
+    width: 100%;
+  }
+
+  .card {
+    margin-bottom: 2rem;
+
+    i {
+      display: block;
+      margin: 2rem 0;
+    }
+  }
+}
+
+.section-testimonials.testimonials-workshops {
+  .section--background {
+    background: url('https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/light-bulb.jpg') no-repeat center center fixed;
+  }
+}
+
+.section-testimonials.testimonials-series {
+  .section--background {
+    background: url("https://s3.us-east-2.amazonaws.com/upstreamcoding.com/images/pgh-blk-wht.jpg") no-repeat center center fixed;
+  }
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 0 auto;
+  width: 100px;
+}

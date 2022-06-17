@@ -1,0 +1,66 @@
+.section--index-hero {
+  background: url('../images/upstream-collage--1.jpg') no-repeat top center;
+  background-size: cover;
+  display: table;
+  height: calc(100vh - 76px);
+  position: relative;
+  width: 100%;
+
+  @include media-breakpoint-down(sm) {
+    background-position: top left;
+    padding-top: 11rem;
+  }
+
+  .text-center-middle {
+    position: relative;
+    z-index: 1;
+  }
+
+  @include media-breakpoint-up(sm) {
+    background-position: fixed;
+  }
+
+  h1 {
+    color: $white;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 3rem;
+      background: rgba($black, .5);
+    }
+  }
+
+  h3 {
+    @include media-breakpoint-down(sm) {
+      font-size: 2rem;
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+  a {
+    animation-iteration-count: 4;
+    bottom: 30px;
+    color: $white;
+    left: 50%;
+    margin-left: -45px;
+    opacity: .9;
+    position: absolute;
+    text-decoration: none !important;
+
+    img {
+      width: 60px;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        color: $white;
+        opacity: 1;
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+      margin-top: 1rem;
+    }
+  }
+}

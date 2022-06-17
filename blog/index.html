@@ -1,0 +1,71 @@
+---
+layout: default
+title: Turbine Workforce blog
+---
+
+<div class="container-fluid py-5 bg-light border-top border-bottom">
+  <div class="row justify-content-center py-5">
+    <div class="col-lg-10 text-center">
+      <h1 class="m-0">
+        Press Releases
+      </h1>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+
+  <div class="row mt-4">
+    <div class="col-sm-12">
+
+      {% for post in paginator.posts %}
+        <div class="mt-5">
+          <h1>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h1>
+          <p class="author">
+            <span class="date">
+              <i class="far fa-calendar-alt mr-1"></i>  {{ post.date | date: "%a. %b %d, %Y" }}
+            </span>
+          </p>
+          <div class="content">
+            {{ post.content | strip_html }}
+          </div>
+        </div>
+      {% endfor %}
+
+      <!-- Pagination links -->
+      <div class="my-5 d-flex justify-content-center">
+        <div class="m-auto">
+          {% if paginator.previous_page %}
+            <a
+              href="{{ paginator.previous_page_path }}"
+              class="previous mr-3"
+            >
+              <i class="fas fa-angle-double-left"></i>
+            </a>
+          {% else %}
+            <i class="fas fa-angle-double-left mr-3"></i>
+          {% endif %}
+          <span class="page_number ">
+            Page: {{ paginator.page }} of {{ paginator.total_pages }}
+          </span>
+          {% if paginator.next_page %}
+            <a
+              href="{{ paginator.next_page_path }}"
+              class="next ml-3"
+            >
+              <i class="fas fa-angle-double-right"></i>
+            </a>
+          {% else %}
+            <i class="fas fa-angle-double-right ml-3"></i>
+          {% endif %}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,92 @@
+<div
+  class="card-series-container {% if page.card_wide %}col-md-6{% else %}col-sm-12 col-md-6 col-lg-4 mb-4{% endif %}"
+  series="python"
+>
+  <div class="card shadow-sm {% if page.hide_card_details_btn %}no-hover{% else %}h-100{% endif %}">
+    <img
+      class="card-img-top"
+      src="{{ site.s3bucket }}/images/coding-orbit--01.jpg"
+      alt="Python"
+    />
+    <div class="card-body">
+      <h5>
+        Python
+      </h5>
+      <p class="card-text">
+        Build scalable web applications, integrate your code with databases and frontend web programming.
+      </p>
+
+      {% unless page.card_hide_topics %}
+        <p>
+          <b>Topics:</b>
+          <br />
+          <span class="text-muted mt-2">
+            Python 3, Data Structures, Syntax, Django, Flask
+          </span>
+        </p>
+      {% endunless %}
+
+      {% unless page.card_hide_schedule %}
+        <p>
+          <b>Schedule:</b>
+          <br />
+          <span class="text-muted mt-2">
+            3 days, <code>4hrs/day</code>.
+            <br />
+            Scheduled based on registration.
+          </span>
+        </p>
+      {% endunless %}
+
+      {% unless page.card_hide_prerequisite %}
+        <p>
+          <b>Prerequisite:</b>
+          <br />
+          <span class="text-muted mt-2">
+            {% if page.hide_card_details_btn %}
+              <a
+                class="ga-click-event my-2"
+                title="Web Foundations"
+                href="/instruction#web-foundations"
+                ga-label="Web Foundations"
+                ga-category="prerequisite"
+              >
+                Web Foundations
+              </a> or equivalent skills.
+            {% else %}
+              Web Foundations or equivalent skills.
+            {% endif %}
+          </span>
+        </p>
+      {% endunless %}
+
+      <div class="d-flex justify-content-between align-items-center">
+        {% if page.hide_card_details_btn %}
+          <p>
+            <b>Premium Member Pricing:</b>
+            <br />
+            <span class="text-muted mt-2">
+              One-time enrollment fee of <b>$599</b>.
+            </span>
+          </p>
+        {% else %}
+          <a
+            role="button"
+            class="btn btn-md btn-primary ga-click-event my-2 stretched-link"
+            title="Python"
+            href="/instruction/orbits/python"
+            ga-label="Python"
+            ga-category="instruction"
+          >
+            Details
+          </a>
+          <div class="text-right">
+            <span>Premium: <b>$599</b></span><br />
+            <small class="text-muted">Starter: $1,199</small>
+          </div>
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+</div>

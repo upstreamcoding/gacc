@@ -1,0 +1,83 @@
+.modal [type=submit] {
+  margin: 10px 0;
+  min-width: 230px;
+}
+
+.modal {
+  .container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#modal--requestSyllabus--webdev,
+#modal--requestSyllabus--webapp {
+  .modal-dialog {
+    max-width: 550px;
+
+    @media (min-width: 992px) {
+      max-width: 650px;
+    }
+
+    p:last-child {
+      display: none;
+
+      @media (min-width: 992px) {
+        display: block;
+      }
+    }
+  }
+
+  .modal-title {
+    text-align: center;
+    width: 100%;
+  }
+
+  h3 {
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+
+  input {
+    @media (min-width: 768px) {
+      font-size: 1.15rem;
+    }
+  }
+
+  button {
+    font-size: 1.25rem;
+  }
+
+  .hidden-mobile {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+#modal--campaign--codingiscool {
+  .modal-header,
+  .modal-footer {
+    display: none;
+  }
+}
+
+#tos--accept-modal {
+  .modal-body {
+    height: 400px;
+
+    @media (min-width: 992px) {
+      height: 500px;
+    }
+  }
+}
