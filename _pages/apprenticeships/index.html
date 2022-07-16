@@ -6,48 +6,23 @@ newsletter: false
 title: Apprenticeships
 ---
 
-<div id="orbit-courses" class="py-5 bg-dark">
+<div id="orbit-courses" class="py-1 bg-dark">
   <div class="container">
     {% include apprenticeships/header.html %}
+    {% include apprenticeships/cards/whatsorbit.html %}
 
     <h3 id="web-foundations" class="text-light mb-0 mt-5">
     GACC Apprenticeships</h3>
     <p class="text-light mb-3 h4-subtitle">
-  They combine practice, theory and work to train a globally competitive workforce. Companies get a tailored training program, greater employee loyalty and access to a high-quality candidate pool.
     </p>
     <div class="row">
       {% include apprenticeships/cards/mechatronics-technician.html %}
       {% include apprenticeships/cards/polymer-technician.html %}
+    </div>
+    <div class="row">
       {% include apprenticeships/cards/sales-engineering.html %}
       {% include apprenticeships/cards/cad-cam-designer.html %}
     </div>
-
-    <a name="development-paths"></a>
-
-    <h3 class="text-light mb-0 mt-3">
-      Orbits
-    </h3>
-    <p class="text-light mb-3 h4-subtitle">
-      Weekly live instruction to build programming skills throuh repetition of exercises and projects.
-    </p>
-    <div class="row">
-      {% include instruction/cards/webdev.html %}
-      {% include instruction/cards/javascript.html %}
-      {% include instruction/cards/whatsorbit.html %}
-    </div>
-
-    <h3 class="text-light mb-0 mt-3">
-      Intensives
-    </h3>
-    <p class="text-light mb-3 h4-subtitle">
-      Focused instruction covering advanced technologies, languages and frameworks to create complex applications and systems.
-    </p>
-    <div class="row">
-      {% include instruction/cards/python.html %}
-      {% include instruction/cards/react.html %}
-      {% include instruction/cards/gitcmdline.html %}
-    </div>
-
   </div>
 </div>
 {% comment %}
