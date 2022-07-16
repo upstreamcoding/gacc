@@ -34,10 +34,31 @@
         </span>
       </p>
 
-      <div class="d-flex align-items-center justify-content-end">
-        <small>
-          Included with Membership
-        </small>
+      <<div class="d-flex align-items-center justify-content-between">
+        {% if page.hide_card_details_btn %}
+        <p>
+          <b>Member Pricing:</b>
+          <br />
+          <span class="text-muted mt-2">
+            Included with <a class="ga-click-event" href="/membership" ga-label="membership" ga-category="webdev">Premium</a>
+          </span>
+        </p>
+        {% else %}
+          <a
+            role="button"
+            class="btn btn-md btn-primary ga-click-event my-2 stretched-link"
+            title="Polymer Process Technician"
+            href="/apprenticeships/cad-cam-technical-designer"
+            ga-label="CAD CAM Technical Designer"
+            ga-category="apprenticeships"
+          >
+            Details
+          </a>
+          <div class="text-right">
+            <span>Enrollment: <b>Open</b></span><br />
+            <!--<small class="text-muted">Starter: $599</small>-->
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>
