@@ -30,3 +30,19 @@
 .brand-bg-5 {
     background-color: #ff7979;
 }
+
+.responsive-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+
+@media (max-width: 767.98px) {
+    .responsive-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+
