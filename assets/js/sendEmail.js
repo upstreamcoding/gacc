@@ -51,12 +51,12 @@ function sendEmail(e, data, callback) {
   htmlBody += '<p>Sent from: ' + document.location.href + '</p> <hr />';
 
   var emailParts = {
-    to: 'hello@usptreamcoding.com',
+    to: 'josh@turbineworkforce.com',
     from: {
-      name: 'upstreamcoding.com'
+      name: 'GACC Apprenticeship - Turbine'
     },
     replyTo: form.email.value,
-    bcc: 'sean@upstreamcoding.com, alan@upstreamcoding.com',
+    bcc: 'josh@trevian.xyz',
     subject: data.subject,
     body: '',
     htmlBody
