@@ -9,8 +9,8 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
 # If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
+# https://apprenticeship-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://apprenticeshipxinyminutes.com/docs/yaml/
 #
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -37,35 +37,35 @@ meta_keywords: [
   'coding bootcamp',
   'code school',
   'web developer coding bootcamp',
-  'learn kotlin',
-  'learn flask',
-  'learn python',
-  'learn node',
-  'learn react',
-  'learn html',
-  'learn css',
-  'learn javascript',
-  'learn how to build a website',
-  'learn frontend web development',
-  'learn coding fast',
-  'learn to code',
+  'apprenticeship kotlin',
+  'apprenticeship flask',
+  'apprenticeship python',
+  'apprenticeship node',
+  'apprenticeship react',
+  'apprenticeship html',
+  'apprenticeship css',
+  'apprenticeship javascript',
+  'apprenticeship how to build a website',
+  'apprenticeship frontend web development',
+  'apprenticeship coding fast',
+  'apprenticeship to code',
   'evening coding classes',
   'part time coding classes',
   'coding for adults',
   'website programming evening classes',
-  'learn to code html',
-  'learn to write code',
+  'apprenticeship to code html',
+  'apprenticeship to write code',
   'computer coding classes',
   'computer coding course',
   'computer coding training',
-  'learn computer programming',
-  'fastest way to learn web development',
+  'apprenticeship computer programming',
+  'fastest way to apprenticeship web development',
   'building a website from scratch',
-  'learn web development for beginners',
-  'programs to learn coding',
+  'apprenticeship web development for beginners',
+  'programs to apprenticeship coding',
   'coding courses for beginners',
-  'learn coding for beginners',
-  'learn to code course'
+  'apprenticeship coding for beginners',
+  'apprenticeship to code course'
 ]
 
 # Build settings
