@@ -117,19 +117,33 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Robomatter
-  var formRobomatter = document.getElementById('form-robomatter');
+  // preapprenticeship
+  var formpreapprenticeship = document.getElementById('form-preapprenticeship');
 
-  if (formRobomatter) {
-    formRobomatter.addEventListener('submit', (event) => {
+  if (formpreapprenticeship) {
+    formpreapprenticeship.addEventListener('submit', (event) => {
       sendEmail(event, {
-        subject: 'Robomatter Learn More',
-        formId: 'form-robomatter',
-        submitButtonId: 'submit-robomatter',
-        modalId: 'modal-robomatter'
+        subject: 'Pre-Apprenticeship Learn More',
+        formId: 'form-preapprenticeship',
+        submitButtonId: 'submit-preapprenticeship',
+        modalId: 'modal-preapprenticeship'
       });
     });
   }
+
+    // train-the-trainer
+    var formtrainThetrainer = document.getElementById('form-train-the-trainer');
+
+    if (formtrainThetrainer) {
+      formtrain-the-trainer.addEventListener('submit', (event) => {
+        sendEmail(event, {
+          subject: 'Pre-Apprenticeship Learn More',
+          formId: 'form-train-the-trainer',
+          submitButtonId: 'submit-train-the-trainer',
+          modalId: 'modal-train-the-trainer'
+        });
+      });
+    }
 
   // Hiring
   var formHiring = document.getElementById('form-hiring');
