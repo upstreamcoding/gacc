@@ -1,12 +1,8 @@
-
 ---
-layout: default
+layout: page
 title: Train the Trainer
-permalink: /train-the-trainer
-hide_card_details_btn: true
-membership_duration: (4 months)
+permalink: /workforce-development/train-the-trainer
 course_slug: train-the-trainer
-testimonials: false
 ---
 
 Based on the Gold Standard German "Ausbildung der Ausbilder" and German system of workforce training, our Train-the-Trainer workshop develops skilled workers into mentors and vision leaders.
