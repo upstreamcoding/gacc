@@ -1,13 +1,12 @@
 ---
 layout: page
-title: for Workers
-permalink: /for-workers
+title: for Educators
+permalink: /for-educators
 hide_card_details_btn: true
 membership_duration: (4 months)
-course_slug: /for-workers
+course_slug: /for-educators
 testimonials: false
 ---
-
 
 ## Competitive Advantage for Young Workers
 Our program allows the apprentice to learn the theoretical skills from our Pennsylvania-certified instructors, community colleges and universities, and apply these skills immediately at the company without getting into tremendous financial debts.
