@@ -8,6 +8,7 @@ course_slug: /for-skill-seekers
 testimonials: false
 ---
 
+
 ## Competitive Advantage for Workers of all Ages
 Our program allows the apprentice to learn the theoretical skills from our Pennsylvania-certified instructors, community colleges and universities, and apply these skills immediately at the company without getting into tremendous financial debts.
 
