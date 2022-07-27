@@ -95,7 +95,7 @@ About Us
           <div class="col-md-5">
             <img
               class="featurette-image img-fluid mx-auto"
-              src="{{ site.s3bucket }}/images/arsenal-motors.jpg"
+              src="/assets/img/pgh-city-scape.jpg"
               alt="Lawrenceville"
             />
           </div>
@@ -105,7 +105,7 @@ About Us
                 Pittsburgh
               </small>
               <span class="text-muted">
-                Lawrenceville
+                Downtown
               </span>
             </h2>
             {% include address-plug.html %}
@@ -114,10 +114,10 @@ About Us
           <p>
             <a
               class="btn btn-sm btn-secondary ga-click-event"
-              href="https://goo.gl/maps/xs9Za4SfePcLW2YGA"
+              href="https://g.page/gaccpit?share"
               role="button"
               title="Google Maps"
-              ga-label="Google Maps - Detective Building"
+              ga-label="Google Maps - GACCPIT Office Location"
               ga-category="locations"
             >
               Google Maps
@@ -140,13 +140,9 @@ About Us
         Contact Us
       </h3>
       <hr class="mt-2 mb-4" />
-      <p>
-        We love answering any and all questions you may have.
-        <br>
-        If you haven't found the information you are looking for on our website please send us an email.
-        <br />
-        All inquiries: <a href="mailto:hello@upstreamcoding.com">hello@upstreamcoding.com</a>
-      </p>
+      <div>
+        {% include contact/form.html %}
+      </div>
     </div>
   </div>
 </div>
