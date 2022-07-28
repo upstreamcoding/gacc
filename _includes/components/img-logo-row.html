@@ -2,7 +2,7 @@
     .industry-container {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: center;
       align-items: center;
     }
   
@@ -15,13 +15,13 @@
     }
   
   #industry {
-    margin-top: 30px;
+    margin-top: 5px;
     text-decoration: underline;
     text-decoration-color: #ffd32a;
   }
   
   .img-industry-memberships {
-          max-height: 270px !important;
+          max-height: 370px !important;
           width: auto;
       }
   
@@ -41,19 +41,7 @@
       }
     }
   </style>
-  
-  <div
-  class="container m-2 mx-auto">
-  <div
-  class="row">
-    <div
-    class="col">
-    <h2
-    class="text-center" id="industry">
-      
-    </h2>
-    </div>
-  </div>
+
     <div class="d-flex industry-container">
         {% for org in site.data.de-logos %}
       <a
@@ -69,4 +57,3 @@
       </a>
       {% endfor %}
     </div>
-  </div>
