@@ -1,4 +1,4 @@
-<div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+<div class="col-sm-12 col-md-6 {% if page.cards-col-6 == true %} col-lg-6 {% else %} col-lg-4 {% endif %} mb-4">
   <div class="card shadow-sm {% if page.hide_card_details_btn %}no-hover{% else %}h-100{% endif %}">
     <img
       class="card-img-top"

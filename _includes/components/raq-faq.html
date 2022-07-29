@@ -1,26 +1,129 @@
-<div class="container bg-white py-5">
-    <h4 id="text-center" class="mb-3">FAQs</h4>
-    <div class="accordion" id="{{ page.accordionId }}">
-      {% for raq in site.data.faq-accordions.raq-faq %}
-      {%- if forloop.length > 0 -%}
-      {% assign plus = 1 %}
+<div class=container bg-white py-5>
+  <h4 id="text-center" class="mb-3">FAQs</h4>
+  <div class="accordion" id="apprenticeshipFAQ">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            The German Factor
+          </button>
+        </h5>
+      </div>
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#apprenticeshipFAQ">
+        <div class="card-body">
+          <p>
+            As Pittsburgh Chapter of the German American Chamber of Commerce we are directly connected to the German IHK (Chamber of Industry and Commerce) and therefore have access to a pool of 360 state-of-the-art Apprenticeship modules that have been established in Germany for decades. With adapting the Dual Apprenticeship program we include the skills and competencies required from the German IHK for the job profiles and modified them into a two-year program to make them a better fit for the companies in the American market.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Company-first Approach
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#apprenticeshipFAQ">
+        <div class="card-body">
+          Since our Apprenticeship program is highly company-oriented, it is our goal to fully understand your business and the required skill set for your workforce. With that in mind we can adjust the program’s curriculum to guarantee a workforce tailored to your company needs with apprentices that will have a leg up on their competition, since they receive hands-on experience while simultaneously learning theory.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Competitive Advantage for Young Students
+          </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#apprenticeshipFAQ">
+        <div class="card-body">
+          <div class="responsive-container">
+          <div>
+            Our program allows the apprentice to learn the theoretical skills from our Pennsylvania-certified instructors, community colleges and universities, and apply these skills immediately at the company without getting into tremendous financial debts. We are working closely with local community colleges (CCAC) and other educational partners (Manufacturing Assistance Center University of Pittsburgh, Bidwell Academy) to provide the best education possible at the lowest cost possible to ease expenses for the companies. At the end of the program, not only will our apprentices be more experienced and employable than other students their age, but also have a guaranteed employment in their desired field of employment without the tremendous debt that comes with a college degree. The goal of the Dual Apprenticeship program is for the apprentice to have a defined set of skills that are acknowledged in the industry but also to be employable by the company.
+      <img class="img-thumbnail" src="/assets/img/ccac-red.jpeg" alt="CCAC logo" />
+        </div>
+        <div class="p-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12146.959306933653!2d-80.1936348!3d40.4367596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x19091269f255e720!2sCCAC%20West%20Hills%20Center!5e0!3m2!1sen!2sus!4v1658047052134!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingFour">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Registered with the PA Dept. of Labor and Industry
+          </button>
+        </h5>
+      </div>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#apprenticeshipFAQ">
+        <div class="card-body">
+          <p>
+            All of our Apprenticeship Programs are registered by the State of Pennsylvania’s Department of Labor and Industry and have been approved by the Pennsylvania Apprenticeship and Training Council and the Federal Committee on Apprenticeship. Because of that, the GACC Pittsburgh Chapter, is eligible to issue journeymen paper upon completion of the Apprenticeship program.
+          </p>
+        </div>
+      </div>
+      </div>
       <div class="card">
-        <div class="card-header" id="{% unless forloop.last %} heading{{ plus }} {% endunless -%} ">
+        <div class="card-header" id="headingFive">
           <h5 class="mb-0">
-            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                {{ raq.questions }}
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Grants & Funding
             </button>
           </h5>
         </div>
-        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionMechatronicsFAQ">
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#apprenticeshipFAQ">
           <div class="card-body">
             <p>
-               {{ raq.answers }}
+              With our broad network and contacts to the PA State Department of Labor and Industry and other county workforce development boards we are always looking for additional funding to minimize the investment on the company side. Those grants can help pay the apprentices tuition fees and their wages.
             </p>
           </div>
         </div>
       </div>
-      {%- endif -%}
-      {%- endfor -%}
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              How can the GACC, Pittsburgh Chapter assist you?
+            </button>
+          </h5>
         </div>
-  </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#apprenticeshipFAQ">
+          <div class="card-body">
+            <p>Our services include consulting, organization and quality assurance for apprenticeship programs according to German standards.</p>
+            <ul>
+            <li>Program Development & Management</li>
+            <li>Train the Trainer Courses & AdA-International Certification</li>
+            <li>DIHK certification of new and existing programs</li>
+            <li>Advice regarding new in-house programs</li>
+            <li>Recruiting of qualified students and applicants</li>
+            <li>Preparation and execution of IHK examinations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row m-5">
+      <div class="col">
+        <div class="card p-2 col-sm-12 col-lg-4 mx-auto">
+          <h5>Still have questions?</h5>
+          <button
+            class="btn btn-lg btn-outline-primary ga-click-event"
+            href="/about#anchor--contactus"
+            ga-label="{{ page.course_slug }}"
+            ga-category="scheduleCall"
+            data-toggle="modal"
+            data-target="#modal-connectWithAdvisor"
+            data-course="{{ page.course_slug }}"
+          >
+           Schedule a Call
+          </button>
+        </div>
+      </div>
+    </div>
+</div>
