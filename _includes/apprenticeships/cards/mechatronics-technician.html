@@ -1,4 +1,4 @@
-<div class="col-sm-12 col-md-6 {% if page.cards-col-6 == true %} col-lg-6 {% else %} col-lg-4 {% endif %} mb-4">
+<div class="col-sm-12 col-md-6 {% if page.cards-col-6 }} == 'true' %} col-lg-6 {% else %} col-lg-4 {% endif %} mb-4">
   <div class="card no-hover shadow-sm h-100">
     <img class="card-img-top" src="https://images.unsplash.com/photo-1600466886092-f76fabd39a61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2920&q=80" alt="GACC Apprenticeship - Mechatronics Technician" />
     <div class="card-body">
@@ -31,12 +31,9 @@
       </p>
       <div class="d-flex align-items-center justify-content-between">
         {% if page.hide_card_details_btn %}
-        <p>
-          <b>Member Pricing:</b>
-          <br />
-          <span class="text-muted mt-2">
-            Included with <a class="ga-click-event" href="/membership" ga-label="membership" ga-category="webdev">Premium</a>
-          </span>
+        <p class="m-3">
+          <b><mark class="m-5">Need brief content here for card structuring </mark></b>
+          
         </p>
         {% else %}
           <a
