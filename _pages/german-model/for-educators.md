@@ -8,11 +8,8 @@ course_slug: /for-educators
 testimonials: false
 ---
 
-## Competitive Advantage for Young Workers
-Our program allows the apprentice to learn the theoretical skills from our Pennsylvania-certified instructors, community colleges and universities, and apply these skills immediately at the company without getting into tremendous financial debts.
+GACC programs are designed to develop in-demand skills and earn a certification that is recognized industry-wide. The educational component prepares the skill seekers for career success in their career by meeting business needs, whether it be through key classroom or related training modules.
 
-We are working closely with local community colleges (CCAC) and other educational partners (Manufacturing Assistance Center University of Pittsburgh, Bidwell Academy) to provide the best education possible at the lowest cost possible to ease expenses for the companies.
+GACC works closely with regional community colleges and other educational partners to provide the best education possible at the lowest cost possible to ease expenses for the companies.
 
-At the end of the program, not only will our apprentices be more experienced and employable than other students their age, but also have a guaranteed employment in their desired field of employment without the tremendous debt that comes with a college degree.
-
-The goal of the Dual Apprenticeship program is for the apprentice to have a defined set of skills that are acknowledged in the industry but also to be employable by the company.
+Are you an education institution that would like to partner and provide RTI?

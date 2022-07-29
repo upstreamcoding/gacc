@@ -55,7 +55,7 @@ German American Chamber of Commerce, Inc.<br>
 New York, NY 10005, USA<br>
 Tel.: +1 (212) 974-8830<br>
 E-Mail: [dataprivacy@gaccny.com](dataprivacy@gaccny.com)<br>
-Website: www.gaccny.com<br>
+Website: [www.gaccny.com](https://www.gaccny.com/)<br>
 
 Representative in the EU is:<br>
 Deutscher Industrie- und Handelskammertag e.V.<br>

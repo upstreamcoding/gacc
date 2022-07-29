@@ -1,0 +1,26 @@
+<div class="container bg-white py-5">
+    <h4 id="text-center" class="mb-3">FAQs</h4>
+    <div class="accordion" id="{{ page.accordionId }}">
+      {% for raq in site.data.faq-accordions.raq-faq %}
+      {%- if forloop.length > 0 -%}
+      {% assign plus = 1 %}
+      <div class="card">
+        <div class="card-header" id="{% unless forloop.last %} heading{{ plus }} {% endunless -%} ">
+          <h5 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                {{ raq.questions }}
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionMechatronicsFAQ">
+          <div class="card-body">
+            <p>
+               {{ raq.answers }}
+            </p>
+          </div>
+        </div>
+      </div>
+      {%- endif -%}
+      {%- endfor -%}
+        </div>
+  </div>
