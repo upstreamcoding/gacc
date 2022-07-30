@@ -1,11 +1,9 @@
-<hr />
-
 <div class="section section-testimonials testimonials-series">
-  <div class="container">
+  <div class="container bg-dark">
     <div class="row">
       <div class="col">
-        <h2 class="card-title text-center py-5">
-          See What <strong>Our skillers</strong> Say About Us
+        <h2 class="card-title text-center py-5 text-white">
+          See What <strong>Our Pre-Apprentices</strong> Say
         </h2>
       </div>
     </div>
@@ -21,25 +19,36 @@
           <div class="card h-100 hover p-3 p-sm-5 mb-5">
             <!--<img src="{{ words.src }}" class="testimonial-image" />-->
             <br />
-            {{ words.name }}
-            <p>
+         <b class="h3 text-center">{{ words.name }}</b>
+         <b>Company</b>
+         <p>
             {{ words.company }}
             </p>
+            <b>Occupation</b>
             <p>
               {{ words.occupation }}
             </p>
-            <p>
-              {{ words.projects }}
+            <b>Projects</b>
+            <p>"{{ words.projects }}"
             </p>
+            {% if words.enviro %}
+            <b>Environment</b>
             <p>
-              {{ words.enviro }}
+              "{{ words.enviro }}"
             </p>
+            {% endif %}
+            {% if words.skillsDev %}
+            <b>Skills Developed</b>
             <p>
-              {{ words.skillsDev }}
+              "{{ words.skillsDev }}"
             </p>
+            {% endif %}
+            {% if words.future %}
+            <b>Future</b>
             <p>
-              {{ words.future }}
+              "{{ words.future }}"
             </p>
+            {% endif %}
            <!--<p class="text-right pr-5">
               {{ words. }}
             </p>-->
