@@ -7,8 +7,10 @@ layout: default
     <nav aria-label="breadcrumb bg-white">
       <ol class="breadcrumb bg-white">
           <li class="breadcrumb-item bg-white"><a href="/">Home</a></li>
+          {% if page.back %}
           <li class="breadcrumb-item active bg-white underlinzz" aria-current="page"><a href="{{ page.backhref }}">{{ page.back }}</a></li>
-      </ol>
+         {% endif %}
+        </ol>
       </nav>
     <div class="col-sm-12 text-center">
       <h1 class="underlinzz m-auto">
@@ -16,6 +18,6 @@ layout: default
       </h1>
     </div>
   </div>
+  {{ content }}
 </div>
 
-{{ content }}

@@ -4,6 +4,8 @@ title: Train the Trainer
 permalink: /workforce-development/train-the-trainer
 course_slug: train-the-trainer
 hide_card_details_btn: true
+back: Workforce Development
+backhref: /workforce-development
 ---
 
 <div class="bg-light pt-3 pt-md-5 pb-5 border-top--black-1">
