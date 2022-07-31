@@ -37,6 +37,12 @@ flex-direction: row;
 justify-content: space-around;
 }
 
+video {
+    /* override other styles to make responsive */
+    width: 100% !important;
+    height:  !important;
+  }
+
 
 @media (max-width: 767.98px) {
     .responsive-container {
