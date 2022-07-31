@@ -31,4 +31,6 @@ Basic computer and tech literacy, intro to programming and computer science, beg
 </div>
 </div>
 </div>
+{% include tools/pa-d3.html %}
 </div>
+

@@ -66,3 +66,6 @@ jQuery(function() {
     return false;
   });
 });
+
+const div = d3.selectAll("div");
+
