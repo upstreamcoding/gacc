@@ -67,8 +67,14 @@
 
 .section--index--instruction {
   // background-image: url('../images/lewis-mike.jpg');
-  background-image: url('https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80');
+  background-image: url('/assets/videos/gacc-home-video.mp4');
   // background-image: url('#{$baseurl}/images/header.png');
+}
+
+.section--index--instruction video {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .section--index--hire-right {
