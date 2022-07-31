@@ -282,7 +282,7 @@ PAs who are confident of a career in advanced manufacturing will have option to 
 - [VEX Certifications](https://certifications.vex.com/)
 - [W3 Schools Certifications](https://courses.w3schools.com/browse/certifications)
 - Upstream Coding/CCAC Certificate
-- CCAC - 6 college credits
+- CCAC - Six(6) college credits
 
 <!--### Learning Outcomes
 Learning Outcomes
