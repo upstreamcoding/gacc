@@ -8,8 +8,10 @@ course_slug: /for-employers
 testimonials: false
 ---
 
-## Company-first Approach
+## Build a High-Yield Talent Pipeline
 
-GACC Registered Apprenticeships and Pre-Apprenticeships are employer-driven frameworks that drive industry-recongized skills and competencies while giving space for customized training that meets employer talent demand.  Employers benefit from a more engaged, eager-to-learn worker that can concurrently learn through on-the-job training, earn money and acquire job ready skills.
+GACC Registered Apprenticeships and Pre-Apprenticeships are employer-driven frameworks that drive employee development of industry-recongized skills, competencies and talent sets that employers value.
 
-With that in mind we can adjust the program’s curriculum to guarantee a workforce tailored to your company needs with apprentices that will have a leg up on their competition, since they receive hands-on experience while simultaneously learning theory.
+Employers benefit by hiring enployees predisposed to progressive skill gains and on-the-job learning. The worker naturally feels valued by the employer and that a career pathway likely exists for them at the company.
+
+GACC tailors the related instruction to meet the employer's needs delivering a positive workplace dynamic and more.

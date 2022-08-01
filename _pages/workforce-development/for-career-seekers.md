@@ -16,5 +16,5 @@ The goal of the Dual Apprenticeship program is for the apprentice to have a defi
 
 <div class="d-flex responsive-container">
     {% include apprenticeships/cards/pre-app-card.html %}
-    {% include apprenticeships/cards/cad-cam-designer.html %}
+    {% include apprenticeships/cards/card-apprenticeship.html %}
 </div>
