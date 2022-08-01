@@ -2,7 +2,7 @@
 layout: page
 title: for Career Seekers
 permalink: /for-career-seekers
-hide_card_details_btn: true
+hide_card_details_btn: false
 membership_duration: (4 months)
 course_slug: /for-career-seekers
 testimonials: false
@@ -18,3 +18,5 @@ The goal of the Dual Apprenticeship program is for the apprentice to have a defi
     {% include apprenticeships/cards/pre-app-card.html %}
     {% include apprenticeships/cards/card-apprenticeship.html %}
 </div>
+
+{% include components/still-have-questions.html %}

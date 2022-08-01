@@ -15,3 +15,5 @@ GACC Registered Apprenticeships and Pre-Apprenticeships are employer-driven fram
 Employers benefit by hiring enployees predisposed to progressive skill gains and on-the-job learning. The worker naturally feels valued by the employer and that a career pathway likely exists for them at the company.
 
 GACC tailors the related instruction to meet the employer's needs delivering a positive workplace dynamic and more.
+
+{% include components/still-have-questions.html %}
