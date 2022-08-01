@@ -28,6 +28,24 @@ Whether you send your production manager, a project coordinator, or a supervisor
 </div>
 </div>
 </div>
+<div class="row m-5">
+    <div class="col">
+      <div class="card p-2 col-sm-12 col-lg-4 mx-auto">
+        <h5>Still have questions?</h5>
+        <button
+          class="btn btn-lg btn-outline-primary ga-click-event"
+          href="/about#anchor--contactus"
+          ga-label="{{ page.course_slug }}"
+          ga-category="scheduleCall"
+          data-toggle="modal"
+          data-target="#modal-connectWithAdvisor"
+          data-course="{{ page.course_slug }}"
+        >
+         Schedule a Call
+        </button>
+      </div>
+    </div>
+  </div>
 
 <div class="embed-responsive embed-responsive-1by1">
 <iframe src="https://console.turbinelms.com/o/gacc/courses/id/4fpFTCLS6dhfwaocUqMMmf?embed=true" title="Train-the-Trainer Workshop" height="500px" width="100%">Powered by Turbine Workforce</iframe>
