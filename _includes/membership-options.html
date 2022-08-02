@@ -10,7 +10,7 @@
     <li>
       <a href="/membership" title="Become a Member">Become a member</a>.
     </li>
-    {% if page.course_slug == 'webdev' %}
+    {% if page.course_slug == 'mechatronics' %}
       <li>
         Complete prerequisites in the <a href="{{ site.turbine_app_url }}/login/upstreamcoding" title="Member Portal">Member Portal</a>.
       </li>
@@ -21,7 +21,7 @@
     {% endif %}
   </ol>
 
-  {% if page.course_slug != 'webdev' %}
+  {% if page.course_slug != 'train-the-trainer' %}
     <hr class="my-3" />
     <div class="d-flex justify-content-between align-items-center">
       <a role="button" class="btn btn-lg btn-primary mr-2" href="/membership?series={{ page.course_slug }}" title="Enroll">

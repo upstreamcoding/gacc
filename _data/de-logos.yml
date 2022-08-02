@@ -1,0 +1,12 @@
+- name: DE
+  src: "/assets/img/logos/de/BMWi_Fz_2017_WebSVG-en.svg"
+  href:
+- name: dsf
+  src: "/assets/img/logos/de/banner_2.svg"
+  href:
+- name: ITD
+  src: "/assets/img/logos/de/banner_3.svg"
+  href:
+- name: GTAI
+  src: "/assets/img/logos/de/logogtai-svg-data.svg"
+  href:

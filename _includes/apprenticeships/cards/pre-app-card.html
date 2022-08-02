@@ -1,0 +1,54 @@
+<div class="col-sm-12 col-md-6 {% if page.cards-col-6 == true %} col-lg-6 {% else %} col-lg-4 {% endif %} mb-4">
+    <div class="card no-hover shadow-sm h-100">
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"  alt="GACC PreApprenticeship" />
+      <div class="card-body">
+        <h3>
+Pre-Apprenticeships
+        </h3>
+        <p class="card-text">
+            GACC Pre-Apprenticeships provide young workers with paid jobs that accelerate development of tech and industry skills needed to succeed in the real world.
+        </p>
+        <p>
+          <b>Skills:</b>
+          <br />
+          <span class="text-muted mt-2">
+            <code>Dual Enrollment</code>, <code>earn 6 college credits</code>, 
+            <code>earn MT1 Certification</code>
+          </span>
+        </p>
+  
+       <!--<p>
+          <b>Credentials Earned:</b>
+          <ul>
+          <li>Associates Degree ub Computer-aided Drafting & Design Technology (A.S.)</li>
+        <li>Journeyman certification issued by the Department of Labor</li>
+        <li>Globally-Recognized German DiHK Certification</li>
+        </ul>
+        </p>-->
+
+        <div class="d-flex align-items-center justify-content-between">
+          {% if page.hide_card_details_btn %}
+          <p>
+            <b><mark>Need brief content here for card structuring </mark></b>
+            <br />
+            <span class="text-muted mt-2">
+              Included with <a class="ga-click-event" href="/membership" ga-label="membership" ga-category="webdev">Premium</a>
+            </span>
+          </p>
+          {% else %}
+            <a
+              role="button"
+              class="btn btn-md btn-primary ga-click-event my-2 stretched-link"
+              title="Pre-Apprenticeships"
+              href="/pre-apprenticeships"
+              ga-label="pre-apprenticeships"
+              ga-category="pre-apprenticeships"
+            >
+              Details
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,5 +1,28 @@
 Date last updated: May 24, 2019
 
+Our members understand and agree with the objectives of the German American Chamber of Commerce, Inc. (GACC), which in general are to promote, develop and expand bilateral trade, investment and economic relations between the United States of America and the Federal Republic of Germany.
+
+The members of the GACC grant permission to the GACC to publish their membership data in the membership directory and other publications, including on the internet.
+
+The membership begins on the day the signed application form as well as payment of the membership fee (initial membership fee) are received (start date).
+The membership will run for the remainder of the calendar year (initial term).
+
+The first month of the membership will count as a full month if the start date is before the 15th day of the month. The initial term cannot be less than four (4) calendar months. If a member wishes to join after September 15th, the initial term includes the remainder of that calendar year as well as the 12 months of the year immediately following (extended initial term).
+
+Our Members understand and agree that the membership will automatically renew for a period of one year (consecutive term) at the end of the initial term/extended initial term or each consecutive term (renewal date) unless notice of non-renewal is provided (via mail or via email to lbruemmer@gaccpit.com) at least four weeks prior to the end of the calendar year.
+
+The annual membership fee is due upon the start date and afterwards on each renewal date. Should the start date be after January 1st, the annual fee is to be paid on a pro-rated basis for the remaining full months of the year while still corresponding to the membership terms (the first month of the membership will count as a full month if the start date is before the 15th day of the month). Should a member join on or after September 15th, the initial membership fee will include the pro-rated annual membership fee for the remaining full months of that year as well as the annual membership fee for the upcoming year (extended initial membership fee).
+
+Pro-rating does not affect the start date of the membership and the immediate access to the Membership benefits. In the event of payment by credit card, our members and authorized users of the respective credit card agree that the membership will be automatically charged to the same credit card that was used for the initial membership fee or the most recent renewal (unless the member has notified and authorized to use another card). Therefore, our members agree to allow the encrypted electronic handling and storing of the credit card information for the described future use.
+
+Our members acknowledge that, when participating in any GACC event or program, they enter an area where photography, audio and video recording may occur. As participants of such GACC events or programs, our members grant to GACC, its representatives, employees and contractors, the right to take photographs of and/or to audio or video record the members and their property in connection with the event. They authorize GACC, its assigns and transferees to copyright, use and publish the same in print and/or electronically.
+
+They also waive the right to inspect or approve any photo, audio or video recording taken by GACC or the person or entity designated to do so by GACC. The members expressly acknowledge and agree that GACC may use such photographs and/or audio and/or videos with or without their names for any lawful purpose, including but not limited to purposes such as publicity, illustration, advertising, and Web content, including but not limited to social media outlets and GACC’s websites. They expressly release GACC’s officers, and employees, and each and all persons involved, from any liability connected with the recording, digitizing, or publication and use of photographs, computer images, video and/or sound recordings.
+
+By submitting the membership application form one acknowledges the GACC’s membership privacy policy and is duly authorized to provide all personalized third party data entered in this application form.
+
+
+<!--
 ### Online Platform Terms & Conditions
 
 Upstream Coding Service provides an online and offline platform and resources to give users (collectively **"Members"**) a corpus of currated technical instruction and explaination on the topics of web development and design, coding or programming, and business and entrepreneurship and in various formats for free or for a fee, and in Upstream Coding's sole discretion, (collectively, **"Service"**). 
@@ -65,3 +88,4 @@ All provisions of the Terms which by their nature should survive termination sha
 **Changes.** We reserve the right, at our sole discretion, to modify or replace these Terms at any time. You agree to visit this page periodically to review the most current Terms of Service. If you object to any changes to these Terms, your only recourse will be to stop using the Service.
 
 **Consent.** By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.
+-->

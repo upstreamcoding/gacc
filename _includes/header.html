@@ -8,7 +8,7 @@
     <div class="container">
 
       <a class="navbar-brand" href="/">
-        <img src="{{ site.s3bucket }}/images/upstream-logo-full-light.png" width="100" />
+        <img src="/assets/img/gacc-pitt.jpeg" width="100" />
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,8 +23,18 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ga-click-event" title="Instruction" ga-label="Instruction" ga-category="topNav" href="/instruction">
-              Instruction
+            <a class="nav-link ga-click-event" title="Downstream" ga-label="Downstream" ga-category="topNav" href="/workforce-development">
+              Workforce Development
+            </a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link ga-click-event" title="Instruction" ga-label="Instruction" ga-category="topNav" href="/apprenticeships">
+              Apprenticeships
+            </a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link ga-click-event" title="Downstream" ga-label="Downstream" ga-category="topNav" href="/about">
+              About
             </a>
           </li>
           <li class="nav-item">
@@ -32,31 +42,17 @@
               Membership
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link ga-click-event" title="Downstream" ga-label="Downstream" ga-category="topNav" href="/downstream">
-              Downstream
-            </a>
-          </li>
         </ul>
         <div class="navbar-nav navbar-nav--right">
           <a
-            class="d-flex align-items-center nav-link ga-click-event p-0 mr-4"
+            class="top-nav-btn btn btn-primary ga-click-event"
             title="Member Login"
             ga-label="Member Login"
             ga-category="topNav"
-            href="{{ site.turbine_app_url }}/login/upstreamcoding"
+            href="{{ site.turbine_app_url }}/login/gacc"
             target="_blank"
           >
-            Member Login
-          </a>
-          <a
-            class="top-nav-btn btn btn-primary ga-click-event"
-            title="Sign Up"
-            ga-label="Sign Up"
-            ga-category="topNav"
-            href="/membership"
-          >
-            Sign Up
+            RTI Login
           </a>
         </div>
       </div>

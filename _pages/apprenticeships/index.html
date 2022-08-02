@@ -1,0 +1,55 @@
+---
+layout: default
+permalink: /apprenticeships
+testimonials: false
+newsletter: false
+title: Apprenticeships
+cards-col-6: true
+back: Workforce Development
+backhref: /workforce-development
+---
+<div class="container">
+  <div class="row">
+    <nav aria-label="breadcrumb bg-white">
+      <ol class="breadcrumb bg-white">
+          <li class="breadcrumb-item bg-white"><a href="/">Home</a></li>
+          {% if page.back %}
+          <li class="breadcrumb-item active bg-white underlinzz" aria-current="page"><a href="{{ page.backhref }}">{{ page.back }}</a></li>
+         {% endif %}
+        </ol>
+      </nav>
+  </div>
+  </div>
+  
+<div id="orbit-courses" class="py-1 my-5 bg-dark">
+  <div class="container">
+    {% include apprenticeships/header.html %}
+    <p class="text-white">What makes our Apprenticeship Program special?
+      In the need to fill the skills gap issue in the Pittsburgh region and beyond more and more Apprenticeship Program pop up on the market to address this issue and help companies to overcome this obstacle. With those various options on Apprenticeship Programs it is important to us to demonstrate what makes our program unique and what differentiates us from other programs:
+    </p>
+  </div>
+
+{% include components/raq-faq.html %}
+    <div class="container">
+  <h3 id="four-gacc-apprenticeships" class="text-light mb-0 mt-5">
+      The Four GACC Apprenticeships
+    </h3>
+    <p class="text-light mb-3 h4-subtitle">
+    Our program has now expanded to include four different apprenticeship modules with twenty companies.
+   </p>
+    <div class="d-flex responsive-container">
+  <!--{% include apprenticeships/cards/whatsorbit.html %}-->
+      {% include apprenticeships/cards/mechatronics-technician.html %}
+      {% include apprenticeships/cards/polymer-technician.html %}
+    </div>
+    <div class="d-flex responsive-container">
+      {% include apprenticeships/cards/sales-engineering.html %}
+      {% include apprenticeships/cards/cad-cam-designer.html %}
+    </div>
+  </div>
+
+{% include components/still-have-questions.html %}
+
+</div>
+</div>
+

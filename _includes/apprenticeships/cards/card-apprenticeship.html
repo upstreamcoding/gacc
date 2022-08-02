@@ -1,0 +1,55 @@
+<div class="col-sm-12 col-md-6 {% if page.cards-col-6 == true %} col-lg-6 {% else %} col-lg-4 {% endif %} mb-4">
+    <div class="card no-hover shadow-sm h-100">
+      <img class="card-img-top" src="/assets/img/course-card.svg"  alt="GACC PreApprenticeship" />
+      <div class="card-body">
+        <h3>
+ Apprenticeships
+        </h3>
+        <p class="card-text">The GACC Registered Apprenticeship is a skill development framework to drive career-specific job skills among young people, while aligning with employer skills demand.
+        </p>
+<p>
+    GACC has four robust apprenticeships each leading to high demand career paths.
+</p>
+        <p>
+
+          <span class="text-muted mt-2">
+            <code> Mechatronics Technician</code><br><code>Polymer Process Technician</code><br>
+            <code>CAD-CAM Designer</code><br> <code>Sales Engineering</code><br>
+          </span>
+        </p>
+  
+       <!--<p>
+          <b>Credentials Earned:</b>
+          <ul>
+          <li>Associates Degree ub Computer-aided Drafting & Design Technology (A.S.)</li>
+        <li>Journeyman certification issued by the Department of Labor</li>
+        <li>Globally-Recognized German DiHK Certification</li>
+        </ul>
+        </p>-->
+
+        <div class="d-flex align-items-center justify-content-between">
+          {% if page.hide_card_details_btn %}
+          <p>
+            <b><mark>Need brief content here for card structuring </mark></b>
+            <br />
+            <span class="text-muted mt-2">
+              Included with <a class="ga-click-event" href="/membership" ga-label="membership" ga-category="webdev">Premium</a>
+            </span>
+          </p>
+          {% else %}
+            <a
+              role="button"
+              class="btn btn-md btn-primary ga-click-event my-2 stretched-link"
+              title="Apprenticeships"
+              href="/apprenticeships"
+              ga-label="apprenticeships"
+              ga-category="apprenticeships"
+            >
+              Details
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+  

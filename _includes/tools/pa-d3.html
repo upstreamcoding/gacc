@@ -1,0 +1,22 @@
+<style>
+    .observ {
+    padding-right: 250px;
+    padding-left: 250px;   
+    }
+</style>
+<div class="container">
+<div class="d-flex flex-column align-items-center ">
+    <div class="h4">A Visualization of the GACC Pre-Apprenticeship Pathways Framework</div>
+    <p> Pre-Apprentices earn their way into an apprenticeship or enter the workforce with in-demand job skills.</p>
+    <div id="observablehq-svg-fb9e527f" class="observ"></div>
+
+</div>
+</div>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@trevianxyz/gacc-turbine-upskills-pathways/3.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "svg") return new Inspector(document.querySelector("#observablehq-svg-fb9e527f"));
+});
+</script>
