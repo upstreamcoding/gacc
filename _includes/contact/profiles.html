@@ -9,7 +9,7 @@
         <p>{{ profile.title }}</p>
         <p><a class="btn btn-secondary" href="tel:{{ profile.phone1 }}">1+ {{ profile.phone1 }}</a></p>
         <p><a class="btn btn-secondary" href="tel:{{ profile.phone2 }}">1+ {{ profile.phone2 }}</a></p>
-        <p><a class="btn btn-secondary" href="mailto:{{ profile.email }}">1+ {{ profile.email }}</a></p>
+        <p><a class="btn btn-secondary" href="mailto:{{ profile.email }}">{{ profile.email }}</a></p>
       </div><!-- /.col-lg-4 -->
       {% endfor %}
     </div><!-- /.row -->
