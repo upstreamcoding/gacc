@@ -52,6 +52,16 @@ video {
     margin-top: 35%;
 }
 
+#customer-entrypoints .card 
+{
+    background-color: rgba(34, 76, 96, 0.571);
+}
+
+#customer-entrypoints .card-title {
+    color: white;
+}
+
+
 @media (max-width: 767.98px) {
     .responsive-container {
     display: flex;

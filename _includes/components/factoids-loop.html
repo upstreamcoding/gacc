@@ -1,0 +1,18 @@
+<div class="container">
+<div class="d-flex flex-column">
+    <div class="text-dark pb-4">
+  {% for quote in site.data.factoids %}
+  
+    <!--<div class="card-header">
+      Retention
+    </div>-->
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <h3>{{ quote.description }}</h3>
+        <footer class="blockquote-footer"><a href="{{ quote.href }}" target=_blank><cite title="Source Title"><em>{{ quote.title }}</em></cite></a><b>, {{ quote.source }}</b>, <b>{{ quote.date }}</b></footer>
+      </blockquote>
+    </div>
+  {% endfor %}
+  </div>
+  </div>
+</div>

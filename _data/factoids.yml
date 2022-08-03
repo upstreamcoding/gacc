@@ -1,0 +1,15 @@
+- source: Apprenticeship.gov
+  href: "https://www.apprenticeship.gov/sites/default/files/Career_Seeker_Fact_Sheet.pdf"
+  description: "94% of apprentices who complete an apprenticeship retain employment, with an average annual salary of $77,000."
+  date:
+  title: "Apprenticeship Fact Sheet"
+- source: Bain & Company
+  href: "https://www.bain.com/insights/how-clear-career-paths-strengthen-retention-and-diversity/"
+  description: "Well-defined, clearly communicated pathways for advancement can encourage employee satisfaction and retention."
+  date: "August 2021"
+  title: "How Clear Career Paths Strengthen Retention—and Diversity"
+- source: WorkRise
+  href: "https://www.workrisenetwork.org/working-knowledge/how-do-we-define-good-jobs-and-how-do-they-affect-worker-well-being"
+  description: "Clearly defined career paths & on-the-job skills development are job-quality elements that affect worker well-being."
+  date: "February 2021"
+  title: "How Do We Define “Good Jobs,” and How Do They Affect Worker Well-Being?"
