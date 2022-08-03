@@ -43,35 +43,61 @@
     </tbody>
   </table>
 </div>
-
-<div class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded">
+<div id="series-addon" class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded" style="display:none">
   <table class="membership-table">
     <thead>
       <tr>
         <th class="hide"></th>
-        <th>Starter</th>
-        <th class="default">
-          <div class="regular-price">
-            Premium
-          </div>
-          <div promo="bundle" class="discount-text">
-            Premium
-          </div>
-          <div promo="together" class="discount-text">
-            Starter
-          </div>
-          <div promo="audit" class="discount-text">
-            Starter
-          </div>
-          <div promo="hardship" class="discount-text">
-            Starter
-          </div>
-        </th>
-        <!-- <th>Pro</th> -->
+        <th class="default">Basic</th>
       </tr>
     </thead>
     <tbody class="bg-white">
       <tr>
+        
+        <!-- <td>
+          <span class="txt-top">$</span>
+          <span class="txt-l">9</span>
+        </td> -->
+        <td class="default">
+          <div class="series-addon-price" series="javascript">
+            <span class="txt-top">$</span>
+            <span class="txt-l">1,199</span>
+          </div>
+          (one-time fee)
+          <br />
+          <a href="/membership" title="Remove Coding Series">Remove Coding Series</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="membership-table--container shadow-sm mb-5 bg-white rounded">
+  <table class="membership-table">
+    <thead>
+      <tr>
+        <th class="hide"></th>
+        <th>Young Professional
+        </th>
+        <th class="default">
+          <div class="regular-price">
+            Individual
+          </div>
+        </th>
+          <th class="">
+             Basic
+            </th>
+            <th class="default">
+              Corporate
+        </th>
+        <th class="">
+          Patron
+    </th>
+        <!-- <th>Pro</th> -->
+      </tr>
+    </thead>
+    <tbody class="bg-white">
+      <!--<tr>
         <td>
           Monthly PriceZZZ
 
@@ -89,51 +115,36 @@
           </div>
         </td>
         <td>
-          <span class="txt-l">Free</span>
+          <span class="txt-top">$</span>
+          <span class="txt-l">75</span>
         </td>
         <td class="default">
           <div class="regular-price">
             <span class="txt-top">$</span>
-            <span class="txt-l">139</span>
-          </div>
-          <div promo="bundle" class="discount-text">
-            <span class="txt-top text-muted">$</span>
-            <del class="txt-l text-muted">139</del>
-            <div class="txt-top mt-3">
-              <b>(60 Days free)</b>
-            </div>
-          </div>
-          <div promo="together" class="discount-text">
-            <span class="txt-top text-muted">$</span>
-            <del class="txt-l text-muted">139</del>
-            <div class="txt-top mt-3">
-              <b>(60 Days free)</b>
-            </div>
-          </div>
-          <div promo="audit" class="discount-text">
-            <span class="txt-top text-muted">$</span>
-            <del class="txt-l text-muted">139</del>
-            <div class="txt-top mt-3">
-              <b>(30 Days free)</b>
-            </div>
-          </div>
-          <div promo="hardship" class="discount-text">
-            <span class="txt-top text-muted">$</span>
-            <del class="txt-l text-muted">139</del>
-            <div class="txt-top mt-3">
-              <span class="txt-top">$</span>
-              <span class="txt-l">30</span>
-            </div>
+            <span class="txt-l">250</span>
           </div>
         </td>
-        <!-- <td>
-          <span class="txt-top">$</span>
-          <span class="txt-l">349</span>
-        </td> -->
-      </tr>
+        <td class="">
+          <div class="regular-price">
+            <span class="txt-top">$</span>
+            <span class="txt-l">400</span>
+          </div>
+        </td>
+        <td class="default">
+          <div class="regular-price">
+            <span class="txt-top">$</span>
+            <span class="txt-l">900</span>
+          </div>
+        </td>
+        <td class="">
+          <div class="regular-price">
+            <span class="txt-top">$</span>
+            <span class="txt-l">1995</span>
+          </div>
+        </td>
+      </tr>-->
       {% include membership/benefits/learn-source.html %}
-      {% include membership/benefits/orbits.html %}
-      {% include membership/benefits/intensives.html %}
+
       {% comment %}
       {% include membership/benefits/deals.html %}
       {% endcomment %}
