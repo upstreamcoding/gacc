@@ -25,6 +25,13 @@ Sales Engineering
       </ul>
       </p>
 
+      <div class="d-flex align-items-center justify-content-between">
+        {% if page.hide_card_details_btn %}
+        <p>
+          <b><mark>Need brief content here for card structuring </mark></b>
+          <br /> 
+        </p>
+        {% else %}
     <a
       role="button"
       class="btn btn-md btn-primary ga-click-event my-2 stretched-link"
@@ -35,11 +42,13 @@ Sales Engineering
     >
       Details
     </a>
+    {% endif %}
+
     <div class="text-right">
       <span>Enrollment: <b>Open</b></span><br />
       <!--<small class="text-muted">Starter: $599</small>-->
     </div>
-
+      </div>
       </div>
     </div>
   </div>
