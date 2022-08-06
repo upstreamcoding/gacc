@@ -1,18 +1,18 @@
 <ul id="membership-chart" class="membership-chart nav nav-tabs border-0 justify-content-center">
   <li class="nav-item">
-    <a class="nav-link bg-purple" href="javascript:void(0);">Young Professional</a>
+    <a class="nav-link bg-purple active" href="javascript:void(0);">Young Professional</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link bg-blue active" href="javascript:void(0);">Individual</a>
+    <a class="nav-link bg-blue" href="javascript:void(0);">Individual</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link bg-blue active" href="javascript:void(0);">Basic</a>
+    <a class="nav-link bg-blue" href="javascript:void(0);">Basic</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link bg-blue active" href="javascript:void(0);">Corporate</a>
+    <a class="nav-link bg-blue" href="javascript:void(0);">Corporate</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link bg-blue active" href="javascript:void(0);">Patron</a>
+    <a class="nav-link bg-blue" href="javascript:void(0);">Patron</a>
   </li>
   <!-- <li class="nav-item">
     <a class="nav-link bg-green" href="javascript:void(0);">Pro</a>
@@ -24,7 +24,7 @@
     <thead>
       <tr>
         <th class="hide"></th>
-        <th class="default">Premium</th>
+        <th class="default">Young Professional</th>
       </tr>
     </thead>
     <tbody class="bg-white">
@@ -57,7 +57,89 @@
     <thead>
       <tr>
         <th class="hide"></th>
+        <th class="default">Individual</th>
+      </tr>
+    </thead>
+    <tbody class="bg-white">
+      <tr>
+        
+        <!-- <td>
+          <span class="txt-top">$</span>
+          <span class="txt-l">9</span>
+        </td> -->
+        <td class="default">
+          <div class="series-addon-price" series="javascript">
+            <span class="txt-top">$</span>
+            <span class="txt-l">1,199</span>
+          </div>
+          (one-time fee)
+          <br />
+          <a href="/membership" title="Remove Coding Series">Remove Coding Series</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div id="series-addon" class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded" style="display:none">
+  <table class="membership-table">
+    <thead>
+      <tr>
+        <th class="hide"></th>
         <th class="default">Basic</th>
+      </tr>
+    </thead>
+    <tbody class="bg-white">
+      <tr>
+        
+        <!-- <td>
+          <span class="txt-top">$</span>
+          <span class="txt-l">9</span>
+        </td> -->
+        <td class="default">
+          <div class="series-addon-price" series="javascript">
+            <span class="txt-top">$</span>
+            <span class="txt-l">1,199</span>
+          </div>
+          (one-time fee)
+          <br />
+          <a href="/membership" title="Remove Coding Series">Remove Coding Series</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div><div id="series-addon" class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded" style="display:none">
+  <table class="membership-table">
+    <thead>
+      <tr>
+        <th class="hide"></th>
+        <th class="default">Corporate</th>
+      </tr>
+    </thead>
+    <tbody class="bg-white">
+      <tr>
+        
+        <!-- <td>
+          <span class="txt-top">$</span>
+          <span class="txt-l">9</span>
+        </td> -->
+        <td class="default">
+          <div class="series-addon-price" series="javascript">
+            <span class="txt-top">$</span>
+            <span class="txt-l">1,199</span>
+          </div>
+          (one-time fee)
+          <br />
+          <a href="/membership" title="Remove Coding Series">Remove Coding Series</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div><div id="series-addon" class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded" style="display:none">
+  <table class="membership-table">
+    <thead>
+      <tr>
+        <th class="hide"></th>
+        <th class="default">Patron</th>
       </tr>
     </thead>
     <tbody class="bg-white">
@@ -152,7 +234,9 @@
           </div>
         </td>
       </tr>-->
+      <div class="container">
       {% include membership/benefits/learn-source.html %}
+      </div>
 
       {% comment %}
       {% include membership/benefits/deals.html %}
