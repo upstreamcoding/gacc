@@ -186,8 +186,8 @@ function membershipChart() {
     $('.sep').attr('colspan', 4);
   } else {
     // Mobile
-    $('.sep').attr('colspan', 3);
-    $('.membership-btn-cell').attr('colspan', 3);
+    $('.sep').attr('colspan', 12);
+    $('.membership-btn-cell').attr('colspan', 12);
   }
 }
 
