@@ -1,3 +1,4 @@
+  <!--Start Mobile Nav-->
 <ul id="membership-chart" class="membership-chart nav nav-tabs border-0 justify-content-center">
   <li class="nav-item">
     <a class="nav-link bg-purple active" href="javascript:void(0);">Young Professional</a>
@@ -18,13 +19,14 @@
     <a class="nav-link bg-green" href="javascript:void(0);">Pro</a>
   </li> -->
 </ul>
+  <!--END Mobile Nav-->
 
 <div id="series-addon" class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded" style="display:none">
   <table class="membership-table">
     <thead>
       <tr>
         <th class="hide"></th>
-        <th class="default">Young Professional</th>
+        <th class="young">Young Professional</th>
       </tr>
     </thead>
     <tbody class="bg-white">
@@ -39,7 +41,7 @@
           <span class="txt-top">$</span>
           <span class="txt-l">9</span>
         </td> -->
-        <td class="default">
+        <td class="young">
           <div class="series-addon-price" series="javascript">
             <span class="txt-top">$</span>
             <span class="txt-l">1,199</span>
@@ -57,7 +59,7 @@
     <thead>
       <tr>
         <th class="hide"></th>
-        <th class="default">Individual</th>
+        <th class="individual">individual</th>
       </tr>
     </thead>
     <tbody class="bg-white">
@@ -67,7 +69,7 @@
           <span class="txt-top">$</span>
           <span class="txt-l">9</span>
         </td> -->
-        <td class="default">
+        <td class="individual">
           <div class="series-addon-price" series="javascript">
             <span class="txt-top">$</span>
             <span class="txt-l">1,199</span>
@@ -85,7 +87,7 @@
     <thead>
       <tr>
         <th class="hide"></th>
-        <th class="default">Basic</th>
+        <th class="basic">basic</th>
       </tr>
     </thead>
     <tbody class="bg-white">
@@ -95,7 +97,7 @@
           <span class="txt-top">$</span>
           <span class="txt-l">9</span>
         </td> -->
-        <td class="default">
+        <td class="basic">
           <div class="series-addon-price" series="javascript">
             <span class="txt-top">$</span>
             <span class="txt-l">1,199</span>
@@ -139,7 +141,7 @@
     <thead>
       <tr>
         <th class="hide"></th>
-        <th class="default">Patron</th>
+        <th class="patron">Patron</th>
       </tr>
     </thead>
     <tbody class="bg-white">
@@ -149,7 +151,7 @@
           <span class="txt-top">$</span>
           <span class="txt-l">9</span>
         </td> -->
-        <td class="default">
+        <td class="patron">
           <div class="series-addon-price" series="javascript">
             <span class="txt-top">$</span>
             <span class="txt-l">1,199</span>
@@ -165,30 +167,32 @@
 
 <div class="membership-table--container shadow-sm mb-5 bg-white rounded">
   <table class="membership-table">
+            <!-- Start LG screen nav tabs -->
     <thead>
       <tr>
-        <th class="hide"></th>
+        <th class="young"></th>
         <th>Young Professional
         </th>
-        <th class="default">
+        <th class="individual">
           <div class="regular-price">
             Individual
           </div>
         </th>
-          <th class="">
+          <th class="basic">
              Basic
             </th>
             <th class="default">
               Corporate
         </th>
-        <th class="">
+        <th class="patron">
           Patron
     </th>
         <!-- <th>Pro</th> -->
       </tr>
     </thead>
+    <!-- END LG screen nav tabs -->
     <tbody class="bg-white">
-      <!--<tr>
+      <tr>
         <td>
           Monthly PriceZZZ
 
@@ -209,31 +213,7 @@
           <span class="txt-top">$</span>
           <span class="txt-l">75</span>
         </td>
-        <td class="default">
-          <div class="regular-price">
-            <span class="txt-top">$</span>
-            <span class="txt-l">250</span>
-          </div>
-        </td>
-        <td class="">
-          <div class="regular-price">
-            <span class="txt-top">$</span>
-            <span class="txt-l">400</span>
-          </div>
-        </td>
-        <td class="default">
-          <div class="regular-price">
-            <span class="txt-top">$</span>
-            <span class="txt-l">900</span>
-          </div>
-        </td>
-        <td class="">
-          <div class="regular-price">
-            <span class="txt-top">$</span>
-            <span class="txt-l">1995</span>
-          </div>
-        </td>
-      </tr>-->
+      </tr>
       <div class="container">
       {% include membership/benefits/learn-source.html %}
       </div>
