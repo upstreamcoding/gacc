@@ -15,23 +15,32 @@
       {% for carousel_slide in site.data.pre_app_testimonials %}
         <div class="carousel-item {% if counter_slide == 0 %}active{% endif %}">
           <div class="container">
-            <div class="usa-grid col-md-6 text-center mb-6">
-              <div class="usa-hero-callout   carousel">
-                <h2 locale="{{ page.locale }}">
-                  <span class="usa-hero-callout-alt">{{ carousel_slide.name }}</span>
-                </h2>
-                <h4 locale="{{ page.locale }}">
-                    <span class="usa-hero-callout-alt">{{ carousel_slide.company }}</span>
-                  </h4>
-                {% if carousel_slide.skillDev %}
+            <div class="usa-grid col-sm-10 mb-6 mt-3">
+              <div class="carousel">
+                <div class="d-flex justify-content-center">
+                <i class="fas fa-quote-left fa-3x px-3"></i><div>
+                    <h2 class="text-center" locale="{{ page.locale }}">
+                        <span class="usa-hero-callout-alt">{{ carousel_slide.name }}</span>
+                      </h2>
+                      <h4 class="text-center" locale="{{ page.locale }}">
+                          <span class="">{{ carousel_slide.company }}</span>
+                        </h4>
+                    </div>
+                </div>
+                  {% if carousel_slide.enviro %}
                   <p>
-                    {{ carousel_slide.skillDev | markdownify }}
+                    {{ carousel_slide.enviro | markdownify }}
                   </p>
                 {% endif %}
 
                 {% if carousel_slide.projects%}
                 <p>{{ carousel_slide.projects }}</p>
                  {% endif %}
+                 {% if carousel_slide.skillDev %}
+                 <p>
+                   {{ carousel_slide.skillDev | markdownify }}
+                 </p>
+               {% endif %}
               </div>
             </div>
           </div>
@@ -43,11 +52,11 @@
 
     {% if num_slides > 1 %}
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon" aria-hidden="false"></span>
         <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon" aria-hidden="false"></span>
         <span class="sr-only">Next</span>
       </a>
     {% endif %}
