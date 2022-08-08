@@ -25,7 +25,7 @@ title: Workforce Development
       <div class="container">
         <div class="carousel-caption">
           <h1 class="">
-            <i class="{{ page.icon }}" aria-hidden="true"></i> <span class="p-2" style="background-color: yellow;">{{ page.title }}</span>
+            <i class="{{ page.icon }}" aria-hidden="true"></i> <span class="p-2" style="background-color: none;">{{ page.title }}</span>
           </h1>
           <h3>
             {{ page.subtitle }}
@@ -40,33 +40,6 @@ title: Workforce Development
   <div class="h3">
     As part of our mission to drive economic development in the region and the ever-growing debate about a skill gap in Pittsburgh and beyond, we initiated our workforce programs to help "close the gap".
   </div>
-<br>
-<div id="featurette--downstreamfeaturettes" class="featurettes-container">
-<div class="featurettes">
-  <div class="row featurette">
-    <!--<div class="col-md-5">
-     <img
-        class="featurette-image img-fluid mx-auto"
-        src="https://images.unsplash.com/photo-1623778906053-d646c6b64681?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3103&q=80"
-        alt="Changing careers is really hard."
-      />
-    </div>-->
-    <div class="col-md-12">
-        <p>
-          <div class="py-4 py-md-0">
-            <h4>Job Skills for Everyone</h4>
-            <p>The manufacturing industry in particular is currently facing challenges such as:</p>
-            <ul>
-              <li>the loss of skilled workers due to retirements (baby boomer generation)</li>
-                <li>structural problems in the education system (student debt, low attractiveness of careers in manufacturing)</li>
-                  <li>a high degree of flexibility in the US labor market. This contributes to the fact that the duration of employment of trained specialists in companies is much shorter compared to Germany: employees in the USA are much quicker prepared to change jobs.</li>
-              </ul>
-          </div>
-        </p>
-    </div>
-  </div>
-</div>
-</div>
 
 <div id="featurette--becomeapartnerorganization" class="featurettes-container">
     <h3 class="label-primary mt-5">
@@ -200,3 +173,7 @@ Apprenticeships    </h3>
     </div>
   </div>
 </div>
+
+<hr>
+
+{% include workforce/job-skills-everyone.html %}
