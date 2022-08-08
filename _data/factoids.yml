@@ -1,8 +1,9 @@
-- source: Apprenticeship.gov
+- source:
   href: "https://www.apprenticeship.gov/sites/default/files/Career_Seeker_Fact_Sheet.pdf"
-  description: "94% of apprentices who complete an apprenticeship retain employment, with an average annual salary of $77,000."
+  description: | 
+    <span class="bg-warning">94%</span> of apprentices who complete an apprenticeship retain employment, with an average annual salary of $77,000.
   date:
-  title: "Apprenticeship Fact Sheet"
+  title: "Apprenticeship.gov Fact Sheet"
 - source: Bain & Company
   href: "https://www.bain.com/insights/how-clear-career-paths-strengthen-retention-and-diversity/"
   description: "Well-defined, clearly communicated pathways for advancement can encourage employee satisfaction and retention."
