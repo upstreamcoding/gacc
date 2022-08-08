@@ -1,13 +1,12 @@
 <div class="container">
 <div class="d-flex flex-column">
-    <div class="text-dark pb-4">
   {% for quote in site.data.factoids | limit:1 %}
   
     <!--<div class="card-header">
       Retention
     </div>-->
     <div class="card-body">
-      <blockquote class="blockquote mb-0">
+      <blockquote class="blockquote mb-0" id="factoids">
         <div class="d-flex flex-row">
         <i class="fas fa-quote-left fa-3x px-3"></i> <h1>{{ quote.description }}</h1>
       </div>
@@ -15,6 +14,5 @@
       </blockquote>
     </div>
   {% endfor %}
-  </div>
   </div>
 </div>
