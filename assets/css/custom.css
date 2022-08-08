@@ -45,7 +45,7 @@ video {
 
 #homepage-carousel-caption {
     margin-top: 16%;
-    background-color: rgba(18, 18, 106, 0.519) ;
+    background-color: rgba(18, 18, 106, 0.519);
     color: aliceblue;
 }
 
@@ -68,6 +68,10 @@ video {
     color: white;
 }
 
+.carousel-item {
+    background-color: #fff;
+}
+
 
 @media (max-width: 767.98px) {
     
@@ -83,8 +87,7 @@ video {
     }
 
 #homepage-carousel-caption {
-        margin-top: 26% ;
-
+        margin-top: 26%;
     }
 
 }
