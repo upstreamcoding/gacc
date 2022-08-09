@@ -28,6 +28,19 @@ Employers benefit by hiring employees predisposed to progressive skill gains and
 
 GACC tailors the related instruction to meet the employer's needs delivering a positive workplace dynamic and more.
 
+Apprenticeships Help Employers:
+## • create a sustainable pipeline of skilled talent
+## • Attract more young people to manufacturing careers
+## • Invest in training to build employee loyalty
+
+        German American Apprenticeship: Employer-sponsored training and education
+        • Employer selects and hires the apprentice; this is the primary relationship
+        • Employer provides on the job training (OJT). Active training and not job shadowing is an important aspect.
+        • Employer invests in the apprentice:
+        • Hourly wages while at work,
+        • Tuition for RTI (Related Technical Instruction),
+        • Full-time hours combining OJT and Classroom Training (Dual Program)
+
 Competency-based program, around 4000-6000 hours
 Company-led Training Plan
 German-certified Train the Trainer Seminars for company's trainers and mentors
