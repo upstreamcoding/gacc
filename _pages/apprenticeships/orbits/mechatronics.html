@@ -9,7 +9,6 @@ testimonials: false
 ---
 
 <div class="container-fluid m-0 bg-white">
-  <div class="container">
     <div class="row">
       <nav aria-label="breadcrumb bg-white">
         <ol class="breadcrumb bg-white">
@@ -18,17 +17,16 @@ testimonials: false
         </ol>
       </nav>
     </div>
-  </div>
+
   <div class="h1 text-center m-3">{{ page.title }} </div>
 </div>
 
-
 <div class="bg-light pt-3 pt-md-5 pb-5 border-top--black-1">
-  <div class="container">
-    <div class="row">
-
+  <div class="d-flex justify-content-center">
+     
     {% include apprenticeships/cards/mechatronics-technician.html %}
-    <div class="d-flex flex-column">  
+  
+    <div class="d-flex flex-column">
     <div class="">
         <h4 class="mb-2 text-muted">Overview</h4>
         <p class="mb-4">Advanced technology is rapidly becoming integrated into manufacturing systems in Western Pennsylvania and the United States. Today's facilities are not only computerized - many are interconnected to other plants and factories around the globe, and are expected to respond in near-real time to fluctuations in supply chain and logistics. While strong mechanical and electrical skills are still valued, employers have reported critical demand for technicians who have experience with artificial intelligence, data analytics, the Internet of Things and cyber-physical systems.
@@ -128,5 +126,7 @@ testimonials: false
   </div>
   </div>
   </div>
- 
+
   {% include apprenticeships/faqs/faq-mechatronics.html %}
+
+  {% include images-deck.html %}
