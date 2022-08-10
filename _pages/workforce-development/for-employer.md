@@ -41,6 +41,14 @@ Apprenticeships Help Employers:
         • Tuition for RTI (Related Technical Instruction),
         • Full-time hours combining OJT and Classroom Training (Dual Program)
 
+
+Marketing to candidates
+• Developing customized company training plans
+based on industry-defined competencies • Coordinationwithcommunitycolleges
+•
+Ongoing consulting, support, and administration, and
+Reliable quality control via Apprenticeship Program Exams (Licensed by the DiHK, translated to English)
+
 Competency-based program, around 4000-6000 hours
 Company-led Training Plan
 German-certified Train the Trainer Seminars for company's trainers and mentors

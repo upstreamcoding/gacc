@@ -65,12 +65,33 @@ jQuery(function() {
 
     return false;
   });
-});
 
+    // observablehq
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/@trevianxyz/gears-turbine-workforce@486.js?v=3";
 new Runtime().module(define, name => {
   if (name === "graphic") return new Inspector(document.querySelector("#observablehq-graphic-acb09c9f"));
   return ["update"].includes(name);
 });
+
+
+    // JQUERY TOGGLECLASS Fn on BUTTON
+  $('#young-tab').click(function() {
+    $('.young').toggleClass("active");
+
+  $('#individual-tab').click(function() {
+    $('.individual').toggleClass("active");
+
+  $('#basic-tab').click(function() {
+    $('.basic').toggleClass("active");
+
+  $('#default-tab').click(function() {
+    $('.default').toggleClass("active");
+
+  $('#patron-tab').click(function() {
+    $('.patron').toggleClass("active");
+
+ });
+});
+
 
