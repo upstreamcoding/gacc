@@ -73,25 +73,56 @@ new Runtime().module(define, name => {
   if (name === "graphic") return new Inspector(document.querySelector("#observablehq-graphic-acb09c9f"));
   return ["update"].includes(name);
 });
-
-
-    // JQUERY TOGGLECLASS Fn on BUTTON
-  $('#young-tab').click(function() {
-    $('.young').toggleClass("active");
-
-  $('#individual-tab').click(function() {
-    $('.individual').toggleClass("active");
-
-  $('#basic-tab').click(function() {
-    $('.basic').toggleClass("active");
-
-  $('#default-tab').click(function() {
-    $('.default').toggleClass("active");
-
-  $('#patron-tab').click(function() {
-    $('.patron').toggleClass("active");
-
- });
 });
 
+    // JQUERY TOGGLECLASS Fn on BUTTON
+//  $('#young-tab').click(function() {
+//    $('.young').toggleClass("active");
+//
+//  $('#individual-tab').click(function() {
+//    $('.individual').toggleClass("active");
 
+//  $('#basic-tab').click(function() {
+//    $('.basic').toggleClass("active");
+
+//  $('#default-tab').click(function() {
+//    $('.default').toggleClass("active");
+
+//  $('#patron-tab').click(function() {
+//    $('.patron').toggleClass("active");
+// });
+
+//$("a").click(function(){
+//  $("td").show(.young)
+//  $('td').hide('.individual','.basic','.default','.patron');
+
+//  $("td").show(.individual)
+//  $('td').hide('.young','.basic','.default','.patron');
+
+//  $("td").show(.basic)
+//  $('td').hide('.young','.individual','.default','.patron');
+
+//  $("td").show(.default)
+//  $('td').hide('.young','.basic','.individual','.patron');
+
+//  $("td").show(.patron)
+//  $('td').hide('.young', '.individual', '.basic','.default');
+
+  
+$("a").click(function(){
+  $("td").show(.young)
+  $('td').hide('.individual','.basic','.default','.patron');
+
+  $("td").show(.individual)
+  $('td').hide('.young','.basic','.default','.patron');
+
+  $("td").show(.basic)
+  $('td').hide('.young','.individual','.default','.patron');
+
+  $("td").show(.default)
+  $('td').hide('.young','.basic','.individual','.patron');
+
+  $("td").show(.patron)
+  $('td').hide('.young', '.individual', '.basic','.default');
+
+});
