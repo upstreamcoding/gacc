@@ -55,10 +55,6 @@ video {
     height: 100%;
 }
 
-#customer-entrypoints {
-    
-}
-
 #customer-entrypoints .card 
 {
     background-color: rgba(34, 76, 96, 0.571);
@@ -72,10 +68,13 @@ video {
     background-color: #fff;
 }
 
-
 .factoids-text   {
     font-size: 35px;
     color: aliceblue;
+}
+
+#trifecta-card-deck {
+ text-align: center;
 }
 
 @media (max-width: 767.98px) {
