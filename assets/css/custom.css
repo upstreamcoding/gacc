@@ -73,6 +73,11 @@ video {
 }
 
 
+.factoids-text   {
+    font-size: 35px;
+    color: aliceblue;
+}
+
 @media (max-width: 767.98px) {
     
     .responsive-container {
@@ -89,6 +94,11 @@ video {
 #homepage-carousel-caption {
         margin-top: 26%;
     }
+
+    .factoids-text   {
+        font-size: 20px;
+    }
+
 
 }
 
