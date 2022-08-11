@@ -6,6 +6,8 @@ hide_card_details_btn: true
 membership_duration: (4 months)
 course_slug: /for-employers
 testimonials: false
+backhref: "/#customer-entrypoints"
+back: Back
 ---
 
 ## Build a High-Yield Talent Pipeline

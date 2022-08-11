@@ -6,6 +6,8 @@ hide_card_details_btn: false
 membership_duration: (4 months)
 course_slug: /for-career-seekers
 testimonials: false
+backhref: "/#customer-entrypoints"
+back: Back
 ---
 
 GACC Apprenticeships are a proven career pathway that yield technical know-how that will help prepare one for career success. On-the-job training, instruction-based learning, and earning nationally-recognized industry credentials with employer-support create a scaffolding for a person's career success.
