@@ -1,26 +1,10 @@
-  <!--Start Mobile Nav-->
-<ul id="membership-chart" class="membership-chart nav nav-tabs border-0 justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link bg-purple" id="young-tab" href="javascript:void(0);">Young Professional</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link bg-blue"id="individual-tab" href="javascript:void(0);">Individual</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link bg-blue" id="basic-tab" href="javascript:void(0);">Basic</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link bg-blue active" id="default-tab" href="javascript:void(0);">Corporate</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link bg-blue" id="patron-tab" href="javascript:void(0);">Patron</a>
-  </li>
-  <!-- <li class="nav-item">
-    <a class="nav-link bg-green" href="javascript:void(0);">Pro</a>
-  </li> -->
-</ul>
+
+
   <!--END Mobile Nav-->
 
+  {% include membership/mobile-nav-chart.html %}
+
+<section class="d-none d-sm-none d-md-block">
 <div id="series-addon" class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded" style="display:none">
   <table class="membership-table">
     <thead>
@@ -215,7 +199,10 @@
           <span class="txt-l">75</span>
         </td>
       </tr>-->
+
+
       <div class="container">
+
       {% include membership/benefits/learn-source.html %}
       </div>
 
@@ -226,6 +213,7 @@
   </table>
 
 </div>
+</section>
 
 
 <div class="mt-5 text-center text-white px-3">
