@@ -52,6 +52,7 @@ video {
     margin-top: 16%;
     background-color: rgba(18, 18, 106, 0.519);
     color: aliceblue;
+    position: absolute;
 }
 
 
@@ -96,7 +97,11 @@ video {
     }
 
 #homepage-carousel-caption {
-        margin-top: 26%;
+        position: sticky;
+    }
+
+   #main-carousel-container .carousel {
+        margin-bottom: 0px !important;
     }
 
     .factoids-text   {

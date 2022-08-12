@@ -1,30 +1,55 @@
 <div class="d-sm-block d-md-none">
-<ul class="nav nav-pills mb-3" id="pills-tab-mobile-nav" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" id="pills-young-tab" data-toggle="pill" href="#pills-young" role="tab" aria-controls="pills-young" aria-selected="true">young</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" id="pills-individual-tab" data-toggle="pill" href="#pills-individual" role="tab" aria-controls="pills-individual" aria-selected="false">individual</a>
-      </li>
-    <li class="nav-item">
-      <a class="nav-link" id="pills-basic-tab" data-toggle="pill" href="#pills-basic" role="tab" aria-controls="pills-basic" aria-selected="false">basic</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" id="pills-corporate-tab" data-toggle="pill" href="#pills-corporate" role="tab" aria-controls="pills-corporate" aria-selected="false">corporate</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="pills-patron-tab" data-toggle="pill" href="#pills-patron" role="tab" aria-controls="pills-patron" aria-selected="false">patron</a>
-      </li>
-  </ul>
-<div class="tab-content" id="pills-tabContent">
-
-<div class="tab-pane fade show active" id="pills-young" role="tabpanel" aria-labelledby="pills-young-tab">
-    {% include membership/benefits/membership-levels.html/young.html %}
-</div>
-
-<div class="tab-pane fade" id="pills-individual" role="tabpanel" aria-labelledby="pills-individual-tab">{% include membership/benefits/membership-levels.html/individual.html %}</div>
-<div class="tab-pane fade" id="pills-basic" role="tabpanel" aria-labelledby="pills-basic-tab">{% include membership/benefits/membership-levels.html/basic.html %}</div>
-<div class="tab-pane fade" id="pills-corporate" role="tabpanel" aria-labelledby="pills-corporate-tab">{% include membership/benefits/membership-levels.html/corporate.html %}</div>
-<div class="tab-pane fade" id="pills-patron" role="tabpanel" aria-labelledby="pills-patron-tab">{% include membership/benefits/membership-levels.html/patron.html %}</div>
-</div>
+    <ul class="nav nav-pills mb-3" id="pills-tab-mobile-nav" role="tablist">
+        <li class="nav-item">
+        <a class="nav-link active" id="pills-young-tab" data-toggle="pill" href="#pills-young" role="tab" aria-controls="pills-young" aria-selected="true">young</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-individual-tab" data-toggle="pill" href="#pills-individual" role="tab" aria-controls="pills-individual" aria-selected="false">individual</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" id="pills-basic-tab" data-toggle="pill" href="#pills-basic" role="tab" aria-controls="pills-basic" aria-selected="false">basic</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-corporate-tab" data-toggle="pill" href="#pills-corporate" role="tab" aria-controls="pills-corporate" aria-selected="false">corporate</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-patron-tab" data-toggle="pill" href="#pills-patron" role="tab" aria-controls="pills-patron" aria-selected="false">patron</a>
+        </li>
+    </ul>
+  <div id="series-addon" class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded">
+    <table class="membership-table">
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active"
+                id="pills-young"
+                role="tabpanel"
+                aria-labelledby="pills-young-tab">
+                {% include membership/benefits/membership-levels.html/young.html %}
+            </div>
+            <div class="tab-pane fade"
+            id="pills-individual"
+            role="tabpanel"
+            aria-labelledby="pills-individual-tab">
+                {% include membership/benefits/membership-levels.html/individual.html %}
+            </div>
+            <div class="tab-pane fade"
+            id="pills-basic"
+            role="tabpanel"
+            aria-labelledby="pills-basic-tab">
+                {% include membership/benefits/membership-levels.html/basic.html %}
+            </div>
+            <div class="tab-pane fade"
+            id="pills-corporate"
+            role="tabpanel"
+            aria-labelledby="pills-corporate-tab">
+                {% include membership/benefits/membership-levels.html/corporate.html %}
+            </div>
+            <div class="tab-pane fade"
+            id="pills-patron"
+            role="tabpanel"
+            aria-labelledby="pills-patron-tab">
+                {% include membership/benefits/membership-levels.html/patron.html %}
+            </div>
+        </div>
+    </table>
+  </div>
 </div>
