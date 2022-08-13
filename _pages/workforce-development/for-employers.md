@@ -10,66 +10,38 @@ backhref: "/#customer-entrypoints"
 back: Back
 ---
 
-## Build a High-Yield Talent Pipeline
+Want to build a high-yield talent pipeline? GACC Registered Apprenticeships and Pre-Apprenticeships are employer-driven, rigorous skills development frameworks that drive employee development of industry-recognized skills, occupation-specific competencies, and talent sets that are in-demand and valued by employers.
 
-GACC Registered Apprenticeships and Pre-Apprenticeships are employer-driven, rigorous skills development frameworks that drive employee development of industry-recongized skills, occupation-specific competencies and talent sets that employers hold in high value and in-demand.
+The German American Apprenticeships - which involved employer-sponsored training and education - provide the following offering and benefits:
 
-• Help employers create a sustainable pipeline of skilled talent
-• Attract more young people to manufacturing careers
-• Invest in training to build employee loyalty
+- Employer selects and hires the apprentice; this is the primary relationship
+- Employers provide on the job training (OJT). Active training and not job shadowing is an important aspect.
+- Employer invests in the apprentice
+- Hourly wages while at work
+- Tuition for RTI (Related Technical Instruction)
+- Full-time hours combining OJT and Classroom Training (Dual Program)
+- Competency-based programs
+        - Around 4,000 - 6,000 hours
+- Company-led training
+        - Train the Trainer Seminars for the company’s trainers and mentors
+ 
+GACC tailors the related instruction to meet the employer’s needs delivering a positive workplace dynamic and more. These programs are designed to help employers create a sustainable pipeline of skilled talent; attract more young people to manufacturing careers; and invest in training to build employee loyalty.
 
-Employers benefit by hiring employees predisposed to progressive skill gains and on-the-job learning. The worker naturally feels valued by the employer and that a career pathway likely exists for them at the company.
+In addition, the GACC PIT supports the company the whole way through, with the following:
 
- German American Apprenticeship: Employer-sponsored training and education
-• Employer selects and hires the apprentice; this is the primary relationship
-• Employer provides on the job training (OJT). Active training and not job shadowing is an important aspect.
-• Employer invests in the apprentice:
-• Hourly wages while at work,
-• Tuition for RTI (Related Technical Instruction),
-• Full-time hours combining OJT and Classroom Training (Dual Program)
-
-GACC tailors the related instruction to meet the employer's needs delivering a positive workplace dynamic and more.
-
-Apprenticeships Help Employers:
-## • create a sustainable pipeline of skilled talent
-## • Attract more young people to manufacturing careers
-## • Invest in training to build employee loyalty
-
-        German American Apprenticeship: Employer-sponsored training and education
-        • Employer selects and hires the apprentice; this is the primary relationship
-        • Employer provides on the job training (OJT). Active training and not job shadowing is an important aspect.
-        • Employer invests in the apprentice:
-        • Hourly wages while at work,
-        • Tuition for RTI (Related Technical Instruction),
-        • Full-time hours combining OJT and Classroom Training (Dual Program)
+- Marketing to candidates 
+- Developing customized company training plans based on industry-defined competencies 
+- Coordination with community colleges 
+- Ongoing consulting, support, and administration
+- Reliable quality control via Apprenticeship Program Exams (Licensed by the DiHK, translated to English)
 
 
-Marketing to candidates
-• Developing customized company training plans
-based on industry-defined competencies • Coordinationwithcommunitycolleges
-•
-Ongoing consulting, support, and administration, and
-Reliable quality control via Apprenticeship Program Exams (Licensed by the DiHK, translated to English)
+Upon completion of an apprenticeship, participants will receive the following certifications:
 
-Competency-based program, around 4000-6000 hours
-Company-led Training Plan
-German-certified Train the Trainer Seminars for company's trainers and mentors
-
-Certifications
-• DOL Journeyman Certification • Certification and/or Associates
-Degree (A.S.) Mechatronics Technology
-• Manufacturing Skill Standards Council (MSSC) Certified Production Technician (CPT)
-• PMMI
-• DiHK German Certification in Mechatronics (Mechatroniker)
-
-
-The GACC PIT supports the company the whole way through, with the following:
-• Marketing to candidates
-• Developing customized company training plans
-based on industry-defined competencies • Coordinationwithcommunitycolleges
-•
-Ongoing consulting, support, and administration, and
-Reliable quality control via Apprenticeship Program Exams (Licensed by the DiHK, translated to English)
-
+- DOL Journeyman Certification 
+- Certification and/or Associates Degree (A.S.) Mechatronics Technology 
+- Manufacturing Skill Standards Council (MSSC) Certified Production Technician (CPT)
+- PMMI 
+- DiHK German Certification in Mechatronics (Mechatroniker)
 
 {% include components/still-have-questions.html %}
