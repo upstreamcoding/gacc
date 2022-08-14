@@ -1,5 +1,5 @@
-p {
-    font-size:1.25rem !important;
+p, li, b {
+    font-size:1.15rem !important;
     font-weight:300 !important;
 }
 
