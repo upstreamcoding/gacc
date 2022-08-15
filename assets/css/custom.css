@@ -108,6 +108,9 @@ video {
         font-size: 20px;
     }
 
+    #apprenticeshipFAQ .btn-link, #apprenticeshipFAQ .card-body {
+        text-align: left;
+    } 
 
 }
 
