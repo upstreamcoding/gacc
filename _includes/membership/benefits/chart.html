@@ -1,10 +1,27 @@
 
-
+<div class="d-block d-sm-block d-md-none" id="series-addon" class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded">
+  <ul class="nav nav-pills mb-3" id="pills-tab-mobile-nav" role="tablist">
+      <li class="nav-item">
+      <a class="nav-link active" id="pills-young-tab" data-toggle="pill" href="#pills-young" role="tab" aria-controls="pills-young" aria-selected="true">young</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" id="pills-individual-tab" data-toggle="pill" href="#pills-individual" role="tab" aria-controls="pills-individual" aria-selected="false">individual</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" id="pills-basic-tab" data-toggle="pill" href="#pills-basic" role="tab" aria-controls="pills-basic" aria-selected="false">basic</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" id="pills-corporate-tab" data-toggle="pill" href="#pills-corporate" role="tab" aria-controls="pills-corporate" aria-selected="false">corporate</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" id="pills-patron-tab" data-toggle="pill" href="#pills-patron" role="tab" aria-controls="pills-patron" aria-selected="false">patron</a>
+      </li>
+  </ul>
   <!--END Mobile Nav-->
 
-  {% include membership/mobile-nav-chart.html %}
 
-<section class="d-none d-sm-none d-md-block">
+
+
 <div id="series-addon" class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded" style="display:none">
   <table class="membership-table">
     <thead>
@@ -18,12 +35,12 @@
     </thead>
     <tbody class="bg-white">
       <tr>
-        <td>
+        <!--<td>
           {% include instruction/cards/javascript.html %}
           {% include instruction/cards/python.html %}
           {% include instruction/cards/react.html %}
           {% include instruction/cards/kotlin.html %}
-        </td>
+        </td>-->
         <!-- <td>
           <span class="txt-top">$</span>
           <span class="txt-l">9</span>
@@ -201,10 +218,9 @@
       </tr>-->
 
 
-      <div class="container">
-
+<!--<div class="container">
       {% include membership/benefits/learn-source.html %}
-      </div>
+      </div>-->
 
       {% comment %}
       {% include membership/benefits/deals.html %}
@@ -212,8 +228,7 @@
     </tbody>
   </table>
 
-</div>
-</section>
+
 
 
 <div class="mt-5 text-center text-white px-3">
