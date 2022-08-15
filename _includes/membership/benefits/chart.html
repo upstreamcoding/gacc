@@ -18,6 +18,40 @@
       </li>
   </ul>
   <!--END Mobile Nav-->
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active"
+                id="pills-young"
+                role="tabpanel"
+                aria-labelledby="pills-young-tab">
+                
+                {% include membership/benefits/membership-levels.html/young.html %}
+            </div>
+            <div class="tab-pane fade"
+            id="pills-individual"
+            role="tabpanel"
+            aria-labelledby="pills-individual-tab">
+                {% include membership/benefits/membership-levels.html/individual.html %}
+            </div>
+            <div class="tab-pane fade"
+            id="pills-basic"
+            role="tabpanel"
+            aria-labelledby="pills-basic-tab">
+                {% include membership/benefits/membership-levels.html/basic.html %}
+            </div>
+            <div class="tab-pane fade"
+            id="pills-corporate"
+            role="tabpanel"
+            aria-labelledby="pills-corporate-tab">
+                {% include membership/benefits/membership-levels.html/corporate.html %}
+            </div>
+            <div class="tab-pane fade"
+            id="pills-patron"
+            role="tabpanel"
+            aria-labelledby="pills-patron-tab">
+                {% include membership/benefits/membership-levels.html/patron.html %}
+            </div>
+        </div>
+</div>
 
 
 <div id="series-addon" class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded" style="display:none">
@@ -39,10 +73,10 @@
           {% include instruction/cards/react.html %}
           {% include instruction/cards/kotlin.html %}
         </td>-->
-        <!-- <td>
+        <!--<td>
           <span class="txt-top">$</span>
           <span class="txt-l">9</span>
-        </td> -->
+        </td>-->
         <td class="young">
           <div class="series-addon-price" series="javascript">
             <span class="txt-top">$</span>
