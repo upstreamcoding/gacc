@@ -1,0 +1,59 @@
+<style>
+    .ra-photos {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .ra-photos a {
+      margin: 5px;
+    }
+  
+    .ra-photos a img {
+      transition: height 1s;
+    }
+  
+  #industry {
+    margin-top: 5px;
+    text-decoration: underline;
+    text-decoration-color: #ffd32a;
+  }
+  
+  .img-ra-photos {
+          max-height: 370px !important;
+          width: auto;
+      }
+  
+    @media (max-width: 767.98px) {
+  
+    .ra-photos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  
+      .img-ra-photos { 
+          height: 150px !important; 
+          width: auto;
+      }
+    }
+  </style>
+
+    <div class="d-flex ra-photos">
+        {% for org in site.data.ra-photos %}
+      <a
+        title="{{ org.name }}"
+        src="{{ org.src }}"
+        target="_blank"
+      >
+        <img
+          class="img-thumbnail img-industry-memberships"
+          src="{{ org.src }}"
+          alt="{{ org.name }}"
+        />
+      </a>
+      {% endfor %}
+    </div>
