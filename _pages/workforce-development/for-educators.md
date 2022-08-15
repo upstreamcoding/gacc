@@ -10,7 +10,7 @@ backhref: "/#customer-entrypoints"
 back: Back
 ---
 
-GACC works closely with regional community colleges and other educational partners to provide the best education possible at the lowest cost possible to ease expenses for the companies.
+GACC works closely with regional community colleges and other educational partners to provide the best education at the lowest possible cost in order to ease expenses for companies.
 
 GACC seamlessly integrates Related Technical Instruction syndicated from community colleges, technical training providers and participating employers through the Turbine Workforce platform - enabling a modern browser-based learning experience.
 
