@@ -28,15 +28,18 @@
                     </div>
                 </div>
                   {% if carousel_slide.enviro %}
-                  <p>
+                  <b>Environment</b>
+                  <p>  
                     {{ carousel_slide.enviro | markdownify }}
                   </p>
                 {% endif %}
 
                 {% if carousel_slide.projects%}
+                <b>Projects</b>
                 <p>{{ carousel_slide.projects }}</p>
                  {% endif %}
                  {% if carousel_slide.skillDev %}
+                 <b>Skills</b>
                  <p>
                    {{ carousel_slide.skillDev | markdownify }}
                  </p>
