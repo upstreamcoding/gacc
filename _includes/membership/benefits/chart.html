@@ -1,5 +1,14 @@
+<style>
+  
+  @media (max-width: 575.98px) {
+    .membership-table--container {
+      display: none;
+    }
+ }
 
-<div class="d-block d-sm-block d-md-none" id="series-addon" class="membership-table--container shadow-sm p-3 mb-5 bg-white rounded">
+</style>
+
+<div class="d-block d-sm-block d-md-none">
   <ul class="nav nav-pills mb-3" id="pills-tab-mobile-nav" role="tablist">
       <li class="nav-item">
       <a class="nav-link active" id="pills-young-tab" data-toggle="pill" href="#pills-young" role="tab" aria-controls="pills-young" aria-selected="true">young</a>
@@ -23,7 +32,6 @@
                 id="pills-young"
                 role="tabpanel"
                 aria-labelledby="pills-young-tab">
-                
                 {% include membership/benefits/membership-levels.html/young.html %}
             </div>
             <div class="tab-pane fade"
@@ -76,7 +84,7 @@
         <!--<td>
           <span class="txt-top">$</span>
           <span class="txt-l">9</span>
-        </td>-->
+        </td> -->
         <td class="young">
           <div class="series-addon-price" series="javascript">
             <span class="txt-top">$</span>
@@ -250,9 +258,9 @@
       </tr>-->
 
 
-<!--<div class="container">
+<div class="container">
       {% include membership/benefits/learn-source.html %}
-      </div>-->
+      </div>
 
       {% comment %}
       {% include membership/benefits/deals.html %}
