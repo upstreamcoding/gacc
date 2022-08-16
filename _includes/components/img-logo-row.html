@@ -2,8 +2,8 @@
     .de-logos {
       display: flex;
       flex-direction: row;
-      justify-content: center;
-      align-items: center;
+      justify-content: end;
+      align-items: start;
     }
   
     .de-logos a {
@@ -21,23 +21,22 @@
   }
   
   .img-de-logos {
-          max-height: 370px !important;
-          width: auto;
+
       }
   
     @media (max-width: 767.98px) {
   
+
     .de-logos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-      }
-  
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: start;
+    }
+
       .img-de-logos { 
-          height: 150px !important; 
-          width: auto;
+          height: auto !important; 
+          width: 100%;
       }
     }
   </style>
@@ -50,7 +49,7 @@
         target="_blank"
       >
         <img
-          class="img-thumbnail img-industry-memberships"
+          class="img-thumbnail img-de-logos"
           src="{{ org.src }}"
           alt="{{ org.name }}"
         />
