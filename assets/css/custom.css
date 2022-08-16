@@ -89,6 +89,10 @@ video {
 
 p.membership-small-font {
     font-size: 8px !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 3px;
+    float: right;
 }
 
 td.young, td.individual, td.basic, td.corporate, td.patron {
