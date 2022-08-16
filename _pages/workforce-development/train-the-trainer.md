@@ -28,6 +28,7 @@ Whether you send your production manager, a project coordinator, or a supervisor
 </div>
 </div>
 </div>
+{% include apprenticeships/sliders/photos-t3.html %}
 <div class="row m-5">
     <div class="col">
       <div class="card p-2 col-sm-12 col-lg-4 mx-auto">
