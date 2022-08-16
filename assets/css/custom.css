@@ -83,6 +83,18 @@ video {
  text-align: center;
 }
 
+.fa-check-circle {
+    color: green;
+}
+
+p.membership-small-font {
+    font-size: 8px !important;
+}
+
+td.young, td.individual, td.basic, td.corporate, td.patron {
+    vertical-align: middle;
+}
+
 @media (max-width: 767.98px) {
     
     .responsive-container {
