@@ -27,16 +27,14 @@ testimonials: false
      
     {% include apprenticeships/cards/mechatronics-technician.html %}
   
-    <div class="d-flex flex-column">
-    <div class="">
-        <h4 class="mb-2 text-muted">Overview</h4>
+    <div class="col-md-8 order-md-1">
+      <h4 class="mb-2 text-muted">Overview</h4>
         <p class="mb-4">Advanced technology is rapidly becoming integrated into manufacturing systems in Western Pennsylvania and the United States. Today's facilities are not only computerized - many are interconnected to other plants and factories around the globe, and are expected to respond in near-real time to fluctuations in supply chain and logistics. While strong mechanical and electrical skills are still valued, employers have reported critical demand for technicians who have experience with artificial intelligence, data analytics, the Internet of Things and cyber-physical systems.
         </p>
         <p>
            Mechatronics technicians apply their knowledge of engineering to solve technical problems and maintain automated mechanical equipment. This may entail installing, inspecting, troubleshooting and repairing electrical, electronic and mechanical components.
         </p>
-      </div>
-      <div class="">
+      <div class="col-md-12 px-0">
         <h4 class="d-flex justify-content-between align-items-center mb-3">
           <span class="text-muted">Curriculum</span>
           <!-- <a
@@ -52,7 +50,7 @@ testimonials: false
           </a> -->
         </h4>
 
-        <ul class="list-group mb-3">
+        <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between lh-condensed">
             <div>
               <h5 class="my-0">
@@ -124,12 +122,29 @@ testimonials: false
         </ul>
       </div>
     </div>
-      
+    </div>
+    {% include apprenticeships/faqs/faq-mechatronics.html %}
+    {% include apprenticeships/sliders/photos-mech.html %}
+  </div>
+  <div class="row m-5">
+    <div class="col">
+      <div class="card p-2 col-sm-12 col-lg-4 mx-auto">
+        <h5 class="text-center">Still have questions?</h5>
+        <button
+          class="btn btn-lg btn-outline-primary ga-click-event"
+          href="#"
+          ga-label="{{ page.course_slug }}"
+          ga-category="scheduleCall"
+          data-toggle="modal"
+          data-target="#modal-connectWithAdvisor"
+          data-course="{{ page.course_slug }}"
+        >
+          Quick Connect
+        </button>
+      </div>
     </div>
   </div>
   </div>
-  </div>
 
-  {% include apprenticeships/faqs/faq-mechatronics.html %}
 
-  {% include apprenticeships/sliders/photos-mech.html %}
+
