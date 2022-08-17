@@ -1,7 +1,7 @@
 - source:
   href: "https://www.apprenticeship.gov/sites/default/files/Career_Seeker_Fact_Sheet.pdf"
   description: | 
-    <span style="font-size:30px; background-color: rgba(238, 90, 36, .6);">94%</span> of apprentices who complete an apprenticeship retain employment, with an average annual salary of <span style="font-size:30px; background-color: rgba(238, 90, 36, .6);">$77,000</span>.
+    <span class="brand-bg" style="color: #fff; background-color: rgba(238, 90, 36, .6);">94%</span> of apprentices who complete an apprenticeship retain employment, with an average annual salary of <span class="brand-bg">$77,000</span>
   date:
   title: "Apprenticeship.gov Fact Sheet"
 - source: Bain & Company

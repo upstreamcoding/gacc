@@ -75,8 +75,17 @@ video {
 }
 
 .factoids-text   {
-    font-size: 35px;
+    font-size: 40px !important;
     color: aliceblue;
+    font-weight: bolder;
+}
+
+.factoids-text span  {
+    font-size: 50px !important;
+    color: #218c74;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 5px 5px 5px;
 }
 
 #trifecta-card-deck {
@@ -121,7 +130,7 @@ td.young, td.individual, td.basic, td.corporate, td.patron {
     }
 
     .factoids-text   {
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     #apprenticeshipFAQ .btn-link, #apprenticeshipFAQ .card-body {
