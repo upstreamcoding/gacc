@@ -1,60 +1,27 @@
-<link rel="stylesheet" href="{{ '/assets/css/slick-slider.css' | prepend: site.baseurl }}" />
-
-<style>
- #modernistModal {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;   
-  height: auto;
-  width: 450px;     
- }
-</style>
-
 <div class="slicky-slider">
-{% assign dataSet = site.data.modernist-gallery %}   
-{% for image in dataSet %}
-<div class="col px-0">
-<img src="{{ image.filename }}" class="img-thumbnail rounded mx-auto slick-slider-img"
-data-img="{{ image.filename }}" >
-</div>
-{% endfor %}
-   
-</div>
+    {% for image in site.data.photos.photos-mech %}
+        <img src="{{ image.src }}" class="img-thumbnail rounded mx-auto slicky_modal">
+      {% endfor %}
+  </div>
 
-{% unless include.no-modal %}
-
-<div id="Abai_modernistModal" class="modal" style="z-index: 10000;">
-    <span class="close cursor" onclick="closeModal()">&times;</span>
-    <div class="modal-content">
-        <blockquote id="pre-testis" src="" alt="modal image" /></blockquote>
-       
-    </div>
+<div id="myModal" class="modal vw-100">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <img id="modalImg" src="" alt="modal image" />
+  </div>
 </div>
 
 <script>
-    var captions = {{ site.data.pre_app_testimonials.yml | jsonify }};
+  $('.slicky_modal').on('click', function(e) {
+    openModal(e.target.dataset.img);
+  })
 
-    $('.img-thumbnail').on('click', function (e) {
-        openModal(e.target.dataset.img);
-    })
+  function openModal(img) {
+    $('#modalImg').attr('src', img);
+    $('#myModal').show();
+  }
 
-    function openModal(img) {
-        $('#pre-testis').attr('src', img);
-        captions.forEach(function (c) {
-            if (img.includes(c.filename)) {
-                $('#modal-cap').html(c.caption);
-            }
-        })
-
-        $('#Abai_modernistModal').show();
-        $('html').addClass('modal-open');
-
-    }
-
-    function closeModal() {
-        $('html').removeClass('modal-open');
-        $('#Abai_modernistModal').hide();
-    }
+  function closeModal() {
+    $('#myModal').hide();
+  }
 </script>
-
-{% endunless %}

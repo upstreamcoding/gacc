@@ -108,6 +108,24 @@ td.young, td.individual, td.basic, td.corporate, td.patron {
     vertical-align: middle;
 }
 
+.slicky-slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button.slick-next, button.slick-prev {
+    max-height: 90px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.slicky-slider img {
+    height: auto;
+}
+
 @media (max-width: 767.98px) {
     
     .responsive-container {
