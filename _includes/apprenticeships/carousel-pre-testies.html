@@ -1,7 +1,7 @@
 {% assign num_slides = section.carousel_slides.size %}
 {% assign counter_indicators = 0 %}
 
-<div id="myCarousel" class="usa-hero carousel slide slicky-slider" data-ride="carousel">
+<div id="myCarousel" class="usa-hero carousel slide" data-ride="carousel">
     {% if num_slides > 1 %}
       <ol class="carousel-indicators">
         {% for carousel_slide in site.data.ra-testimonials %}
@@ -23,7 +23,7 @@
                         <span class="usa-hero-callout-alt">{{ carousel_slide.name }}</span>
                       </h2>
                       <h4 class="text-center" locale="{{ page.locale }}">
-                          <span class="">{{ carousel_slide.company }}</span>
+                          <span class="emph">{{ carousel_slide.company }}</span>
                         </h4>
                     </div>
                 </div>
