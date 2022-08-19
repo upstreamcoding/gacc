@@ -1,59 +1,27 @@
-<style>
-    .ra-photos {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .ra-photos a {
-      margin: 5px;
-    }
-  
-    .ra-photos a img {
-      transition: height 1s;
-    }
-  
-  #industry {
-    margin-top: 5px;
-    text-decoration: underline;
-    text-decoration-color: #ffd32a;
-  }
-  
-  .img-ra-photos {
-          max-height: 370px !important;
-          width: auto;
-      }
-  
-    @media (max-width: 767.98px) {
-  
-    .ra-photos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-      }
-  
-      .img-ra-photos { 
-          height: 150px !important; 
-          width: auto;
-      }
-    }
-  </style>
-
-    <div class="d-flex ra-photos">
-        {% for org in site.data.photos.photos-cad %}
-      <a
-        title="{{ org.name }}"
-        src="{{ org.src }}"
-        target="_blank"
-      >
-        <img
-          class="img-thumbnail img-ra-photos"
-          src="{{ org.src }}"
-          alt="{{ org.name }}"
-        />
-      </a>
+<div class="slicky-slider">
+    {% for image in site.data.photos.photos-cad %}
+        <img src="{{ image.src }}" class="img-thumbnail rounded mx-auto slicky_modal">
       {% endfor %}
-    </div>
+  </div>
+
+<div id="myModal" class="modal vw-100">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <img id="modalImg" src="" alt="modal image" />
+  </div>
+</div>
+
+<script>
+  $('.slicky_modal').on('click', function(e) {
+    openModal(e.target.dataset.img);
+  })
+
+  function openModal(img) {
+    $('#modalImg').attr('src', img);
+    $('#myModal').show();
+  }
+
+  function closeModal() {
+    $('#myModal').hide();
+  }
+</script>
