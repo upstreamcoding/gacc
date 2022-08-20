@@ -22,11 +22,23 @@ backhref: /workforce-development
   </div>
   </div>
 
-<div id="orbit-courses" class="py-1 my-5 bg-dark">
-  <div class="container">
-    {% include apprenticeships/header.html %}
-  </div>
+<div id="orbit-courses" class="py-1 my-5 ">
+  {% include apprenticeships/what-is-apprenticeship.html %}
+  <br>
+  {% include trifecta.html %}
 
+  <div class="container-flex mb-3">
+    <div class="row">
+      <div class="col-8 mx-auto">
+      <h1 class="text-white">
+        The Four GACC Apprenticeships
+      </h1>
+      <div class="text-white">
+        GACC Apprenticeship Programs are an innovative and employer-led approach to technical job training and education.
+      </div>
+    </div>
+  </div>
+  </div>
     <div class="container">
     <div class="d-flex responsive-container">
   <!--{% include apprenticeships/cards/whatsorbit.html %}-->
@@ -39,9 +51,14 @@ backhref: /workforce-development
     </div>
   </div>
   {% include components/factoids-loop.html %}
-  {% include components/raq-faq.html %}
+
+  <div class="container m-5 mx-auto">{% include components/raq-faq.html %}
+  </div>
+  
 {% include apprenticeships/carousel-ra-testies.html %}
-{% include components/still-have-questions.html %}
-</div>
+{% include modals/quick-connect.html %}
+
+
+
 </div>
 
