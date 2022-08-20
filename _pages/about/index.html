@@ -35,7 +35,7 @@ title: About
   </div>-->
 
   <div class="container">
-    <dv class="row title-copy">
+    <div class="row title-copy">
       <a name="anchor--aboutus"></a>
       <div class="col">
         <!--<h2 class="featurette-heading">
@@ -48,18 +48,20 @@ title: About
           GACC-PIT was founded in 2015 and is a private, non-profit organization that serves as the official representative of German trade in Western Pennsylvania, West Virginia, and Ohio. We are an international network of 140 German foreign chambers of commerce worldwide and have government offices in 92 countries. Members enjoy the benefits of commercial services, advisory, networking & delegation events, availability of a professional team with transatlantic expertise, visibility for their brand on our digital and print channels, exclusive invitations to events and conferences, publications and databases, visa and legal services, career support, and more.
         </p>
       </div>
-    
-    <div class="row">
-      <div class="col">
+    </div>
+    </div>
+
       <div class="container">
       <div class="row m-0">
         <div class="col">
           {% include apprenticeships/gacc-ra-locations.html %}
         </div>
       </div>
-      </div>
-      </div>
     </div>
+  </div>
+
+  <div class="container m-5 mx-auto">
+    {% include components/raq-faq.html %}
   </div>
        <!--<div class="row title-copy">
       <a name="anchor--mission"></a>
@@ -106,15 +108,10 @@ title: About
       <a name="anchor--locations"></a>
 
       <div class="featurettes">
-        <div class="row featurette mb-0">
-          <div class="col-md-7">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.417393673228!2d-80.00470548255615!3d40.4438979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f156503aaaab%3A0x6465f4131a3c329!2sGACC%20Pittsburgh!5e0!3m2!1sen!2sus!4v1659435243698!5m2!1sen!2sus" width="auto" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-          <div class="col-md-5">
+        <div class="responsive-container justify-content-center mb-0">
+            <iframe class="m-sm-2 m-md-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.417393673228!2d-80.00470548255615!3d40.4438979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f156503aaaab%3A0x6465f4131a3c329!2sGACC%20Pittsburgh!5e0!3m2!1sen!2sus!4v1659435243698!5m2!1sen!2sus" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="">
             {% include address-plug.html %}
-            </h2>
-
-          </p>
         </div>
       </div>
     </div>

@@ -58,7 +58,7 @@ video {
 
 #gacc-locations-map-embed {
     width: 100%;
-    height: 100%;
+    height: 600px;
 }
 
 #customer-entrypoints .card 
@@ -135,8 +135,7 @@ button.slick-next, button.slick-prev {
     }
 
     #gacc-locations-map-embed {
-        width: 100%; 
-        height: auto;
+       display: none;
     }
 
 #homepage-carousel-caption {
