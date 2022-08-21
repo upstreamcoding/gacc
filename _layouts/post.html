@@ -15,8 +15,12 @@ layout: default
       </div>
     </div>
 
+{% if page.image %}
+<img src="{{ page.image }}" class="img-thumbnail mx-auto float-right mt-5" height="auto" width="450px" alt="">
+{% endif %}
+
     <div class="py-5">
-      {{ content }}
+      {{ content | markdownify }}
     </div>
   </div>
 
