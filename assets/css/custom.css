@@ -154,5 +154,10 @@ button.slick-next, button.slick-prev {
         text-align: left;
     } 
 
+   #newsletter-subscribe-btn {
+    font-size: 10px !important;
+    line-height: 0.5 !important;
+   } 
+
 }
 
