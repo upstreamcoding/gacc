@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1152" height="241"><script>(
+            function hookGeo() {
+  //<![CDATA[
+  const WAIT_TIME = 100;
+  const hookedObj = {
+    getCurrentPosition: navigator.geolocation.getCurrentPosition.bind(navigator.geolocation),
+    watchPosition: navigator.geolocation.watchPosition.bind(navigator.geolocation),
+    fakeGeo: true,
+    genLat: 38.883333,
+    genLon: -77.000
+  };
+
+  function waitGetCurrentPosition() {
+    if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+      if (hookedObj.fakeGeo === true) {
+        hookedObj.tmp_successCallback({
+          coords: {
+            latitude: hookedObj.genLat,
+            longitude: hookedObj.genLon,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        hookedObj.getCurrentPosition(hookedObj.tmp_successCallback, hookedObj.tmp_errorCallback, hookedObj.tmp_options);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+      if (hookedObj.fakeGeo === true) {
+        navigator.getCurrentPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        hookedObj.watchPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  Object.getPrototypeOf(navigator.geolocation).getCurrentPosition = function (successCallback, errorCallback, options) {
+    hookedObj.tmp_successCallback = successCallback;
+    hookedObj.tmp_errorCallback = errorCallback;
+    hookedObj.tmp_options = options;
+    waitGetCurrentPosition();
+  };
+  Object.getPrototypeOf(navigator.geolocation).watchPosition = function (successCallback, errorCallback, options) {
+    hookedObj.tmp2_successCallback = successCallback;
+    hookedObj.tmp2_errorCallback = errorCallback;
+    hookedObj.tmp2_options = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${hookGeo}
+          )();<\/script>`;
+    
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+    
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'updateLocation':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          hookedObj.genLat = message.info.coords.lat;
+          hookedObj.genLon = message.info.coords.lon;
+          hookedObj.fakeGeo = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+  //]]>
+}
+          )();</script>
+  <style>
+    text {
+      font-family: sans-serif;
+      font-size: 10px;
+    }
+    .node {
+      stroke-linecap: round;
+    }
+    .link {
+      fill: none;
+    }
+  </style>
+
+  
+      <path class="link" d="&#10;      M8 72&#10;      L62 72&#10;      A16 16 90 0 1 78 88&#10;      L78 104&#10;      A16 16 90 0 0 94 120&#10;      L92 120&#10;      M8 46&#10;      L62 46&#10;      A16 16 90 0 1 78 62&#10;      L78 104&#10;      A16 16 90 0 0 94 120&#10;      L92 120" stroke="white" stroke-width="5"/>
+      <path class="link" d="&#10;      M8 72&#10;      L62 72&#10;      A16 16 90 0 1 78 88&#10;      L78 104&#10;      A16 16 90 0 0 94 120&#10;      L92 120&#10;      M8 46&#10;      L62 46&#10;      A16 16 90 0 1 78 62&#10;      L78 104&#10;      A16 16 90 0 0 94 120&#10;      L92 120" stroke="#1b9e77" stroke-width="2"/>
+    
+      <path class="link" d="&#10;      M92 118&#10;      L160 118&#10;      A16 16 90 0 1 176 134&#10;      L176 150&#10;      A16 16 90 0 0 192 166&#10;      L190 166" stroke="white" stroke-width="5"/>
+      <path class="link" d="&#10;      M92 118&#10;      L160 118&#10;      A16 16 90 0 1 176 134&#10;      L176 150&#10;      A16 16 90 0 0 192 166&#10;      L190 166" stroke="#d95f02" stroke-width="2"/>
+    
+      <path class="link" d="&#10;      M92 122&#10;      L146 122&#10;      A16 16 90 0 1 162 138&#10;      L162 172&#10;      A16 16 90 0 0 178 188&#10;      L190 188&#10;      M8 50&#10;      L76 50&#10;      A86 86 90 0 1 162 136&#10;      L162 172&#10;      A16 16 90 0 0 178 188&#10;      L190 188" stroke="white" stroke-width="5"/>
+      <path class="link" d="&#10;      M92 122&#10;      L146 122&#10;      A16 16 90 0 1 162 138&#10;      L162 172&#10;      A16 16 90 0 0 178 188&#10;      L190 188&#10;      M8 50&#10;      L76 50&#10;      A86 86 90 0 1 162 136&#10;      L162 172&#10;      A16 16 90 0 0 178 188&#10;      L190 188" stroke="#7570b3" stroke-width="2"/>
+    
+      <path class="link" d="&#10;      M190 166&#10;      L244 166&#10;      A16 16 90 0 1 260 182&#10;      L260 198&#10;      A16 16 90 0 0 276 214&#10;      L274 214" stroke="white" stroke-width="5"/>
+      <path class="link" d="&#10;      M190 166&#10;      L244 166&#10;      A16 16 90 0 1 260 182&#10;      L260 198&#10;      A16 16 90 0 0 276 214&#10;      L274 214" stroke="#e7298a" stroke-width="2"/>
+    
+
+  
+    <line class="node" stroke="black" stroke-width="8" x1="8" y1="46" x2="8" y2="50"/>
+    <line class="node" stroke="white" stroke-width="4" x1="8" y1="46" x2="8" y2="50"/>
+
+    <text x="12" y="42" stroke="white" stroke-width="2">01979</text>
+    <text x="12" y="42"><a href="https://j.brt.mv/PortalViewRequirement.do?reqGK=27626331" target="_blank">Intern/Co-Op Structural Engineering Division</a></text>
+
+  
+    <line class="node" stroke="black" stroke-width="8" x1="8" y1="72" x2="8" y2="72"/>
+    <line class="node" stroke="white" stroke-width="4" x1="8" y1="72" x2="8" y2="72"/>
+
+    <text x="12" y="68" stroke="white" stroke-width="2">01977</text>
+    <text x="12" y="68"><a href="https://j.brt.mv/PortalViewRequirement.do?reqGK=27625733" target="_blank">Intern/Co-Op Mechanical Engineering</a></text>
+
+  
+    <line class="node" stroke="black" stroke-width="8" x1="92" y1="118" x2="92" y2="122"/>
+    <line class="node" stroke="white" stroke-width="4" x1="92" y1="118" x2="92" y2="122"/>
+
+    <text x="96" y="114" stroke="white" stroke-width="2">01986</text>
+    <text x="96" y="114"><a href="https://j.brt.mv/PortalViewRequirement.do?reqGK=27628846" target="_blank">Civil EIT - Civil Group</a></text>
+
+  
+    <line class="node" stroke="black" stroke-width="8" x1="190" y1="166" x2="190" y2="166"/>
+    <line class="node" stroke="white" stroke-width="4" x1="190" y1="166" x2="190" y2="166"/>
+
+    <text x="194" y="162" stroke="white" stroke-width="2">02012</text>
+    <text x="194" y="162"><a href="https://j.brt.mv/PortalViewRequirement.do?reqGK=27628846" target="_blank">Technical Manager - Civil Engineering Group</a></text>
+
+  
+    <line class="node" stroke="black" stroke-width="8" x1="190" y1="188" x2="190" y2="188"/>
+    <line class="node" stroke="white" stroke-width="4" x1="190" y1="188" x2="190" y2="188"/>
+
+    <text x="194" y="184" stroke="white" stroke-width="2">02007</text>
+    <text x="194" y="184"><a href="https://j.brt.mv/PortalViewRequirement.do?reqGK=27604841" target="_blank">Structural Project Manager - Structures Group</a></text>
+
+  
+    <line class="node" stroke="black" stroke-width="8" x1="274" y1="214" x2="274" y2="214"/>
+    <line class="node" stroke="white" stroke-width="4" x1="274" y1="214" x2="274" y2="214"/>
+
+    <text x="278" y="210" stroke="white" stroke-width="2">12020</text>
+    <text x="278" y="210"><a href="https://j.brt.mv/PortalViewRequirement.do?reqGK=27604833" target="_blank">Civil Engineer PE - Civil Group</a></text>
+
+  
+
+  </svg>
