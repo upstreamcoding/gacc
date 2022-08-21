@@ -22,7 +22,7 @@ name: GACC PIT Apprenticeships
 title: GACC Pittsburgh - Apprenticeships & Workforce Development
 email: info@gaccpit.com
 tagline: Workers with basic programming skills and tech know-how are in-demand today. Upstream Coding can put higher-paying jobs in your reach.
-description: Upskill with Upstream Coding. Part-time classes. Instructor-led. Programming & Coding Bootcamp in Pittsburgh. HTML, CSS, JavaScript, ES6+, React, Node, Kotlin, Python & Flask.
+description: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://gaccpit.workforce.dev # the base hostname & protocol for your site, e.g. http://example.com
 turbine_app_url: https://app.turbinelms.com

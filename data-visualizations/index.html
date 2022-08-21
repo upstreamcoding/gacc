@@ -1,0 +1,55 @@
+---
+layout: default
+title: Posts & Musings
+---
+
+<style>
+    svg {
+        height: auto;
+        width: 1000px;
+    }
+    </style>
+
+<div class="container-fluid py-5 bg-light border-bottom">
+  <div class="row justify-content-center py-5">
+    <div class="col-lg-10 text-center">
+      <h1 class="m-0">
+       Data Vizualizations
+      </h1>
+
+    </div>
+  </div>
+</div>
+
+<div class="container mb-5">
+  <div class="row mt-4">
+    <div class="col-sm-12">
+
+        <div id="observablehq-svg-06ddcf3d" width="600px" height="auto"></div>
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@trevianxyz/gacc-turbine-upskills-pathways/3.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "svg") return new Inspector(document.querySelector("#observablehq-svg-06ddcf3d"));
+});
+</script>
+</div>
+</div>
+
+<hr>
+
+<div class="row mt-4">
+    <div class="col-sm-12">
+<div id="observablehq-graphic-1034d6cd"></div>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@trevianxyz/gears-turbine-workforce.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "graphic") return new Inspector(document.querySelector("#observablehq-graphic-1034d6cd"));
+  return ["update"].includes(name);
+});
+</script>
+</div>
+</div>
+</div>
