@@ -49,10 +49,15 @@ video {
   }
 
 #homepage-carousel-caption {
-    margin-top: 16%;
+    margin-top: 6%;
     background-color: rgba(18, 18, 106, 0.519);
     color: aliceblue;
     position: absolute;
+}
+
+.sticky  {
+    position: sticky !important;
+    top: 0 !important;
 }
 
 
@@ -127,7 +132,7 @@ button.slick-next, button.slick-prev {
 }
 
 @media (max-width: 767.98px) {
-    
+
     .responsive-container {
     display: flex;
     flex-direction: column;
@@ -146,18 +151,30 @@ button.slick-next, button.slick-prev {
         margin-bottom: 0px !important;
     }
 
-    .factoids-text   {
+.factoids-text   {
         font-size: 20px !important;
     }
 
-    #apprenticeshipFAQ .btn-link, #apprenticeshipFAQ .card-body {
+  #apprenticeshipFAQ .card-body {
         text-align: left;
     } 
+
+    #apprenticeshipFAQ.btn-link {
+        text-align: center;
+    }
+
+    #apprenticeshipFAQ button.btn {
+        font-size: 40px !important;
+    }
 
    #newsletter-subscribe-btn {
     font-size: 10px !important;
     line-height: 0.5 !important;
-   } 
+   }
+
+   span#newsletter-subscribe-btn {
+    font-size: .75rem !important;
+   }
 
 }
 

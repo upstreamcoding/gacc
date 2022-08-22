@@ -1,5 +1,4 @@
 <div class="slicky-slider">
-    {% assign feed = "page.photos-loop" %}
     {% for image in site.data.photos.{{feed}} %}
         <img src="{{ image.src }}" class="img-thumbnail rounded mx-auto slicky_modal">
       {% endfor %}
