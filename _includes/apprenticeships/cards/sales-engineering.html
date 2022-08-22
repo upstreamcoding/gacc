@@ -26,7 +26,7 @@ Sales Engineering
       </ul>
       </p>
 
-      <div class="d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center justify-content-around">
         {% if page.hide_card_details_btn %}
         {% include modals/call-connect.html %}
         {% else %}
@@ -41,7 +41,6 @@ Sales Engineering
       Details
     </a>
     {% endif %}
-
     <div class="text-right">
       <span class="bg-warning"><b>Enrolling Now</b></span><br />
       <small class="text-muted"> last updated {{ "now" | date: "%b %d, 20%y" }} </small>

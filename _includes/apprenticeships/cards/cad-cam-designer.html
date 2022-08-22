@@ -26,11 +26,8 @@
       </ul>
       </p>
 
-      <div class="d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center justify-content-around">
         {% if page.hide_card_details_btn %}
-         <!--<p class="m-3">
-          <b><mark class="m-5">Need brief content here for card structuring </mark></b>
-        </p>-->
         {% include modals/call-connect.html %}
         {% else %}
           <a
@@ -43,11 +40,11 @@
           >
             Details
           </a>
-          <div class="text-right">
-            <span class="bg-warning"><b>Enrolling Now</b></span><br />
-            <small class="text-muted"> last updated {{ "now" | date: "%b %d, 20%y" }} </small>
-          </div>
         {% endif %}
+        <div class="text-right">
+          <span class="bg-warning"><b>Enrolling Now</b></span><br />
+          <small class="text-muted"> last updated {{ "now" | date: "%b %d, 20%y" }} </small>
+        </div>
       </div>
 
     </div>
