@@ -44,4 +44,4 @@ Upon completion of an apprenticeship, participants will receive the following ce
 - PMMI 
 - DiHK German Certification in Mechatronics (Mechatroniker)
 
-{% include components/still-have-questions.html %}
+{% include modals/call-connect.html %}

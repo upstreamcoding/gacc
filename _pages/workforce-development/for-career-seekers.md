@@ -21,4 +21,4 @@ The goal of the Dual Apprenticeship program is for the apprentice to have a defi
     {% include apprenticeships/cards/card-apprenticeship.html %}
 </div>
 
-{% include components/still-have-questions.html %}
+{% include modals/call-connect.html %}
