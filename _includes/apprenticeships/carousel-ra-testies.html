@@ -1,6 +1,7 @@
 {% assign num_slides = section.carousel_slides.size %}
 {% assign counter_indicators = 0 %}
 
+<div class="container">
 <div id="myCarouselratesties" class="usa-hero carousel slide bg-dark text-white mb-0 mt-5" data-ride="carousel">
     {% if num_slides > 1 %}
       <ol class="carousel-indicators">
@@ -15,16 +16,14 @@
       {% for carousel_slide in site.data.ra-testimonials %}
         <div class="carousel-item {% if counter_slide == 0 %}active{% endif %} bg-dark">
           <div class="container bg-dark ">
-            <div class="usa-grid col-sm-10 mb-6 mt-3 bg-dark ">
+            <div class="usa-grid col-sm-10  mt-3 bg-dark ">
               <div class="carousel bg-dark">
                 <div class="d-flex justify-content-center">
                 <i class="fas fa-quote-left fa-7x px-3"></i><div>
                     <h2 class="text-center" locale="{{ page.locale }}">
                         <span class="usa-hero-callout-alt">{{ carousel_slide.name }}</span>
                       </h2>
-                      <h4 class="text-center" locale="{{ page.locale }}">
-                          <span class="emph">{{ carousel_slide.company }}</span>
-                        </h4>
+                          <span class="emph text-center">{{ carousel_slide.company }}</span>
                     </div>
                 </div>
                  <!--{% if carousel_slide.enviro %}
@@ -38,19 +37,20 @@
                 <p>{{ carousel_slide.projects }}</p>
                  {% endif %}-->
                  {% if carousel_slide.quote %}
-                 <p class="text-left">
+                 <div class="d-flex flex-row justify-content-center">
+                 <p class="mx-5">
                    {{ carousel_slide.quote | markdownify }}
                  </p>
+                </div>
                {% endif %}
               </div>
             </div>
           </div>
-
         </div>
         {% assign counter_slide = counter_slide | plus: 1 %}
       {% endfor %}
-    </div>
 
+    </div>
     {% if num_slides > 1 %}
       <a class="carousel-control-prev" href="#myCarouselratesties" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="false"></span>
@@ -62,3 +62,4 @@
       </a>
     {% endif %}
   </div>
+</div>
