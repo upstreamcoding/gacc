@@ -28,8 +28,7 @@ Sales Engineering
 
       <div class="d-flex align-items-center justify-content-between">
         {% if page.hide_card_details_btn %}
-        <p>
-        </p>
+        {% include modals/call-connect.html %}
         {% else %}
     <a
       role="button"
@@ -48,7 +47,7 @@ Sales Engineering
       <small class="text-muted"> last updated {{ "now" | date: "%b %d, 20%y" }} </small>
     </div>
       </div>
-      {% include modals/call-connect.html %}
+
       </div>
     </div>
   </div>
