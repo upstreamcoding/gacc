@@ -66,11 +66,4 @@ jQuery(function() {
     return false;
   });
 
-    // observablehq
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/@trevianxyz/gears-turbine-workforce@486.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "graphic") return new Inspector(document.querySelector("#observablehq-graphic-acb09c9f"));
-  return ["update"].includes(name);
-});
 });

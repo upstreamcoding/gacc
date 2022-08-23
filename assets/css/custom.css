@@ -118,18 +118,18 @@ button.slick-next, button.slick-prev {
     vertical-align: middle;
 }
 
-.apprentice-pic {
-    max-width: 275px;
-    height: auto;
-}
-
 .slicky-slider {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
+.slicky-slider img {
+height: auto;
+    }
+       
 
 @media (max-width: 767.98px) {
 

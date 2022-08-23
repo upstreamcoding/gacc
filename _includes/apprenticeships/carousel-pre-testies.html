@@ -13,27 +13,29 @@
     <div class="carousel-inner">
       {% assign counter_slide = 0 %}
       {% for carousel_slide in site.data.pre_app_testimonials %}
-        <div class="carousel-item {% if counter_slide == 0 %}active{% endif %}">
+        <div class="carousel-item {% if counter_slide == 0 %}active{% endif %} bg-dark">
           <div class="container">
+            <div class="usa-grid col-sm-10 mb-6 mt-3">
             <div class="col mb-1 mt-3">
               <div class="carousel">
                 <div class="d-flex justify-content-center">
-                <i class="fas fa-quote-left fa-3x px-3"></i><div>
-                    <h2 class="text-center" locale="{{ page.locale }}">
+                <i class="fas fa-quote-left fa-5x px-3 text-white"></i><div>
+                    <h2 class="text-center text-white" locale="{{ page.locale }}">
                         <span class="usa-hero-callout-alt">{{ carousel_slide.name }}</span>
                       </h2>
-                      <h4 class="text-center" locale="{{ page.locale }}">
-                          <span class="emph">{{ carousel_slide.company }}</span>
+                      <h4 class="text-center text-white" locale="{{ page.locale }}">
+                          <span class="emph text-center">{{ carousel_slide.company }}</span>
                         </h4>
                     </div>
                 </div>
                  {% if carousel_slide.quote %}
-                 <p class="text-left">
+                 <span class="text-white">
                    {{ carousel_slide.quote | markdownify }}
-                 </p>
+                 </span>
                {% endif %}
               </div>
             </div>
+          </div>
           </div>
 
         </div>
@@ -41,14 +43,12 @@
       {% endfor %}
     </div>
 
-    {% if num_slides > 1 %}
       <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="false"></span>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    {% endif %}
   </div>
