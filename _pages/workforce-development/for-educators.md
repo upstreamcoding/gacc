@@ -17,3 +17,5 @@ GACC seamlessly integrates Related Technical Instruction syndicated from communi
 Are you an education institution that would like to partner and provide RTI?
 
 {% include components/squares-turbine-screenshots.html %}
+
+{% include modals/call-connect.html %}

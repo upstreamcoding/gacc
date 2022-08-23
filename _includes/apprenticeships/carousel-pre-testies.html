@@ -15,7 +15,7 @@
       {% for carousel_slide in site.data.pre_app_testimonials %}
         <div class="carousel-item {% if counter_slide == 0 %}active{% endif %}">
           <div class="container">
-            <div class="usa-grid col-sm-10 mb-6 mt-3">
+            <div class="col mb-1 mt-3">
               <div class="carousel">
                 <div class="d-flex justify-content-center">
                 <i class="fas fa-quote-left fa-3x px-3"></i><div>
@@ -27,19 +27,9 @@
                         </h4>
                     </div>
                 </div>
-                 <!--{% if carousel_slide.enviro %}
-                  <b>Environment</b>
-                  <p>  
-                    {{ carousel_slide.enviro | markdownify }}
-                  </p>
-                {% endif %}
-                {% if carousel_slide.projects%}
-                <b>Projects</b>
-                <p>{{ carousel_slide.projects }}</p>
-                 {% endif %}-->
-                 {% if carousel_slide.skillDev %}
+                 {% if carousel_slide.quote %}
                  <p class="text-left">
-                   {{ carousel_slide.skillDev | markdownify }}
+                   {{ carousel_slide.quote | markdownify }}
                  </p>
                {% endif %}
               </div>
