@@ -15,7 +15,7 @@
       {% for carousel_slide in site.data.pre_app_testimonials %}
         <div class="carousel-item {% if counter_slide == 0 %}active{% endif %} bg-dark">
           <div class="container">
-            <div class="usa-grid col-sm-10 mb-6 mt-3">
+            <div class="usa-grid mb-6 mt-3">
             <div class="col mb-1 mt-3">
               <div class="carousel">
                 <div class="d-flex justify-content-center">
@@ -29,8 +29,8 @@
                     </div>
                 </div>
                  {% if carousel_slide.quote %}
-                 <span class="text-white">
-                   {{ carousel_slide.quote | markdownify }}
+                 <span class="text-white testy-text">
+                   {{ carousel_slide.quote }}
                  </span>
                {% endif %}
               </div>

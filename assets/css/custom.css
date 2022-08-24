@@ -129,7 +129,18 @@ button.slick-next, button.slick-prev {
 .slicky-slider img {
 height: auto;
     }
-       
+
+    .carousel-item {
+        height: auto !important;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 12%;
+    }
+
+    span .testy-text {
+        font-size: 20px !important;
+    }
 
 @media (max-width: 767.98px) {
 
