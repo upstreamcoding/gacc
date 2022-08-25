@@ -1,7 +1,7 @@
 {% assign num_slides = section.carousel_slides.size %}
 {% assign counter_indicators = 0 %}
 
-<div id="myCarousel" class="usa-hero carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
     {% if num_slides > 1 %}
       <ol class="carousel-indicators">
         {% for carousel_slide in site.data.ra-testimonials %}
@@ -15,10 +15,9 @@
       {% for carousel_slide in site.data.pre_app_testimonials %}
         <div class="carousel-item {% if counter_slide == 0 %}active{% endif %} bg-dark">
           <div class="container">
-            <div class="usa-grid mb-6 mt-3">
-            <div class="col mb-1 mt-3">
+            <div class="mb-1 mt-3">
               <div class="carousel">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex flex-column align-items-center">
                 <i class="fas fa-quote-left fa-5x px-3 text-white"></i><div>
                     <h2 class="text-center text-white" locale="{{ page.locale }}">
                         <span class="usa-hero-callout-alt">{{ carousel_slide.name }}</span>
@@ -27,15 +26,15 @@
                           <span class="emph text-center">{{ carousel_slide.company }}</span>
                         </h4>
                     </div>
-                </div>
+                
                  {% if carousel_slide.quote %}
-                 <span class="text-white testy-text">
+                 <span class="text-white testy-text w-75">
                    {{ carousel_slide.quote }}
                  </span>
                {% endif %}
               </div>
-            </div>
-          </div>
+              </div>
+              </div>
           </div>
 
         </div>
