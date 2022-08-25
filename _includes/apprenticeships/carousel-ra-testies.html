@@ -1,6 +1,6 @@
 {% assign num_slides = section.carousel_slides.size %}
 {% assign counter_indicators = 0 %}
-<div class="container  m-5">
+<div class="container">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     {% if num_slides > 1 %}
       <ol class="carousel-indicators">
@@ -18,8 +18,8 @@
             <div class="mb-1 mt-3">
               <div class="carousel">
                 <div class="d-flex flex-row justify-content-center">
-                  <i class="fas fa-quote-left fa-5x px-3 text-white float-right"></i>
                 <div class="d-flex flex-column align-items-center">
+                  <i class="fas fa-quote-left fa-5x px-3 text-white"></i>
                     <h2 class="text-center text-white" locale="{{ page.locale }}">
                         <span class="usa-hero-callout-alt">{{ carousel_slide.name }}</span>
                       </h2>
