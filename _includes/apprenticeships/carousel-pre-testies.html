@@ -1,11 +1,11 @@
 {% assign num_slides = section.carousel_slides.size %}
 {% assign counter_indicators = 0 %}
-
+<div class="container  m-5">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     {% if num_slides > 1 %}
       <ol class="carousel-indicators">
-        {% for carousel_slide in site.data.ra-testimonials %}
-          <li data-target="#myCarousel" data-slide-to="{{ counter_indicators }}" class="jackCarousel"></li>
+        {% for carousel_slide in site.data.pre_app_testimonials %}
+          <li data-target="#myCarousel" data-slide-to="{{ counter_indicators }}"></li>
           {% assign counter_indicators = counter_indicators | plus: 1 %}
         {% endfor %}
       </ol>
@@ -17,22 +17,20 @@
           <div class="container">
             <div class="mb-1 mt-3">
               <div class="carousel">
+                <div class="d-flex flex-row justify-content-center">
+                  <i class="fas fa-quote-left fa-5x px-3 text-white float-right"></i>
                 <div class="d-flex flex-column align-items-center">
-                <i class="fas fa-quote-left fa-5x px-3 text-white"></i><div>
                     <h2 class="text-center text-white" locale="{{ page.locale }}">
                         <span class="usa-hero-callout-alt">{{ carousel_slide.name }}</span>
                       </h2>
                       <h4 class="text-center text-white" locale="{{ page.locale }}">
                           <span class="emph text-center">{{ carousel_slide.company }}</span>
                         </h4>
-                    </div>
-                
-                 {% if carousel_slide.quote %}
-                 <span class="text-white testy-text w-75">
+                 <div class="text-white testy-text w-75">
                    {{ carousel_slide.quote }}
-                 </span>
-               {% endif %}
+                 </div>
               </div>
+            </div>
               </div>
               </div>
           </div>
@@ -51,3 +49,4 @@
         <span class="sr-only">Next</span>
       </a>
   </div>
+</div>
