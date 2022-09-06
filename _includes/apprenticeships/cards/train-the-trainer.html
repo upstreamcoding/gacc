@@ -24,33 +24,26 @@ Train-the-Trainer
         </ul>
         </p>-->
 
-        <div class="d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center justify-content-around">
           {% if page.hide_card_details_btn %}
-          <p>
-            <b><mark>Need brief content here for card structuring </mark></b>
-            <br />
-            <span class="text-muted mt-2">
-              Included with <a class="ga-click-event" href="/membership" ga-label="membership" ga-category="webdev">Premium</a>
-            </span>
-          </p>
+          {% include modals/call-connect.html %}
           {% else %}
             <a
               role="button"
               class="btn btn-md btn-primary ga-click-event my-2 stretched-link"
-              title="Polymer Process Technician"
-              href="/apprenticeships/cad-cam-technical-designer"
-              ga-label="CAD CAM Technical Designer"
+              title="Mechatronics Technician"
+              href="/workforce-development/train-the-trainer"
+              ga-label="Mechatronics Technician"
               ga-category="apprenticeships"
             >
               Details
             </a>
-            <div class="text-right">
-              <span>Next Cohort: <b>StartsSept 6</b></span><br />
-              <!--<small class="text-muted">Starter: $599</small>-->
-            </div>
           {% endif %}
+          <div class="text-right">
+            <span class="bg-warning"><b></b></span><br />
+            <small class="text-muted"> last updated {{ "now" | date: "%b %d, 20%y" }} </small>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  
