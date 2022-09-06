@@ -53,6 +53,7 @@ Whether you send your production manager, a project coordinator, or a supervisor
     </div>
   </div>
 
+<div id="t3-register"></div>
 <div class="embed-responsive embed-responsive-1by1">
 <iframe src="https://console.turbinelms.com/o/gacc/courses/id/4fpFTCLS6dhfwaocUqMMmf?embed=true" title="Train-the-Trainer Workshop" height="500px" width="100%">Powered by Turbine Workforce</iframe>
 </div>
