@@ -30,17 +30,7 @@ Pre-Apprenticeships
 
         <div class="d-flex align-items-center justify-content-end">
           {% if page.hide_card_details_btn %}
-          <p>
-            <a
-            role="button"
-            class="btn btn-md btn-primary ga-click-event my-2 stretched-link"
-            title="Pre-Apprenticeships"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSedEDRqyYrejEHhFeI0v5D9oFjBHNnQfATzJ44rhtSO-ADeeg/viewform"
-            ga-label="pre-apprenticeships"
-            ga-category="pre-apprenticeships"
-          >
-Apply           </a>
-          </p>
+          {% include components/btn-pre-app-apply.html %}
           {% else %}
             <a
               role="button"
