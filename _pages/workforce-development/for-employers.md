@@ -3,7 +3,6 @@ layout: page
 title: for Employers
 permalink: /for-employers
 hide_card_details_btn: true
-membership_duration: (4 months)
 course_slug: /for-employers
 testimonials: false
 backhref: "/#customer-entrypoints"
@@ -21,10 +20,10 @@ The German American Apprenticeships - which involved employer-sponsored training
 - Tuition for RTI (Related Technical Instruction)
 - Full-time hours combining OJT and Classroom Training (Dual Program)
 - Competency-based programs
-        - Around 4,000 - 6,000 hours
+        - Between 4,000 - 6,000 hours
 - Company-led training
         - Train the Trainer Seminars for the company’s trainers and mentors
- 
+
 GACC tailors the related instruction to meet the employer’s needs delivering a positive workplace dynamic and more. These programs are designed to help employers create a sustainable pipeline of skilled talent; attract more young people to manufacturing careers; and invest in training to build employee loyalty.
 
 In addition, the GACC PIT supports the company the whole way through, with the following:
@@ -35,13 +34,18 @@ In addition, the GACC PIT supports the company the whole way through, with the f
 - Ongoing consulting, support, and administration
 - Reliable quality control via Apprenticeship Program Exams (Licensed by the DiHK, translated to English)
 
-
 Upon completion of an apprenticeship, participants will receive the following certifications:
 
-- DOL Journeyman Certification 
-- Certification and/or Associates Degree (A.S.) Mechatronics Technology 
+- DOL Journeyperson/Journeyworker Certification and/or Associates Degree (A.S.) (in a degree area with direct connection to the occupation or industry of the Apprenticeship)
 - Manufacturing Skill Standards Council (MSSC) Certified Production Technician (CPT)
-- PMMI 
-- DiHK German Certification in Mechatronics (Mechatroniker)
+- Association of Packaging & Processing Technologies PMMI Certificated Technician
+- DiHK German Certification (in the Apprenticeship Occupation)
 
+<div class="text-center">
+<h2 class="p-3 underlinzz">Pathways to these Credentials</h2>
+<div class="d-flex responsive-container">
+    {% include apprenticeships/cards/pre-app-card.html %}
+    {% include apprenticeships/cards/card-apprenticeship.html %}
+</div>
+</div>
 {% include modals/call-connect.html %}
