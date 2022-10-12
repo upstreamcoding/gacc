@@ -274,7 +274,7 @@ There will be no restrictions or consortium fees for employers who wish to hire 
 
 ### Credentials
 
-Pre-apprentices (PAs) will benefit more young people from the GACC dual enrollment agreements with industry-, employer- and degree-recognized credentials and certificates, some that receive **up to 6 college credits from CCAC**. All PAs will draw on the GACC's incomparable **Ausbildungszertifikat (German Apprenticeship Certificate)**.
+Pre-apprentices (PAs) will benefit more young people from the GACC dual enrollment agreements with industry-, employer- and degree-recognized credentials and certificates, some that receive **up to 6 college credits from Partnering Community Colleges**. All PAs will draw on the GACC's incomparable **Ausbildungszertifikat (German Apprenticeship Certificate)**.
 
 PAs who are confident of a career in advanced manufacturing will have option to prepare for the industry-recognized certifications & credits:
 - **[Manufacturing Technician Level 1 certification](http://manufacturingskillsinstitute.org/certifications/manufacturing-technician-level-1-skill-standards/) from the MSI Institute**.
@@ -282,7 +282,7 @@ PAs who are confident of a career in advanced manufacturing will have option to 
 - [VEX Certifications](https://certifications.vex.com/)
 - [W3 Schools Certifications](https://courses.w3schools.com/browse/certifications)
 - Upstream Coding/CCAC Certificate
-- CCAC - Six(6) college credits
+- Partnering Community Colleges - Six(6) college credits
 
 <!--### Learning Outcomes
 Learning Outcomes
