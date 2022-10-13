@@ -49,9 +49,21 @@ backhref: /workforce-development
     </div>
   {% include components/factoids-loop.html %}
 </div>
-  <div class="container m-5 mx-auto">{% include components/raq-faq.html %}
-{% include apprenticeships/carousel-ra-testies.html %}
+<br>
+  <div class="container m-1 mx-auto">
+    {% include components/raq-faq.html %}
+    <br>
+    {% include modals/call-connect.html %}
 </div>
+{% include apprenticeships/carousel-ra-testies.html %}
+<div class="container" id="anchor--gacc-ra-locations">
+  <div class="row m-0">
+    <div class="col">
+      {% include apprenticeships/gacc-ra-locations.html %}
+    </div>
+  </div>
+</div>
+
 {% include modals/call-connect.html %}
 </div>
 
