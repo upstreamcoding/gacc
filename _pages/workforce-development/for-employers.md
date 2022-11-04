@@ -2,7 +2,7 @@
 layout: page
 title: for Employers
 permalink: /for-employers
-hide_card_details_btn: true
+hide_card_details_btn: false
 course_slug: /for-employers
 testimonials: false
 backhref: "/#customer-entrypoints"
