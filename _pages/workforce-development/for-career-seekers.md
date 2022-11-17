@@ -16,6 +16,8 @@ At the end of the program, GACC apprentices are likely to be more experienced an
 
 The goal of the Dual Apprenticeship program is for the apprentice to have a defined set of skills that are acknowledged in the industry, and to be employable.
 
+{% include components/factoids-loop.html %}
+
 <div class="d-flex responsive-container">
     {% include apprenticeships/cards/pre-app-card.html %}
     {% include apprenticeships/cards/card-apprenticeship.html %}

@@ -1,16 +1,18 @@
 - source:
   href: "https://www.apprenticeship.gov/sites/default/files/Career_Seeker_Fact_Sheet.pdf"
-  description: | 
-    <span class="brand-bg" style="color: #fff; background-color: rgba(238, 90, 36, .6);">94%</span> of apprentices who complete an apprenticeship retain employment, with an average annual salary of <span class="brand-bg">$77,000</span>
+  description: |
+    <span class="brand-bg" style="color: #fff; background-color: rgba(238, 90, 36, .6);">94%</span> of apprentices who complete an apprenticeship retain employment
   date:
   title: "Apprenticeship.gov Fact Sheet"
-- source: Bain & Company
+- source: "Apprenticeship.gov Fact Sheet"
   href: "https://www.bain.com/insights/how-clear-career-paths-strengthen-retention-and-diversity/"
-  description: "Well-defined, clearly communicated pathways for advancement can encourage employee satisfaction and retention."
-  date: "August 2021"
-  title: "How Clear Career Paths Strengthen Retention—and Diversity"
-- source: WorkRise
-  href: "https://www.workrisenetwork.org/working-knowledge/how-do-we-define-good-jobs-and-how-do-they-affect-worker-well-being"
-  description: "Clearly defined career paths & on-the-job skills development are job-quality elements that affect worker well-being."
-  date: "February 2021"
-  title: "How Do We Define “Good Jobs,” and How Do They Affect Worker Well-Being?"
+  description: |
+    Apprentice graduates earn more than <span class="brand-bg" style="color: #fff; background-color: rgba(238, 90, 36, .6);">$300,000</span> over their lifetime than peers who are not.
+  date:
+  title:
+- source: Apprenticeship.gov Fact Sheet
+  href:
+  description:  |
+    The average annual salary for a apprentice upon completion is <span class="brand-bg">$77,000</span>
+  date:
+  title:

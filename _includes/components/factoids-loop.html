@@ -1,15 +1,15 @@
-<div class="container-fluid bg-dark">
-<div class="d-flex flex-column">
-  {% for quote in site.data.factoids | limit:1 %}
+<div class="container-fluid bg-secondary">
+<div class="d-flex flex-column m-4">
+  {% for quote in site.data.factoids | limit: 3 %}
     <!--<div class="card-header">
       Retention
     </div>-->
     <div class="card-body">
       <blockquote class="blockquote mb-0" id="factoids">
         <div class="d-flex flex-row">
-        <i class="fas fa-quote-left fa-3x px-3" style="color: #fff;"></i> <p class="factoids-text">{{ quote.description }}</p>
+        <i class="fas fa-quote-left fa-3x px-3" style="color: #000;"></i> <p class="factoids-text text-black">{{ quote.description }}</p>
       </div>
-        <footer class="blockquote-footer float-right"><a href="{{ quote.href }}" target=_blank><cite title="Source Title"><em>{{ quote.title }}</em></cite></a><b>{% if quote.source %} {{ quote.source }} {% endif %}</b> <b>{% if quote.date %}, {{ quote.date }} {% endif %}</b></footer>
+        <footer class="blockquote-footer float-right text-white"><a href="{{ quote.href }}" target=_blank><cite title="Source Title"><em>{{ quote.title }}</em></cite></a><b>{% if quote.source %} {{ quote.source }} {% endif %}</b> <b>{% if quote.date %}, {{ quote.date }} {% endif %}</b></footer>
       </blockquote>
     </div>
   {% endfor %}
