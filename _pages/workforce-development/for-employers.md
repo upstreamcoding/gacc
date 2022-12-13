@@ -52,5 +52,5 @@ Upon completion of an apprenticeship, participants will receive the following ce
 
 
 <div class="embed-responsive embed-responsive-1by1">
-  <embed class="embed-responsive-item" src="/assets/docs/aai-infographic-employers-11-11-22.pdf"></embed>
+  <iframe class="embed-responsive-item" src="/assets/docs/aai-infographic-employers-11-11-22.pdf"></iframe>
 </div>
