@@ -1,12 +1,12 @@
-- name: DE
+- name: BMWK
   src: "/assets/img/logos/de/BMWi_Fz_2017_WebSVG-en.svg"
-  href:
-- name: dsf
+  href: "https://www.bmwk.de/Navigation/EN/Home/home.html"
+- name: DIHK
   src: "/assets/img/logos/de/banner_2.svg"
-  href:
-- name: ITD
+  href: "https://www.dihk.de/en"
+- name: IHK
   src: "/assets/img/logos/de/banner_3.svg"
-  href:
+  href: "https://www.ihk.de/"
 - name: GTAI
   src: "/assets/img/logos/de/logogtai-svg-data.svg"
-  href:
+  href: "https://www.gtai.de/en/invest"
