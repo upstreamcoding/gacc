@@ -31,4 +31,6 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # heroku builds
 gem "rake"
-ruby '2.5.1'
+ruby '3.1.3'
+
+gem "webrick", "~> 1.7"
