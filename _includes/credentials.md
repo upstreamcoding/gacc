@@ -1,7 +1,7 @@
 
 ### Credentials
 
-Pre-apprentices (PAs) will benefit more young people from the GACC Pittsburgh Chapter  dual enrollment agreements with industry-, employer- and degree-recognized credentials and certificates, some that receive **up to 6 college credits from Partnering Community Colleges**. All PAs will draw on the GACC's incomparable **Ausbildungszertifikat (German Apprenticeship Certificate)**.
+Pre-apprentices (PAs) will benefit more young people from the GACC Pittsburgh Chapter  dual enrollment agreements with industry-, employer- and degree-recognized credentials and certificates, some that receive **up to 6 college credits from Partnering Community Colleges**. All PAs will draw on the GACC Pittsburgh Chapter'sincomparable **Ausbildungszertifikat (German Apprenticeship Certificate)**.
 
 PAs who are confident of a career in advanced manufacturing will have option to prepare for the industry-recognized certifications & credits:
 - **[Manufacturing Technician Level 1 certification](http://manufacturingskillsinstitute.org/certifications/manufacturing-technician-level-1-skill-standards/) from the MSI Institute**.
