@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GACC Memberships
+title: GACC Pittsburgh Chapter  Memberships
 permalink: /gacc-memberships
 hide_card_details_btn: true 
 testimonials: false
@@ -8,23 +8,23 @@ testimonials: false
                                                                                                                                                        MEMBERSHIP BENEFITS                                                              
   ----------------------------------------------------------------------------------------------------- ------------------------- -------------------- ------------------------------- ------------------------------------------------ ------------------------------------------------
   Membership Status / Benefits                                                                          Young Professional \$75   Individual \$250     Basic \$400                     Corporate \$900                                  Patron \$1,995
-                                                                                                                                                       GACC EVENTS                                                                      
+                                                                                                                                                       GACC Pittsburgh Chapter  EVENTS                                                                      
   Invitation to events                                                                                  ✓                         ✓                    ✓                               ✓                                                ✓
   RSVP & waitlist priority                                                                              ✓                         ✓                    ✓                               ✓                                                ✓
-  Reduced member admission at GACC events                                                               ✓                         Valid for 1 Person   Valid for 2 People              Valid for 4 People                               Valid for 6 People
+  Reduced member admission at GACC Pittsburgh Chapter  events                                                               ✓                         Valid for 1 Person   Valid for 2 People              Valid for 4 People                               Valid for 6 People
   Invitation to special VIP events                                                                      X                         X                    X                               X                                                ✓
-  Co-hosting an event with GACC                                                                         X                         X                    X                               X                                                ✓
+  Co-hosting an event with GACC Pittsburgh Chapter                                                                          X                         X                    X                               X                                                ✓
                                                                                                                                                        MEMBERSHIP DIRECTORY LISTINGS                                                    
   Online directory                                                                                      X                         X                    1 contact listed                2 contacts listed + logo + company description   4 contacts listed + logo + company description
   Annual print directory                                                                                X                         X                    1 contact listed                2 contacts listed + logo + company description   4 contacts listed + logo + company description
-                                                                                                                                                       GACC PUBLICATION & MEDIA                                                         
+                                                                                                                                                       GACC Pittsburgh Chapter  PUBLICATION & MEDIA                                                         
   Access to membership directory                                                                        X                         X                    Online                          Online                                           Print & Online (print upon request)
   Member discount for directory \"Subsidiaries to German Firms in the U.S.\" (www.germancompanies.us)   X                         X                    ✓                               ✓                                                ✓
   Electronic subscription of the GAT magazine                                                           ✓                         ✓                    ✓                               ✓                                                Electronic + Print Version
-  Exposure in GACC Pittsburgh Chapter   online publications                                                               X                         X                    ✓                               ✓                                                ✓
-  GACC Economic Yearbook                                                                                X                         X                    X                               ✓                                                ✓
+  Exposure in GACC Pittsburgh Chapter  Pittsburgh Chapter   online publications                                                               X                         X                    ✓                               ✓                                                ✓
+  GACC Pittsburgh Chapter  Economic Yearbook                                                                                X                         X                    X                               ✓                                                ✓
   Press releases on GACC\'s website                                                                     X                         X                    X                               ✓                                                ✓
-  Special recognition on GACC website                                                                   X                         X                    X                               X                                                ✓
+  Special recognition on GACC Pittsburgh Chapter  website                                                                   X                         X                    X                               X                                                ✓
                                                                                                                                                        ADDITIONAL BENEFITS                                                              
   Business referrals & introductions                                                                    X                         X                    ✓                               ✓                                                ✓
   Membership certificate                                                                                ✓                         ✓                    ✓                               ✓                                                ✓
