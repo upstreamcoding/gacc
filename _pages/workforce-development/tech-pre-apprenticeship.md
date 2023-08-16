@@ -69,7 +69,7 @@ h5 {
 <img
         class="m-4"
         src="/assets/img/gacc-pitt.jpeg"
-        alt="GACC Pittsburgh Chapter  Pre-Apprenticeship Program"
+        alt="GACC Pittsburgh Chapter Pre-Apprenticeship Program"
         width="auto"
         height="100px"
       />
@@ -103,7 +103,7 @@ have convened a [consortium of stakeholders](#consortium-members) to enhance and
 <span
 style="font-weight: bold; background-color: #ffeaa7;"><a 
   href="https://www.gaccpit.com/en/workforce-development/gacc-pre-apprenticeship-program"
-  target="_blank">GACC Pittsburgh Chapter  Pre-Apprenticeship</a></span>
+  target="_blank">GACC Pittsburgh Chapter Pre-Apprenticeship</a></span>
 and upskill more people in the Greater Pittsburgh Region with a range of job-ready tech skills -- from basic tech skills required for a good job[^1] to a working command of one or more advanced technology used in high-income jobs today and sought after by Industry 4.0[^3] employers.
 
 <!--
@@ -274,7 +274,7 @@ There will be no restrictions or consortium fees for employers who wish to hire 
 
 ### Credentials
 
-Pre-apprentices (PAs) will benefit more young people from the GACC Pittsburgh Chapter  dual enrollment agreements with industry-, employer- and degree-recognized credentials and certificates, some that receive **up to 6 college credits from Partnering Community Colleges**. All PAs will draw on the GACC Pittsburgh Chapter'sincomparable **Ausbildungszertifikat (German Apprenticeship Certificate)**.
+Pre-apprentices (PAs) will benefit more young people from the GACC Pittsburgh Chapter dual enrollment agreements with industry-, employer- and degree-recognized credentials and certificates, some that receive **up to 6 college credits from Partnering Community Colleges**. All PAs will draw on the GACC Pittsburgh Chapter'sincomparable **Ausbildungszertifikat (German Apprenticeship Certificate)**.
 
 PAs who are confident of a career in advanced manufacturing will have option to prepare for the industry-recognized certifications & credits:
 - **[Manufacturing Technician Level 1 certification](http://manufacturingskillsinstitute.org/certifications/manufacturing-technician-level-1-skill-standards/) from the MSI Institute**.
@@ -354,13 +354,13 @@ Turbine-generated Actionable Pathways connect directly to employer-created job p
 
 ### Apprenticeship Pipeline
 
-Participating employers will be introduced to GACC Pittsburgh Chapter  & CCAC Apprenticeships and PAs will chart their own pathway to a good job.
+Participating employers will be introduced to GACC Pittsburgh Chapter & CCAC Apprenticeships and PAs will chart their own pathway to a good job.
 
 ###### German-American Chamber
-- [GACC Pittsburgh Chapter  Sales Engineering Apprenticeship](https://www.gaccpit.com/en/workforce-development/translate-to-english-duale-ausbildung-in-den-usa/sales-engineer)
-- [GACC Pittsburgh Chapter  CAD/Design Apprenticeship](https://www.gaccpit.com/en/workforce-development/dual-apprenticeship-program/cad-cam-technical-designer)
-- [GACC Pittsburgh Chapter  Mechatronics Apprenticeship](https://www.gaccpit.com/en/workforce-development/translate-to-english-duale-ausbildung-in-den-usa/translate-to-english-mechatronics-technician)
-- [GACC Pittsburgh Chapter  Polymer Technician Apprenticeship](https://www.gaccpit.com/en/workforce-development/translate-to-english-duale-ausbildung-in-den-usa/polymer-process-technician)
+- [GACC Pittsburgh Chapter Sales Engineering Apprenticeship](https://www.gaccpit.com/en/workforce-development/translate-to-english-duale-ausbildung-in-den-usa/sales-engineer)
+- [GACC Pittsburgh Chapter CAD/Design Apprenticeship](https://www.gaccpit.com/en/workforce-development/dual-apprenticeship-program/cad-cam-technical-designer)
+- [GACC Pittsburgh Chapter Mechatronics Apprenticeship](https://www.gaccpit.com/en/workforce-development/translate-to-english-duale-ausbildung-in-den-usa/translate-to-english-mechatronics-technician)
+- [GACC Pittsburgh Chapter Polymer Technician Apprenticeship](https://www.gaccpit.com/en/workforce-development/translate-to-english-duale-ausbildung-in-den-usa/polymer-process-technician)
 
 <div class="container">
   <div class="d-none d-md-block embed-responsive embed-responsive-4by3">
@@ -382,10 +382,10 @@ Participating employers will be introduced to GACC Pittsburgh Chapter  & CCAC Ap
   - dislocated workers, people previously incarcerated, or active in drug and alcohol recovery with lengths of continuous sobriety, or people without command of the English language.
 - The Consortium is open and welcome to new stakeholder organizations that commit to meaningful participation.
 - Optimize existing workforce development resources first; new resources may be created as a last option after all others are tried and decided not to work.
-- Expand participation in the GACC Pittsburgh Chapter  Pre-apprenticeship and Registered Apprenticeships - generally and into non-traditional industries,
+- Expand participation in the GACC Pittsburgh Chapter Pre-apprenticeship and Registered Apprenticeships - generally and into non-traditional industries,
 occupations, and populations;
-- Connect youth and eligible young adults to the GACC Pittsburgh Chapter  Pre-apprenticeship and Registered Apprenticeships; and into _good jobs_;
-- The GACC Pittsburgh Chapter  Pre-Apprenticeship framework and rigor may not be a fit for everyone - for reasons specific or existential. No matter the reason, the Consortium will support everyone who is willing to go to any length to upskill.
+- Connect youth and eligible young adults to the GACC Pittsburgh Chapter Pre-apprenticeship and Registered Apprenticeships; and into _good jobs_;
+- The GACC Pittsburgh Chapter Pre-Apprenticeship framework and rigor may not be a fit for everyone - for reasons specific or existential. No matter the reason, the Consortium will support everyone who is willing to go to any length to upskill.
 - Basic web skills and a 'tech literacy' are today essential to obtain and hold a good job[^1].
 - Basic web skills - the ability and comfort working with file systems and Web browsers.
 - Tech literacy - more advanced ability using browser-based systems and programs like Microsoft Office and Google Workspace.
@@ -431,7 +431,7 @@ We expect this Consortium + Turbine ecosystem to naturally develop a new, progre
 </div>
 </div>-->
 
-**The GACC Pittsburgh Chapter  Pre-Apprenticeship is enhanced by:**
+**The GACC Pittsburgh Chapter Pre-Apprenticeship is enhanced by:**
 - administering all facets of pre-/apprenticeship on Turbine Workforce platform;
 - Agile methodology concepts
 - adoption of an innovative, scalable rotational OJT framework for more real world job experiences;
