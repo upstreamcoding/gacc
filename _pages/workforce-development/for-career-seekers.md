@@ -10,9 +10,9 @@ backhref: "/#customer-entrypoints"
 back: Back
 ---
 
-GACC Apprenticeships are a proven career pathway that yield technical know-how that will help prepare one for career success. On-the-job training, instruction-based learning, and earning nationally-recognized industry credentials with employer support create a scaffolding for a person’s career success.
+GACC Pittsburgh Chapter  Apprenticeships are a proven career pathway that yield technical know-how that will help prepare one for career success. On-the-job training, instruction-based learning, and earning nationally-recognized industry credentials with employer support create a scaffolding for a person’s career success.
 
-At the end of the program, GACC apprentices are likely to be more experienced and employable than other students their age, and will also have guaranteed employment in their desired field without the tremendous debt that comes with a college degree.
+At the end of the program, GACC Pittsburgh Chapter  apprentices are likely to be more experienced and employable than other students their age, and will also have guaranteed employment in their desired field without the tremendous debt that comes with a college degree.
 
 The goal of the Dual Apprenticeship program is for the apprentice to have a defined set of skills that are acknowledged in the industry, and to be employable.
 

@@ -9,7 +9,7 @@ backhref: "/#customer-entrypoints"
 back: Back
 ---
 
-Want to build a high-yield talent pipeline? GACC Registered Apprenticeships and Pre-Apprenticeships are employer-driven, rigorous skills development frameworks that drive employee development of industry-recognized skills, occupation-specific competencies, and talent sets that are in-demand and valued by employers.
+Want to build a high-yield talent pipeline? GACC Pittsburgh Chapter  Registered Apprenticeships and Pre-Apprenticeships are employer-driven, rigorous skills development frameworks that drive employee development of industry-recognized skills, occupation-specific competencies, and talent sets that are in-demand and valued by employers.
 
 The German American Apprenticeships - which involved employer-sponsored training and education - provide the following offering and benefits:
 
@@ -24,9 +24,9 @@ The German American Apprenticeships - which involved employer-sponsored training
 - Company-led training
         - Train the Trainer Seminars for the company’s trainers and mentors
 
-GACC tailors the related instruction to meet the employer’s needs delivering a positive workplace dynamic and more. These programs are designed to help employers create a sustainable pipeline of skilled talent; attract more young people to manufacturing careers; and invest in training to build employee loyalty.
+GACC Pittsburgh Chapter  tailors the related instruction to meet the employer’s needs delivering a positive workplace dynamic and more. These programs are designed to help employers create a sustainable pipeline of skilled talent; attract more young people to manufacturing careers; and invest in training to build employee loyalty.
 
-In addition, the GACC PIT supports the company the whole way through, with the following:
+In addition, the GACC Pittsburgh Chapter  PIT supports the company the whole way through, with the following:
 
 - Marketing to candidates 
 - Developing customized company training plans based on industry-defined competencies 
