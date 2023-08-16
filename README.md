@@ -1,5 +1,5 @@
-# GACC Pittsburgh Chapter  Apprenticeships
-Marketing Site for GACC Pittsburgh Chapter  Apprenticeships
+# GACC Pittsburgh Chapter Apprenticeships
+Marketing Site for GACC Pittsburgh Chapter Apprenticeships
 https://www.gaccpit.com/en/workforce-development/translate-to-english-duale-ausbildung-in-den-usa
 
 ## Tech

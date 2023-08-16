@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-name: GACC Pittsburgh Chapter  PIT Apprenticeships
-title: GACC Pittsburgh Chapter - Apprenticeships & Workforce Development
+name: GACC Pittsburgh Chapter PIT Apprenticeships
+title: GACC Chapter - Apprenticeships & Workforce Development
 email: info@gaccpit.com
 tagline: Workers with basic programming skills and tech know-how are in-demand today. Upstream Coding can put higher-paying jobs in your reach.
 description: 

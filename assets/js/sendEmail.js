@@ -53,7 +53,7 @@ function sendEmail(e, data, callback) {
   var emailParts = {
     to: 'josh@turbineworkforce.com',
     from: {
-      name: 'GACC Pittsburgh Chapter  Apprenticeship - Turbine'
+      name: 'GACC Pittsburgh Chapter Apprenticeship - Turbine'
     },
     replyTo: form.email.value,
     bcc: 'josh@trevian.xyz',

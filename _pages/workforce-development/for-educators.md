@@ -10,9 +10,9 @@ backhref: "/#customer-entrypoints"
 back: Back
 ---
 
-GACC Pittsburgh Chapter  works closely with regional community colleges and other educational partners to provide the best education at the lowest possible cost in order to ease expenses for companies.
+GACC Pittsburgh Chapter works closely with regional community colleges and other educational partners to provide the best education at the lowest possible cost in order to ease expenses for companies.
 
-GACC Pittsburgh Chapter  seamlessly integrates Related Technical Instruction syndicated from community colleges, technical training providers and participating employers through the Turbine Workforce platform - enabling a modern browser-based learning experience.
+GACC Pittsburgh Chapter seamlessly integrates Related Technical Instruction syndicated from community colleges, technical training providers and participating employers through the Turbine Workforce platform - enabling a modern browser-based learning experience.
 
 Are you an education institution that would like to partner and provide RTI?
 
