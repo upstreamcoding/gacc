@@ -147,7 +147,7 @@ style="font-weight: bold;">advanced technologies.
 All Consortium members recognize that great workforce development resources exist but are disparate and unconnected. The Consortium seeks to drive optimization and innovation through a technology-based ecosystem (the Turbine Workforce platform) to cultivate **alignment, interoperability and innovation**.
 
 ##### One Platform for Everything
-GACC's expertise and institutional knowledge at delivering effective workforce development, [Pre-apprenticeships](https://www.gaccpit.com/en/workforce-development/gacc-pre-apprenticeship-program) and [Registered Apprenticeships](#ra-pipeline) is amplified by __Turbine Workforce__. As a unifying platform for all consortium stakeholders activities, Turbine delivers evaluation and reporting efficiencies, programmatic alignment and a significant reduction of administrative workload. All program functions are to be entirely facilitated on __Turbine Workforce__ - stakeholder coordination, pre-/apprenticeship administrative forms, job book creation, OJT scheduling and record keeping, and delivery of related technical instruction courses and workshops. Roadmap features include coordination of mentorship, career guidance, skills gap analysis, and API endpoints for other applications to build around.
+GACC Pittsburgh Chapter'sexpertise and institutional knowledge at delivering effective workforce development, [Pre-apprenticeships](https://www.gaccpit.com/en/workforce-development/gacc-pre-apprenticeship-program) and [Registered Apprenticeships](#ra-pipeline) is amplified by __Turbine Workforce__. As a unifying platform for all consortium stakeholders activities, Turbine delivers evaluation and reporting efficiencies, programmatic alignment and a significant reduction of administrative workload. All program functions are to be entirely facilitated on __Turbine Workforce__ - stakeholder coordination, pre-/apprenticeship administrative forms, job book creation, OJT scheduling and record keeping, and delivery of related technical instruction courses and workshops. Roadmap features include coordination of mentorship, career guidance, skills gap analysis, and API endpoints for other applications to build around.
 
 
 
@@ -274,7 +274,7 @@ There will be no restrictions or consortium fees for employers who wish to hire 
 
 ### Credentials
 
-Pre-apprentices (PAs) will benefit more young people from the GACC Pittsburgh Chapter  dual enrollment agreements with industry-, employer- and degree-recognized credentials and certificates, some that receive **up to 6 college credits from Partnering Community Colleges**. All PAs will draw on the GACC's incomparable **Ausbildungszertifikat (German Apprenticeship Certificate)**.
+Pre-apprentices (PAs) will benefit more young people from the GACC Pittsburgh Chapter  dual enrollment agreements with industry-, employer- and degree-recognized credentials and certificates, some that receive **up to 6 college credits from Partnering Community Colleges**. All PAs will draw on the GACC Pittsburgh Chapter'sincomparable **Ausbildungszertifikat (German Apprenticeship Certificate)**.
 
 PAs who are confident of a career in advanced manufacturing will have option to prepare for the industry-recognized certifications & credits:
 - **[Manufacturing Technician Level 1 certification](http://manufacturingskillsinstitute.org/certifications/manufacturing-technician-level-1-skill-standards/) from the MSI Institute**.
